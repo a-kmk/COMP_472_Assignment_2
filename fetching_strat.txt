@@ -1,0 +1,64 @@
+1.1 gathering data
+
+*"go to" refers requesting the actual page using the python's requests module
+*"get information X" refers to using BeautifulSoup(BS4)'s find/find_all functions to parse out the information X through one or a series of HTML element name/class names, which should uniquely identify an element containing the informations we need
+*the information that we parse out above is either a custom BS4 obj (e.g. episodes list element) or a list of custom BS4 obj (e.g. episode list item elements)
+*the custom obj is a representation of a HTML element which hopefully contains the information we need, but the said information might be embedded in its children elements
+ so we might have to do further parsing until we get to the raw information, BS4 functions can be used with these custom objs
+
+overall steps:
+->show page (number of seasons) -> episodes list page (episodes' name, air date, review page url) -> episode review page (reviews' rating, title, content)
+
+obj/DS needed:
+-need to store pertinent information for an episode, name, season, air years, url to the reviews
+-need to store pertinent information for a review, title, rating(position/negative), and content(can include title)
+-we might need to link the two to see if every season has at least 50 reviews and at least a negative review
+
+pseudo code:
+go to the show's page
+get the number of seasons
+
+for i in num_seasons
+  go to https://www.imdb.com/title/unique_id/episodes?season={i}
+  keep a counter for number of reviews because we need to have at least 50
+  keep a count for the number of bad reviews just to have an idea
+
+  get the episodes_list
+
+  for  episode in episodes_list
+    get the url, the name, the air date of the episodes
+    construct obj or use some DS to hold the above info plus the season num
+
+  for url in urls
+    get reviews, we need some sort of random delay here to mimic human access otherwise our ip could get blacklisted
+    for review in reviews
+      get rating, title, comment(skip if it contains spoiler)
+      add those info to the episode obj or the DS
+
+let the user know if each season at least has 50 reviews, and how many bad reviews there are
+construct data.csv whose entries contain (episode name, season num, review url, air year)
+return all the reviews that you gathered
+
+1.2 data sanitization and model building
+
+iterate through all the review content word by word
+check if the review is positive
+create a dictionary with word as the id, and each entry would contains fields for occurrence in positive and negative category and for respective probability
+keep a total count of words for both positive and negative reviews
+for each word if it cannot be found in dictionary, create new entry
+else increase appropriate category count
+
+after we are all done, go through the dictionary and check if the words are in stop word file, if yes add to removed.txt, keep track of total words removed
+adjust total word count to removal
+go through dictionary and compute probability for a word's occurrence in negative review and for positive review
+keep track also of the general probability of a review being negative or positive
+save the dictionary entries in model.txt
+
+1.3 testing
+construct the method which will take a string and a smoothing factor then:
+    compute the probability of it being negative
+    compute the probability of it being positive
+    return prediction
+
+test it against reviews that you already have
+record the results in result.txt
