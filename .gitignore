@@ -179,3 +179,15 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+#orig
+*.orig
+
+#csv stuff
+*.csv
+
+#pickle
+*.pickle
+
+#
+*.log
