@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from requests import get
 import pickle
 from webscraper import Review
+from analyser import Analyser
 
 
 def test_season():
@@ -132,11 +133,24 @@ def test_translate():
 
 
 if __name__ == '__main__':
-    # for user-agent pls replace it with your own or grab one from the internet that is for mac/pc
-    header = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                            'Chrome/91.0.4472.101 Safari/537.36'}
+    # run webscraper
+    # if you never ran it before, you need to run it at least once on your machine for the analyser to work,
+    # because analyser work with serialized reviews data file created by the scraper
+    # adjust the show_ur, to a imdb url for a show of your liking
+    # adjust user-agent, pls change it to your own or grab one from the internet that is for mac/pc
+
+    # header = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+    # 'Chrome/91.0.4472.101 Safari/537.36'}
     # show_url = 'https://www.imdb.com/title/tt0306414/'
     # reviews_filename = 'review_objs.pickle'
     # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
     # sample_scraper.gather_data()
-    test_translate()
+
+    # run
+    reviews_path = 'review_objs.pickle'
+    stop_words_path = 'stopword.txt'
+    txt_output_path = 'model.txt'
+    dictionary_output_path = 'vocabulary_dictionary.pickle'
+    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    sample_analyser.compute_statistics()
+    sample_analyser.display_statistics()
