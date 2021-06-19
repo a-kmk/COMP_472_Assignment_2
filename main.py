@@ -150,7 +150,10 @@ if __name__ == '__main__':
     reviews_path = 'review_objs.pickle'
     stop_words_path = 'stopword.txt'
     txt_output_path = 'model.txt'
+    removed_words_path = 'removed.txt'
     dictionary_output_path = 'vocabulary_dictionary.pickle'
-    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path)
     sample_analyser.compute_statistics()
     sample_analyser.display_statistics()
+    sample_analyser.register_word_statistics()
+    sample_analyser.register_stop_word()

@@ -7,11 +7,12 @@ from decimal import *
 # load_reviews->load_stop_words->parse_reviews-> compute_reviews_statistics -> compute_words_frequency ->
 # compute_words_frequency -> compute_reviews_probabilities
 class Analyser:
-    def __init__(self, review_objs_path, stop_words_path, txt_output_path, dictionary_output_path):
+    def __init__(self, review_objs_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path):
         self.reviews_path = review_objs_path
         self.stop_path = stop_words_path
-        self.text_paht = txt_output_path
+        self.text_path = txt_output_path
         self.dict_path = dictionary_output_path
+        self.removed_path = removed_words_path
         # stored review objs from webscraping
         self.reviews = []
         # dictionary with word as key and a word record objs as value, which store frequency and probability for a
@@ -71,7 +72,7 @@ class Analyser:
 
     def compute_words_frequency(self):
         for word_record in self.vocabulary.values():
-            #print(str(word_record))
+            # print(str(word_record))
             self.positive_words += word_record.pos_freq
             self.negative_words += word_record.neg_freq
 
@@ -100,6 +101,25 @@ class Analyser:
         print(f'\nWord specific statistics: \n')
         for word_record in self.vocabulary.values():
             print(str(word_record))
+
+    def register_word_statistics(self):
+        with open(self.text_path, 'w', encoding='utf-8') as f:
+            i = 0
+            for word_record in self.vocabulary.values():
+                i += 1
+                f.writelines(f'No. {i} {word_record.word}\n')
+                f.writelines(
+                    f'Freq in pos: {word_record.pos_freq}, prob in pos: {word_record.pos_prob}, freq in neg: {word_record.neg_freq}, prob in neg: {word_record.neg_prob}\n')
+
+    def register_stop_word(self):
+        with open(self.removed_path, 'w') as f:
+            i = 0
+            for k, v in self.stop_words.items():
+                if v > 0:
+                    i += 1
+                    f.writelines(f'No. {i} {k}\n')
+                    f.writelines(f'Freq:{v}\n')
+
 
 class WordRecord:
     def __init__(self, word, positive):
