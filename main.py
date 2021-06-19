@@ -1,14 +1,18 @@
+import string
+
 from webscraper import IMDBReviewsCollector
 from bs4 import BeautifulSoup
 from requests import get
+import pickle
+from webscraper import Review
 
 
-# the functions here are just for testing purposes, change show_url in main and run it to see reviews and episodes
-# info getting gathered, shouldn't run into errors but it might run for quite a while (> 20s)
 def test_season():
     wire_url = 'https://www.imdb.com/title/tt0306414/'
-    response = get(wire_url)
+    response = get(wire_url, headers={'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 ('
+                                                    'KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'})
     html_soup = BeautifulSoup(response.text, 'html.parser')
+    # print(html_soup.prettify())
     # browse-episodes-season
     season_dropdown = html_soup.find('select', id='browse-episodes-season')
     print(season_dropdown['aria-label'][0])
@@ -16,7 +20,9 @@ def test_season():
 
 def test_only_one_season():
     one_season_url = 'https://www.imdb.com/title/tt2006848/'
-    response = get(one_season_url)
+    response = get(one_season_url, headers={'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) '
+                                                          'AppleWebKit/537.36 (KHTML, like Gecko) '
+                                                          'Chrome/91.0.4472.101 Safari/537.36'})
     html_soup = BeautifulSoup(response.text, 'html.parser')
     season_dropdown = html_soup.find_all('a', class_='ipc-button ipc-button--single-padding '
                                                      'ipc-button--center-align-content ipc-button--default-height '
@@ -33,7 +39,11 @@ def test_getting_episodes():
     review_endpoint = 'reviews'
     season_num = 1
 
-    response = get(url + episode_endpoint + str(season_num))
+    response = get(url + episode_endpoint + str(season_num), headers={'user-agent': 'Mozilla/5.0 (Windows NT 6.3; '
+                                                                                    'Win64; x64) AppleWebKit/537.36 ('
+                                                                                    'KHTML, like Gecko) '
+                                                                                    'Chrome/91.0.4472.101 '
+                                                                                    'Safari/537.36'})
     html_soup = BeautifulSoup(response.text, 'html.parser')
     episodes_list = html_soup.find('div', class_='list detail eplist')
 
@@ -50,7 +60,12 @@ def test_getting_episodes():
 
 
 def test_getting_reviews():
-    response = get('https://www.imdb.com/title/tt5924366/reviews')
+    response = get('https://www.imdb.com/title/tt5924366/reviews', headers={'user-agent': 'Mozilla/5.0 (Windows NT '
+                                                                                          '6.3; Win64; x64) '
+                                                                                          'AppleWebKit/537.36 (KHTML, '
+                                                                                          'like Gecko) '
+                                                                                          'Chrome/91.0.4472.101 '
+                                                                                          'Safari/537.36'})
     html_soup = BeautifulSoup(response.text, 'html.parser')
     reviews_list = html_soup.find('div', class_='lister-list')
     reviews = reviews_list.findChildren('div', class_=lambda x: x and 'lister-item mode-detail imdb-user-review' in x)
@@ -70,7 +85,58 @@ def test_getting_reviews():
     print(f'\ntotal: {counter}')
 
 
+def test_serialization_test():
+    review_1 = Review('don', 8, 'big dan is the biggest don\ndaannng')
+    review_2 = Review('donny', 4, 'big dan is the smallest don\ndaannng2')
+    reviews = [review_1, review_2]
+    # pickled_reviews = []
+    # hmm, we can either write a bunch of pickled objs into a file or write a pickled array of objs into a file
+    # let's try both
+
+    # to array, unnecessary
+    # for review in reviews:
+    #     pickled_reviews.append(pickle.dumps(review))
+
+    with open('review_objs.pickle', 'wb') as file:
+        pickle.dump(len(reviews), file)
+        for review in reviews:
+            pickle.dump(review, file)
+
+    with open('review_obj_2.pickle', 'wb') as file:
+        pickle.dump(reviews, file)
+
+    with open('review_objs.pickle', 'rb') as file:
+        print('for storing individually:\n')
+        for _ in range(pickle.load(file)):
+            print(pickle.load(file))
+
+    with open('review_obj_2.pickle', 'rb') as file:
+        print('for storing as array:\n')
+        read_reviews = pickle.load(file)
+        for review in read_reviews:
+            print(review)
+
+
+def test_load_reviews():
+    reviews_path = 'review_objs.pickle'
+    with open(reviews_path, 'rb') as file:
+        reviews = pickle.load(file)
+    for review in reviews:
+        print(str(review))
+
+
+def test_translate():
+    ex = 'Today, is a very, very, good day. It\'s looking great!'
+    ex_stripped = ex.translate(str.maketrans('', '', string.punctuation))
+    print(f'before: {ex}\nafter: {ex_stripped}')
+
+
 if __name__ == '__main__':
-    show_url = 'https://www.imdb.com/title/tt0306414/'
-    sample_scraper = IMDBReviewsCollector(show_url)
-    sample_scraper.gather_data()
+    # for user-agent pls replace it with your own or grab one from the internet that is for mac/pc
+    header = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                            'Chrome/91.0.4472.101 Safari/537.36'}
+    # show_url = 'https://www.imdb.com/title/tt0306414/'
+    # reviews_filename = 'review_objs.pickle'
+    # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
+    # sample_scraper.gather_data()
+    test_translate()

@@ -1,6 +1,7 @@
 from requests import get
 from bs4 import BeautifulSoup
 import csv
+import pickle
 
 
 def display_url_error():
@@ -8,23 +9,21 @@ def display_url_error():
 
 
 class IMDBReviewsCollector:
-    def __init__(self, show_url):
+    def __init__(self, show_url, reviews_filename, header):
         self.seasons = 0  # season number
         self.season_reviews_num = {}  # to keep track the review number of each season
         self.episodes = []  # to keep episodes objs {name, season, review_url, air_time(year)}
         self.reviews = []  # to keep reviews objs {title, rating, positive, content}
-        self.total_words = 0 # for probability calculation
-        self.negative_reviews = 0 # for probability calculation
-        self.positive_reviews = 0 # for probability calculation
         self.url = show_url
+        self.filename = reviews_filename
+        self.header = header
         self.site_url = 'https://www.imdb.com/'
         self.episode_endpoint = 'episodes?season='
         self.review_endpoint = 'reviews'
 
     def get_season_num(self):
-        show_page = get(self.url)
+        show_page = get(self.url, headers=self.header)
         html_soup = BeautifulSoup(show_page.text, 'html.parser')
-
         season_dropdown = html_soup.find('select', id='browse-episodes-season')
         # for show with many seasons we can find a dropdown selector with the number of seasons in its aria-label
         # attribute
@@ -44,17 +43,24 @@ class IMDBReviewsCollector:
                 display_url_error()
 
     def get_episodes(self, season_num):
-        episodes_page = get(self.url + self.episode_endpoint + str(season_num))
+        episodes_page = get(self.url + self.episode_endpoint + str(season_num),
+                            headers=self.header)
         html_soup = BeautifulSoup(episodes_page.text, 'html.parser')
         episodes_list = html_soup.find('div', class_='list detail eplist')
 
         if episodes_list is not None:
             episodes = episodes_list.findChildren('div', class_='info')
             for episode in episodes:
+                # the functioning of the link seems to have changed
                 title_link = episode.strong.a
+
+                link = title_link['href']
+                ref_start = link.index('?')
+                link = link[1:ref_start]
+
                 name = title_link.string
                 air_time = episode.find('div', class_='airdate').string.strip()
-                review_url = self.site_url + title_link['href'] + self.review_endpoint
+                review_url = self.site_url + link + self.review_endpoint
                 self.episodes.append(Episode(name, season_num, review_url, air_time))
         else:
             display_url_error()
@@ -64,31 +70,44 @@ class IMDBReviewsCollector:
         if self.episodes:
             for episode in self.episodes:
                 # dictionary with season as key and review num as value to check if each season has >= 50 reviews
-                if (episode.season not in self.season_reviews_num):
+                if episode.season not in self.season_reviews_num:
                     self.season_reviews_num[episode.season] = 0
 
-                reviews_page = get(episode.review_url)
+                reviews_page = get(episode.review_url, headers= self.header)
                 html_soup = BeautifulSoup(reviews_page.text, 'html.parser')
                 reviews_list = html_soup.find('div', class_='lister-list')
 
                 # the reviews list contains both spoiler and non-spoiler reviews
-                reviews = reviews_list.findChildren('div', class_=lambda
-                    x: x and 'lister-item mode-detail imdb-user-review' in x)
+                if reviews_list is not None:
+                    reviews = reviews_list.findChildren('div', class_=lambda
+                        x: x and 'lister-item mode-detail imdb-user-review' in x)
 
-                for review in reviews:
-                    self.season_reviews_num[episode.season] += 1
-                    rating_element = review.find('span', class_='rating-other-user-rating')
+                    for review in reviews:
+                        self.season_reviews_num[episode.season] += 1
+                        rating_element = review.find('span', class_='rating-other-user-rating')
 
-                    # some episodes might have no review so we need to check for that
-                    if rating_element is not None:
-                        rating = int(rating_element.find_all('span')[0].string)
-                        # title text contains a newline character for some reason
-                        title = review.find('a', class_='title').string.strip()
-                        # using get text to remove linebreak elements (br/)
-                        content = review.find('div', class_='text show-more__control').get_text(separator=' ')
-                        self.reviews.append(Review(title, rating, content))
+                        # some episodes might have no review so we need to check for that
+                        if rating_element is not None:
+                            rating = int(rating_element.find_all('span')[0].string)
+                            # title text contains a newline character for some reason
+                            title = review.find('a', class_='title').string.strip()
+                            # using get text to remove linebreak elements (br/)
+                            content = review.find('div', class_='text show-more__control').get_text(separator=' ')
+                            self.reviews.append(Review(title, rating, content))
+                # somehow to reviews list cannot be found
+                else:
+                    pass
         else:
             print('Need to get the episodes first')
+
+    # serialize gathered reviews so we don't have to scrap the reviews every time we are trying to calculate
+    # probabilities
+    def store_reviews(self):
+        if self.reviews:
+            with open(self.filename, 'wb') as f:
+                pickle.dump(self.reviews, f)
+        else:
+            print('No review to serialize')
 
     # adapted from https://realpython.com/python-csv/#writing-csv-files-with-csv
     # write the episode info to data.csv as per instruction
@@ -112,14 +131,11 @@ class IMDBReviewsCollector:
             self.get_episodes(i + 1)
         self.record_episodes()
         self.get_reviews()
-        for review in self.reviews:
-            print(str(review))
+        self.store_reviews()
 
-        all_over_50 = True
         for season in self.season_reviews_num:
             if self.season_reviews_num[season] < 50:
-                all_over_50 = False
-        print(f'Every season has over 50 episodes:{all_over_50}')
+                print(f'Season {season} has less than 50 reviews!')
 
 
 class Episode:
