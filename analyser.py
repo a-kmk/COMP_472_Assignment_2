@@ -111,42 +111,44 @@ class Analyser:
         self.compute_prior_probability()
 
     def classify(self, smoothing):
-        #todo: check for valid smoothing range
-        counter = 1;
-        for review in self.testreviews:
-            # remove all punctuations from the review body
-            content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
-            title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+        if ((smoothing >=0.5) and (smoothing <=2)):
+            counter = 1;
+            for review in self.testreviews:
+                # remove all punctuations from the review body
+                content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+                title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
 
-            words = content_no_punc.split() + title_no_punc.split()
-
-
+                words = content_no_punc.split() + title_no_punc.split()
 
 
-            #calculate probability of positive and negative review
-            positive_prob = math.log10(self.prior_prob_pos + smoothing)
-            negative_prob = math.log10(self.prior_prob_neg + smoothing)
-            for word in words:
-                if word in self.vocabulary:
-                    positive_prob += math.log10(self.vocabulary[word].pos_prob + smoothing)
-                    negative_prob += math.log10(self.vocabulary[word].neg_prob + smoothing)
-                    if(positive_prob >= negative_prob) :
-                        prediction = "positive"
-                    else :
-                        prediction = "negative"
 
-            if (review.positive) :
-                actual = "positive"
-            else :
-                 actual = "negative"
 
-            if (actual == prediction) :
-                guess = "right"
-            else :
-                guess = "wrong"
-            print("No." + str(counter) + " " +  review.title + ": ")
-            print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
-            counter+=1
+                #calculate probability of positive and negative review
+                positive_prob = math.log10(self.prior_prob_pos + smoothing)
+                negative_prob = math.log10(self.prior_prob_neg + smoothing)
+                for word in words:
+                    if word in self.vocabulary:
+                        positive_prob += math.log10(self.vocabulary[word].pos_prob + smoothing)
+                        negative_prob += math.log10(self.vocabulary[word].neg_prob + smoothing)
+                        if(positive_prob >= negative_prob) :
+                            prediction = "positive"
+                        else :
+                            prediction = "negative"
+
+                if (review.positive) :
+                    actual = "positive"
+                else :
+                     actual = "negative"
+
+                if (actual == prediction) :
+                    guess = "right"
+                else :
+                    guess = "wrong"
+                print("No." + str(counter) + " " +  review.title + ": ")
+                print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
+                counter+=1
+            else:
+                print ("Invalid smoothing range. Test incomplete.")
             #calculate probability of negative revie
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
