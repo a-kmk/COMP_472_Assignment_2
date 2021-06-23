@@ -111,17 +111,14 @@ class Analyser:
         self.compute_prior_probability()
 
     def classify(self, smoothing):
-        if ((smoothing >=0.5) and (smoothing <=2)):
-            counter = 1;
+            counter = 0
+            rightCounter = 0
+            wrongCounter = 0
             for review in self.testreviews:
                 # remove all punctuations from the review body
                 content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
                 title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
-
                 words = content_no_punc.split() + title_no_punc.split()
-
-
-
 
                 #calculate probability of positive and negative review
                 positive_prob = math.log10(self.prior_prob_pos + smoothing)
@@ -142,14 +139,16 @@ class Analyser:
 
                 if (actual == prediction) :
                     guess = "right"
+                    rightCounter+=1
                 else :
                     guess = "wrong"
-                print("No." + str(counter) + " " +  review.title + ": ")
+                    wrongCounter +=1
+
+                print("No." + str(counter+1) + " " +  review.title + ": ")
                 print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
                 counter+=1
-            else:
-                print ("Invalid smoothing range. Test incomplete.")
-            #calculate probability of negative revie
+            print("The prediction correctness is " + str(rightCounter/counter))
+
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
         print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
