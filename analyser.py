@@ -1,5 +1,6 @@
 import pickle
 import string
+import math
 from decimal import *
 
 
@@ -15,6 +16,7 @@ class Analyser:
         self.removed_path = removed_words_path
         # stored review objs from webscraping
         self.reviews = []
+        self.testreviews = []
         # dictionary with word as key and a word record objs as value, which store frequency and probability for a
         # given word in the reviews with fast lookup
         self.vocabulary = {}
@@ -37,6 +39,18 @@ class Analyser:
         with open(self.reviews_path, 'rb') as file:
             self.reviews = pickle.load(file)
 
+            #splits 10% into test array, keeps 90% in review array
+            length = len(self.reviews)
+            testnum = length * 10 / 100
+            splitat = length-math.floor(testnum)
+            for x in range(splitat,length):
+                self.testreviews.append(self.reviews[x])
+
+            tempArray=[]
+            for x in range(splitat):
+                tempArray.append(self.reviews[x])
+            self.reviews = tempArray;
+
     # read the stop words and store them into a dictionary with the word as the id for quick lookup
     def load_stop_words(self):
         with open(self.stop_path, 'r') as reader:
@@ -45,8 +59,10 @@ class Analyser:
 
     # going through the reviews and record each word's occurrence in positive and negative reviews
     def parse_reviews(self):
+
         for review in self.reviews:
             # remove all punctuations from the review body
+
             content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
             title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
 
@@ -58,9 +74,11 @@ class Analyser:
                 else:
                     if word in self.vocabulary:
                         self.vocabulary[word].add_freq(review.positive)
+                        self.vocabulary[word].tot_freq += 1
                     # create an entry for the word in the dictionary
                     else:
                         self.vocabulary[word] = WordRecord(word, review.positive)
+                        self.vocabulary[word].tot_freq +=1
 
     def compute_reviews_frequency(self):
         self.total_reviews = len(self.reviews)
@@ -75,6 +93,7 @@ class Analyser:
             # print(str(word_record))
             self.positive_words += word_record.pos_freq
             self.negative_words += word_record.neg_freq
+
 
     def compute_words_probability(self):
         for word_record in self.vocabulary.values():
@@ -93,6 +112,58 @@ class Analyser:
         self.compute_words_frequency()
         self.compute_words_probability()
         self.compute_prior_probability()
+
+    def classify(self, smoothing):
+            counter = 0
+            rightCounter = 0
+            wrongCounter = 0
+
+            file1 = open("result.txt", "a")
+
+            for review in self.testreviews:
+                # remove all punctuations from the review body
+                content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+                title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+                words = content_no_punc.split() + title_no_punc.split()
+
+                #calculate probability of positive and negative review
+                positive_prob = math.log10(self.prior_prob_pos)
+                negative_prob = math.log10(self.prior_prob_neg)
+                for word in words:
+                    if word in self.vocabulary:
+                        positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing)/(self.positive_words + smoothing*self.positive_words))
+                        negative_prob += math.log10((self.vocabulary[word].neg_prob + smoothing)/(self.negative_words + smoothing*self.negative_words))
+
+                        if(positive_prob >= negative_prob) :
+                            prediction = "positive"
+                        else :
+                            prediction = "negative"
+
+                if (review.positive) :
+                    actual = "positive"
+                else :
+                     actual = "negative"
+
+                if (actual == prediction) :
+                    guess = "right"
+                    rightCounter+=1
+                else :
+                    guess = "wrong"
+                    wrongCounter +=1
+
+                file1.write("No." + str(counter+1) + " " +  review.title + ": ")
+                file1.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
+                counter+=1
+            file1.write("The prediction correctness is " + str(rightCounter/counter))
+            file1.close()
+
+   # def infrequentWordFiltering(self):
+       # for word_record in self.vocabulary.values():
+            # create new dictionary without
+            #if (!(word_record.tot_freq<1)) :
+
+        #create new maps
+            #print(word_record.word + ": " + str(word_record.tot_freq))
 
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
@@ -128,6 +199,7 @@ class WordRecord:
         self.neg_freq = 0 if positive else 1
         self.pos_prob = 0.0
         self.neg_prob = 0.0
+        self.tot_freq = 0
 
     def add_freq(self, positive):
         if positive:
@@ -143,3 +215,4 @@ class WordRecord:
 
     def __str__(self):
         return f'\nword: {self.word}\npositive frequency: {self.pos_freq}\nnegative frequency: {self.neg_freq}\npositive probability: {self.pos_prob}\nnegative probability: {self.neg_prob} '
+

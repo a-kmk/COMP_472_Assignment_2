@@ -1,5 +1,6 @@
 import string
 
+import classifier
 from webscraper import IMDBReviewsCollector
 from bs4 import BeautifulSoup
 from requests import get
@@ -154,6 +155,9 @@ if __name__ == '__main__':
     dictionary_output_path = 'vocabulary_dictionary.pickle'
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path)
     sample_analyser.compute_statistics()
-    sample_analyser.display_statistics()
+    #sample_analyser.display_statistics()
     sample_analyser.register_word_statistics()
     sample_analyser.register_stop_word()
+    sample_analyser.classify(0.5)
+#    sample_analyser.infrequentWordFiltering()
+    #sample_analyser.vocabulary
