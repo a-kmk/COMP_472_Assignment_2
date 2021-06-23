@@ -114,6 +114,9 @@ class Analyser:
             counter = 0
             rightCounter = 0
             wrongCounter = 0
+
+            file1 = open("result.txt", "a")
+
             for review in self.testreviews:
                 # remove all punctuations from the review body
                 content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
@@ -125,8 +128,8 @@ class Analyser:
                 negative_prob = math.log10(self.prior_prob_neg + smoothing)
                 for word in words:
                     if word in self.vocabulary:
-                        positive_prob += math.log10(self.vocabulary[word].pos_prob+smoothing)
-                        negative_prob += math.log10(self.vocabulary[word].neg_prob+ smoothing)
+                        positive_prob += math.log10(self.vocabulary[word].pos_prob + smoothing)
+                        negative_prob += math.log10(self.vocabulary[word].neg_prob + smoothing)
 
                         if(positive_prob >= negative_prob) :
                             prediction = "positive"
@@ -145,11 +148,11 @@ class Analyser:
                     guess = "wrong"
                     wrongCounter +=1
 
-                print("No." + str(counter+1) + " " +  review.title + ": ")
-                print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
+                file1.write("No." + str(counter+1) + " " +  review.title + ": ")
+                file1.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
                 counter+=1
-            print("The prediction correctness is " + str(rightCounter/counter))
-
+            file1.write("The prediction correctness is " + str(rightCounter/counter))
+            file1.close()
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
         print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
