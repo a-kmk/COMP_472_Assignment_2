@@ -133,11 +133,14 @@ class Analyser:
                     if word in self.vocabulary:
                         positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing)/(self.positive_words + smoothing*self.positive_words))
                         negative_prob += math.log10((self.vocabulary[word].neg_prob + smoothing)/(self.negative_words + smoothing*self.negative_words))
+                    else :
+                        positive_prob += math.log10((smoothing) / (self.positive_words + smoothing * self.positive_words))
+                        negative_prob += math.log10((smoothing) / (self.negative_words + smoothing * self.negative_words))
 
-                        if(positive_prob >= negative_prob) :
-                            prediction = "positive"
-                        else :
-                            prediction = "negative"
+                if(positive_prob >= negative_prob) :
+                    prediction = "positive"
+                else :
+                    prediction = "negative"
 
                 if (review.positive) :
                     actual = "positive"
@@ -154,7 +157,7 @@ class Analyser:
                 file1.write("No." + str(counter+1) + " " +  review.title + ": ")
                 file1.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
                 counter+=1
-            file1.write("The prediction correctness is " + str(rightCounter/counter))
+            file1.write("The prediction correctness is " + str(rightCounter/counter) + "\n")
             file1.close()
 
    # def infrequentWordFiltering(self):
