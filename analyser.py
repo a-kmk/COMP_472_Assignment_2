@@ -125,8 +125,9 @@ class Analyser:
                 negative_prob = math.log10(self.prior_prob_neg + smoothing)
                 for word in words:
                     if word in self.vocabulary:
-                        positive_prob += math.log10(self.vocabulary[word].pos_prob + smoothing)
-                        negative_prob += math.log10(self.vocabulary[word].neg_prob + smoothing)
+                        positive_prob += math.log10(self.vocabulary[word].pos_prob+smoothing)
+                        negative_prob += math.log10(self.vocabulary[word].neg_prob+ smoothing)
+
                         if(positive_prob >= negative_prob) :
                             prediction = "positive"
                         else :
