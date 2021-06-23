@@ -1,6 +1,5 @@
 import string
 
-import classifier
 from webscraper import IMDBReviewsCollector
 from bs4 import BeautifulSoup
 from requests import get
