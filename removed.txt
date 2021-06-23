@@ -1,247 +1,247 @@
 No. 1 a
-Freq:1576
+Freq:1460
 No. 2 about
-Freq:276
+Freq:254
 No. 3 above
 Freq:2
 No. 4 after
-Freq:178
+Freq:174
 No. 5 again
 Freq:86
 No. 6 against
 Freq:24
 No. 7 all
-Freq:264
+Freq:244
 No. 8 am
-Freq:30
+Freq:28
 No. 9 an
-Freq:180
+Freq:172
 No. 10 and
-Freq:2202
+Freq:2074
 No. 11 any
-Freq:78
+Freq:74
 No. 12 are
-Freq:282
+Freq:262
 No. 13 as
-Freq:502
+Freq:474
 No. 14 at
-Freq:312
+Freq:288
 No. 15 be
-Freq:386
+Freq:360
 No. 16 because
-Freq:134
+Freq:114
 No. 17 been
-Freq:110
+Freq:96
 No. 18 before
-Freq:38
+Freq:34
 No. 19 being
-Freq:92
+Freq:88
 No. 20 between
-Freq:72
+Freq:68
 No. 21 both
-Freq:48
+Freq:46
 No. 22 but
-Freq:564
+Freq:532
 No. 23 by
-Freq:228
+Freq:210
 No. 24 can
-Freq:122
+Freq:116
 No. 25 d
 Freq:8
 No. 26 did
-Freq:72
+Freq:66
 No. 27 do
-Freq:138
+Freq:128
 No. 28 does
 Freq:60
 No. 29 doing
-Freq:64
+Freq:62
 No. 30 down
-Freq:80
+Freq:68
 No. 31 during
-Freq:60
+Freq:58
 No. 32 each
 Freq:34
 No. 33 few
-Freq:38
+Freq:34
 No. 34 for
-Freq:600
+Freq:562
 No. 35 from
-Freq:232
+Freq:216
 No. 36 further
 Freq:4
 No. 37 had
 Freq:82
 No. 38 has
-Freq:234
+Freq:216
 No. 39 have
-Freq:378
+Freq:364
 No. 40 having
-Freq:52
+Freq:48
 No. 41 he
-Freq:544
+Freq:504
 No. 42 her
 Freq:52
 No. 43 here
-Freq:128
+Freq:126
 No. 44 herself
 Freq:2
 No. 45 him
-Freq:252
+Freq:222
 No. 46 himself
-Freq:30
+Freq:24
 No. 47 his
-Freq:460
+Freq:424
 No. 48 how
-Freq:204
+Freq:186
 No. 49 i
-Freq:774
+Freq:702
 No. 50 if
-Freq:154
+Freq:142
 No. 51 in
-Freq:1004
+Freq:938
 No. 52 into
-Freq:60
+Freq:52
 No. 53 is
-Freq:1474
+Freq:1380
 No. 54 it
-Freq:732
+Freq:654
 No. 55 its
-Freq:296
+Freq:266
 No. 56 itself
 Freq:10
 No. 57 just
-Freq:328
+Freq:306
 No. 58 me
-Freq:128
+Freq:116
 No. 59 more
-Freq:240
+Freq:234
 No. 60 most
-Freq:94
+Freq:86
 No. 61 my
-Freq:126
+Freq:124
 No. 62 myself
 Freq:4
 No. 63 no
-Freq:136
+Freq:120
 No. 64 nor
 Freq:2
 No. 65 not
-Freq:304
+Freq:288
 No. 66 now
-Freq:206
+Freq:194
 No. 67 of
-Freq:1714
+Freq:1600
 No. 68 off
-Freq:68
+Freq:58
 No. 69 on
-Freq:410
+Freq:366
 No. 70 once
 Freq:38
 No. 71 only
-Freq:104
+Freq:92
 No. 72 or
-Freq:126
+Freq:118
 No. 73 other
-Freq:108
+Freq:102
 No. 74 our
-Freq:58
+Freq:56
 No. 75 ourselves
 Freq:2
 No. 76 out
-Freq:130
+Freq:118
 No. 77 over
-Freq:76
+Freq:68
 No. 78 own
-Freq:44
+Freq:38
 No. 79 s
 Freq:24
 No. 80 same
-Freq:64
+Freq:56
 No. 81 she
 Freq:48
 No. 82 should
-Freq:40
+Freq:34
 No. 83 so
-Freq:262
+Freq:252
 No. 84 some
-Freq:192
+Freq:182
 No. 85 subject
 Freq:2
 No. 86 such
-Freq:44
+Freq:32
 No. 87 t
 Freq:4
 No. 88 than
 Freq:90
 No. 89 that
-Freq:1134
+Freq:1066
 No. 90 the
-Freq:4518
+Freq:4210
 No. 91 their
-Freq:140
+Freq:134
 No. 92 theirs
 Freq:2
 No. 93 them
-Freq:112
+Freq:108
 No. 94 themselves
 Freq:14
 No. 95 then
-Freq:58
+Freq:56
 No. 96 there
-Freq:126
+Freq:122
 No. 97 these
-Freq:44
+Freq:42
 No. 98 they
-Freq:262
+Freq:252
 No. 99 this
-Freq:1034
+Freq:958
 No. 100 those
 Freq:42
 No. 101 through
-Freq:40
+Freq:34
 No. 102 to
-Freq:1862
+Freq:1778
 No. 103 too
-Freq:56
+Freq:50
 No. 104 under
 Freq:12
 No. 105 until
 Freq:22
 No. 106 up
-Freq:178
+Freq:164
 No. 107 very
-Freq:270
+Freq:252
 No. 108 was
-Freq:598
+Freq:538
 No. 109 we
-Freq:312
+Freq:296
 No. 110 were
-Freq:82
+Freq:72
 No. 111 what
-Freq:274
+Freq:262
 No. 112 when
-Freq:178
+Freq:160
 No. 113 where
-Freq:70
+Freq:68
 No. 114 which
-Freq:94
+Freq:90
 No. 115 while
 Freq:44
 No. 116 who
-Freq:174
+Freq:154
 No. 117 whom
-Freq:8
+Freq:6
 No. 118 why
-Freq:56
+Freq:44
 No. 119 will
-Freq:380
+Freq:376
 No. 120 with
-Freq:648
+Freq:606
 No. 121 won
 Freq:2
 No. 122 you
-Freq:298
+Freq:290
 No. 123 your
 Freq:38
 No. 124 yourself

@@ -25,10 +25,13 @@ class IMDBReviewsCollector:
         show_page = get(self.url, headers=self.header)
         html_soup = BeautifulSoup(show_page.text, 'html.parser')
         season_dropdown = html_soup.find('select', id='browse-episodes-season')
+        old_ui_seasons = html_soup.find('div', id = 'title-episode-widget')
         # for show with many seasons we can find a dropdown selector with the number of seasons in its aria-label
         # attribute
         if season_dropdown is not None:
             self.seasons = int(season_dropdown['aria-label'][0])
+        elif old_ui_seasons is not None:
+            print('old UI')
         # for show with only 1 season, we can find a button which is a link, it shares class def with some other buttons
         # but it's always the second one among them
         else:
