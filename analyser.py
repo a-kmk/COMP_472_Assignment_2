@@ -48,7 +48,6 @@ class Analyser:
             tempArray=[]
             for x in range(splitat):
                 tempArray.append(self.reviews[x])
-            print(len(self.testreviews))
             self.reviews = tempArray;
 
     # read the stop words and store them into a dictionary with the word as the id for quick lookup
@@ -74,9 +73,11 @@ class Analyser:
                 else:
                     if word in self.vocabulary:
                         self.vocabulary[word].add_freq(review.positive)
+                        self.vocabulary[word].tot_freq += 1
                     # create an entry for the word in the dictionary
                     else:
                         self.vocabulary[word] = WordRecord(word, review.positive)
+                        self.vocabulary[word].tot_freq +=1
 
     def compute_reviews_frequency(self):
         self.total_reviews = len(self.reviews)
@@ -91,6 +92,7 @@ class Analyser:
             # print(str(word_record))
             self.positive_words += word_record.pos_freq
             self.negative_words += word_record.neg_freq
+
 
     def compute_words_probability(self):
         for word_record in self.vocabulary.values():
@@ -153,6 +155,11 @@ class Analyser:
                 counter+=1
             file1.write("The prediction correctness is " + str(rightCounter/counter))
             file1.close()
+
+    def infrequentWordFiltering(self):
+        for word_record in self.vocabulary.values():
+            print(word_record.word + ": " + str(word_record.tot_freq))
+
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
         print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
@@ -168,6 +175,7 @@ class WordRecord:
         self.neg_freq = 0 if positive else 1
         self.pos_prob = 0.0
         self.neg_prob = 0.0
+        self.tot_freq = 0
 
     def add_freq(self, positive):
         if positive:

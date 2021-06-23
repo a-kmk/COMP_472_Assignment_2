@@ -155,5 +155,6 @@ if __name__ == '__main__':
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
     sample_analyser.compute_statistics()
     #sample_analyser.display_statistics()
-    sample_analyser.classify(1)
+    #sample_analyser.classify(1)
+    sample_analyser.infrequentWordFiltering()
     #sample_analyser.vocabulary
