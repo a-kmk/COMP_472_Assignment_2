@@ -126,12 +126,12 @@ class Analyser:
                 words = content_no_punc.split() + title_no_punc.split()
 
                 #calculate probability of positive and negative review
-                positive_prob = math.log10(self.prior_prob_pos + smoothing)
-                negative_prob = math.log10(self.prior_prob_neg + smoothing)
+                positive_prob = math.log10(self.prior_prob_pos)
+                negative_prob = math.log10(self.prior_prob_neg)
                 for word in words:
                     if word in self.vocabulary:
-                        positive_prob += math.log10(self.vocabulary[word].pos_prob + smoothing)
-                        negative_prob += math.log10(self.vocabulary[word].neg_prob + smoothing)
+                        positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing)/(self.positive_words + smoothing*self.positive_words))
+                        negative_prob += math.log10((self.vocabulary[word].neg_prob + smoothing)/(self.negative_words + smoothing*self.negative_words))
 
                         if(positive_prob >= negative_prob) :
                             prediction = "positive"
@@ -156,9 +156,13 @@ class Analyser:
             file1.write("The prediction correctness is " + str(rightCounter/counter))
             file1.close()
 
-    def infrequentWordFiltering(self):
-        for word_record in self.vocabulary.values():
-            print(word_record.word + ": " + str(word_record.tot_freq))
+   # def infrequentWordFiltering(self):
+       # for word_record in self.vocabulary.values():
+            # create new dictionary without
+            #if (!(word_record.tot_freq<1)) :
+
+        #create new maps
+            #print(word_record.word + ": " + str(word_record.tot_freq))
 
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
