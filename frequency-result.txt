@@ -1,0 +1,1321 @@
+
+
+------------------Testing for frequency based removal at 0, total words count: 375364
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1276.6940861114258 ,-1387.1518993571779, positive,  negative, wrong
+No.2 Script writers KILLED the best TV show: -2095.5233707241146 ,-2398.247757363157, positive,  negative, wrong
+No.3 Dumbed down to the level of a cartoon strip: -2830.6794243213017 ,-3107.1257556664914, positive,  negative, wrong
+No.4 Overrated Episode/Season: -1477.857398407573 ,-1699.8302905645173, positive,  negative, wrong
+No.5 Holy smokes... This has truly been something else: -763.0030427151011 ,-865.9281957611272, positive,  positive, right
+No.6 Brilliant on all fronts!: -1523.307331835767 ,-1679.0148764692335, positive,  positive, right
+No.7 A lot of things come together, finally: -507.32809205520914 ,-594.9076045006708, positive,  positive, right
+No.8 Terrible writings: -3050.8317955962802 ,-3461.4913268806486, positive,  negative, wrong
+No.9 i hate the new GoT: -4597.214078424017 ,-5129.385320499914, positive,  negative, wrong
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -592.8503195549806 ,-688.7303708974835, positive,  positive, right
+No.11 Season Finale: -964.4336897432478 ,-1084.8423645300923, positive,  positive, right
+No.12 Jon Snow's Lineage: -1300.3873873350549 ,-1480.960010813915, positive,  positive, right
+No.13 Really bad fan-fiction.: -1162.8879590567558 ,-1251.6665373920996, positive,  negative, wrong
+No.14 Boring finale: -4844.178765387298 ,-5525.469815034778, positive,  negative, wrong
+No.15 We warmed up!: -2124.834672799929 ,-2356.5283195620236, positive,  positive, right
+No.16 Underwhelming, bordering on disappointing: -2229.3464841525165 ,-2419.156787514832, positive,  negative, wrong
+No.17 You can tell they have run out of books: -757.3504486928651 ,-803.4243297580199, positive,  negative, wrong
+No.18 An extension of the tone of Season 7: -2957.7016903586355 ,-3242.6638538700627, positive,  negative, wrong
+No.19 Should've been much better (very mediocre): -854.3080662028476 ,-980.5156612659713, positive,  negative, wrong
+No.20 I like GOT, but....: -344.6641384926592 ,-376.00992444803904, positive,  negative, wrong
+No.21 Not the best.: -226.29341139549615 ,-261.34705825524975, positive,  negative, wrong
+No.22 Underwhelming: -12598.093373515116 ,-13604.373888039836, positive,  negative, wrong
+No.23 Best season premiere!: -1043.0925147854043 ,-1220.2893909743068, positive,  positive, right
+No.24 A disappointment: -638.7039472744344 ,-751.2490088734655, positive,  negative, wrong
+No.25 Just Not Good.: -4097.890762890977 ,-4503.915642479812, positive,  negative, wrong
+No.26 Average GoT episode with terrible dialogues: -144.39717574007432 ,-167.5183909144363, positive,  negative, wrong
+No.27 Mediocre: -411.26957625836485 ,-459.38993282388805, positive,  negative, wrong
+No.28 Meh!: -2735.769310443817 ,-2909.1588347340817, positive,  negative, wrong
+No.29 Why the Rush? And when did It became a Disney show?: -763.9884067605017 ,-855.495594572292, positive,  negative, wrong
+No.30 Don't know what you guys expected...: -1031.2131989727002 ,-1147.3900244144418, positive,  positive, right
+No.31 Get the Damn White Walkers !!: -712.1147958844259 ,-792.9838321758504, positive,  negative, wrong
+No.32 Meh...: -522.4093227308682 ,-584.4821271402667, positive,  negative, wrong
+No.33 Disappointment!: -194.07679884108992 ,-230.05300584917327, positive,  negative, wrong
+No.34 A poor start: -1436.6045772309426 ,-1574.7759385825384, positive,  negative, wrong
+No.35 Good opener: -941.1275467326656 ,-1095.2171410425235, positive,  positive, right
+No.36 Not that good!!! And I love GOT!!!: -360.0817351319332 ,-396.8537068327963, positive,  negative, wrong
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -985.8618438002703 ,-1095.2668180518274, positive,  negative, wrong
+No.38 Plays it Safe: -896.2744466227331 ,-1022.2761762113591, positive,  negative, wrong
+No.39 Why is the terrible writing accepted.: -1971.3738077456333 ,-2168.9358163592474, positive,  negative, wrong
+No.40 Really the last good GoT episode: -93.86651232283495 ,-125.80958300135043, positive,  positive, right
+No.41 Come on people!: -314.55059307988597 ,-344.7240436811309, positive,  positive, right
+No.42 Goodbye, friends: -812.0634557915196 ,-897.2050669941523, positive,  positive, right
+No.43 Michael Bay fans please leave!: -1166.601666406239 ,-1314.1700691667002, positive,  positive, right
+No.44 A great episode showing each character in what is potentially their last moments: -1102.7677096686343 ,-1272.387165285422, positive,  positive, right
+No.45 One of the Best Episodes: -1988.7861276779763 ,-2252.3365668232987, positive,  positive, right
+No.46 Build-up for the most anticipated battle in tv history: -1225.5976299606732 ,-1439.2116690453602, positive,  positive, right
+No.47 This episode was for true fans!: -810.025078011512 ,-897.1619563920468, positive,  positive, right
+No.48 It was awesome: -322.44068265137696 ,-376.00290004255345, positive,  positive, right
+No.49 Towards War!: -1711.0684000572883 ,-1949.9691235511577, positive,  positive, right
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7345.495654333838 ,-8204.482319613076, positive,  positive, right
+No.51 One of the masterpieces of Game of Thrones: -1501.9870115201754 ,-1658.1640495933748, positive,  positive, right
+No.52 Ser Brienne of Tarth: -355.17764031460234 ,-417.67917380997324, positive,  positive, right
+No.53 The best action-less episode of Game of Thrones!: -710.799360373629 ,-772.1264106118535, positive,  positive, right
+No.54 Touching: -192.59081872571062 ,-219.65248862374673, positive,  positive, right
+No.55 Quiet reflections: -586.2819707983232 ,-615.7725722208945, positive,  positive, right
+No.56 The only good episode of this season: -627.8514533505506 ,-730.3963716710907, positive,  positive, right
+No.57 Only real "GoT" episode in this dissappointing season: -539.0642812797074 ,-574.077872817233, positive,  positive, right
+No.58 The Last Night: -6504.239190526073 ,-7308.005481276606, positive,  positive, right
+No.59 One of the most relatable episodes ever: -312.73365779525085 ,-386.42572086319535, positive,  positive, right
+No.60 True GoT episode: -629.6177568647738 ,-699.173862033435, positive,  positive, right
+No.61 Reconciliations, Realization and Discovery: -807.7294894117839 ,-918.0441855184205, positive,  positive, right
+No.62 Without memories men are not men, we are just animals: -600.6574890396797 ,-657.4738303843885, positive,  positive, right
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2057.3000317450324 ,-2335.703218962873, positive,  positive, right
+No.64 A really great episode: -88.1809181748835 ,-115.39426257126051, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -7727.1905439844395 ,-8579.771616500951, positive,  negative, wrong
+No.66 VERY cool: -7795.236573762947 ,-8569.402014391548, positive,  negative, wrong
+No.67 Micheal Bay level of storytelling: -221.02477381357747 ,-261.34101454106076, positive,  negative, wrong
+No.68 Letter from Daenerys to Daario: -1331.3425783012788 ,-1428.90140299244, positive,  negative, wrong
+No.69 I saw this coming ever since Season 7.: -10798.846169941713 ,-11634.249369255267, positive,  negative, wrong
+No.70 Unpredictable: -273.71418868023875 ,-303.0560773575978, positive,  negative, wrong
+No.71 Well directed, poorly written: -763.7602078068203 ,-845.0844777970514, positive,  negative, wrong
+No.72 The biggest middle finger to fans in HISTORY!: -1308.3988114301665 ,-1418.4376660017576, positive,  negative, wrong
+No.73 If I had no mouth, I would still scream: -4479.447721867421 ,-4889.709817331855, positive,  negative, wrong
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1800.8776784537376 ,-1960.5096267291522, positive,  negative, wrong
+No.75 Instead of BOTs they could have used that money for good writting.: -135.88723907282377 ,-157.10727178894177, positive,  negative, wrong
+No.76 A sick joke: -1122.743211392324 ,-1293.2932897126284, positive,  negative, wrong
+No.77 Where is Old Nan when you need her?: -241.1357994695821 ,-271.76472280877545, positive,  negative, wrong
+No.78 What's the point?: -1143.77110061544 ,-1262.036220543007, positive,  negative, wrong
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1310.0477167382023 ,-1418.4290215517706, positive,  negative, wrong
+No.80 8 years wasted in 80 minutes: -305.4023763629474 ,-344.7244551338708, positive,  negative, wrong
+No.81 Producers using bots for rating?: -1062.0572401958434 ,-1168.2056135408357, positive,  negative, wrong
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1171.664025516849 ,-1293.3499597114667, positive,  negative, wrong
+No.83 Is the show getting bot reviews????: -203.12215324232366 ,-209.22890312289968, positive,  negative, wrong
+No.84 Say thank you to the mediocre writing.: -3010.0198476983232 ,-3242.6737178209432, positive,  negative, wrong
+No.85 Everything that happened until now is pointless: -555.4154189609421 ,-647.0213250099127, positive,  negative, wrong
+No.86 Fans deserved better: -178.94809426190182 ,-209.21372504426304, positive,  negative, wrong
+No.87 The showrunners think they can fool everyone: -424.7808556729469 ,-469.801414615165, positive,  negative, wrong
+No.88 Hodor Held the Door for This?: -301.57289776920305 ,-323.88035214334883, positive,  negative, wrong
+No.89 Great disappointment.: -523.3345318774391 ,-594.8993320873552, positive,  negative, wrong
+No.90 Lore Breaking and Ignores Source Material: -8820.254605737859 ,-9528.488925091875, positive,  negative, wrong
+No.91 Massive Budget, Massive Wait, Massive Letdown: -608.2906100419314 ,-647.0461601910687, positive,  negative, wrong
+No.92 I'm not mad, just disappointed: -3915.169373954902 ,-4274.596036079713, positive,  negative, wrong
+No.93 Feels like D&D are just trolling us now: -4598.991390637094 ,-5035.63670514693, positive,  negative, wrong
+No.94 I have to change my rating: -178.63589138054752 ,-198.8004313631477, positive,  negative, wrong
+No.95 Wow!! The Night King is not even an afterthought!!: -1836.3815399932485 ,-2002.1726854067779, positive,  negative, wrong
+No.96 Dumb and Dumber: -617.4686782780477 ,-667.8847174228115, positive,  negative, wrong
+No.97 This doesn't feel like GoT anymore.: -1530.431912980758 ,-1637.355776386301, positive,  negative, wrong
+No.98 This episode outright angered me: -1737.0560939926934 ,-1866.7178768194904, positive,  negative, wrong
+No.99 The shark didn't just jump, it is flying.: -235.71466379600378 ,-271.77021583396197, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1445.8130093239215 ,-1543.5314093098405, positive,  negative, wrong
+No.101 Did HBO Honestly Believe People Would Like This???: -1545.1245433303477 ,-1679.0249003000529, positive,  negative, wrong
+No.102 Sad: -299.19913098107105 ,-344.7121332435171, positive,  negative, wrong
+No.103 Guess GoT means Game of Teleportation now.: -5767.644024918311 ,-6265.708502346635, positive,  negative, wrong
+No.104 I feel sorry for GRRM: -1328.303199580114 ,-1449.6936172242074, positive,  negative, wrong
+No.105 I almost cried how bad this is.: -1922.9490608018446 ,-2054.325565741362, positive,  negative, wrong
+No.106 Too disappointed to type up a full review.: -368.5344718426267 ,-448.9186527297821, positive,  negative, wrong
+No.107 Shame: -4280.278316126583 ,-4618.704780383385, positive,  negative, wrong
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5345.000122446551 ,-5879.961148238136, positive,  negative, wrong
+No.109 D&D should be fired from their job: -149.37605640250496 ,-167.52282650390293, positive,  negative, wrong
+No.110 Last week I was left disappointed. Now I'm just sad: -414.48325295354806 ,-448.99683568192, positive,  negative, wrong
+No.111 Horrible: -1303.1559591765968 ,-1449.6927092476817, positive,  negative, wrong
+No.112 I don't care anymore: -321.6221767085094 ,-365.5861913422179, positive,  negative, wrong
+No.113 Dany Forgot about the Iron fleet!!: -479.756902971303 ,-532.3700120872379, positive,  negative, wrong
+No.114 What happened to the "Game" in "Game of Thrones"?: -4798.3065429329745 ,-5119.115250114565, positive,  negative, wrong
+No.115 The right ending feels wrong: -1768.83588005524 ,-2002.1206685071165, positive,  negative, wrong
+No.116 D&D: -457.0476752424714 ,-501.120205430955, positive,  negative, wrong
+No.117 Visually compelling, but fatally undermined by the context: -3835.673755789915 ,-4180.842087536998, positive,  negative, wrong
+No.118 Can we have season 8 reshoot? Please.: -549.3738120851526 ,-626.1592347018315, positive,  negative, wrong
+No.119 Why this episode made no sense.: -5493.237790983103 ,-6005.0814895037165, positive,  negative, wrong
+No.120 A visual masterpiece with mediocre writing: -924.1749950309751 ,-1032.7029982328013, positive,  negative, wrong
+No.121 Dany is not the only crazy: -189.95213903863203 ,-209.23254034535077, positive,  negative, wrong
+No.122 Throwing out of the window 7s of character buildup: -179.06687386887432 ,-198.79919267938325, positive,  negative, wrong
+No.123 Am I missing something?: -1805.8038988531403 ,-1960.4646067209028, positive,  negative, wrong
+No.124 Years of character building thrown away for shock value: -224.25933247734702 ,-230.08621398541072, positive,  negative, wrong
+No.125 A glorified view of how bad writing can be: -5521.709890698489 ,-6025.8539368784395, positive,  negative, wrong
+No.126 7 seasons of character development and story telling for no reason: -143.54987771002416 ,-188.36463534048036, positive,  negative, wrong
+No.127 Episode where the shows is Ruined completely: -634.2929776486736 ,-761.6293892177447, positive,  negative, wrong
+No.128 What was the point?: -2097.5177162682294 ,-2273.207010988992, positive,  negative, wrong
+No.129 Remember?: -565.1949591503311 ,-605.342879325413, positive,  negative, wrong
+No.130 What's the point Dany's army?: -664.7773949196165 ,-730.4368555925295, positive,  negative, wrong
+No.131 The show ended in S7 for me: -714.893858691983 ,-782.5503567942916, positive,  negative, wrong
+No.132 The first real fantasy anti-war movie ever: -3750.638112081889 ,-3993.246860776764, positive,  positive, right
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2150.275328271911 ,-2408.7066436625514, positive,  negative, wrong
+No.134 What happened...: -257.8710081538663 ,-292.62221466158155, positive,  negative, wrong
+No.135 Season 8 is a slippery slide going from bad to worse.: -1951.1592116459453 ,-2148.1082322772677, positive,  negative, wrong
+No.136 Can't forgive the rushed writing: -1406.3373771987144 ,-1606.0531975059291, positive,  negative, wrong
+No.137 Why do I still bother watching?: -2023.4750109080394 ,-2189.82994523949, positive,  negative, wrong
+No.138 Worst than Dexter: -614.710816277812 ,-688.7420869426583, positive,  negative, wrong
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -685.5026645482495 ,-782.5281860442777, positive,  negative, wrong
+No.140 A Message to Dan and Dave: -4400.17152113234 ,-4889.695540877188, positive,  negative, wrong
+No.141 This show became a Meme: -3473.494877393852 ,-3815.9789092533474, positive,  negative, wrong
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -116.7172859678718 ,-136.2585582314954, positive,  negative, wrong
+No.143 she's muh queen: -167.98437167910097 ,-188.3811287675024, positive,  negative, wrong
+No.144 Still sad after 7 weeks: -1036.6746551516976 ,-1147.4138847226923, positive,  negative, wrong
+No.145 Better if Whitewalkers had won and last episode just silence.: -1171.8915024616406 ,-1293.324359759746, positive,  negative, wrong
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1215.1679331379235 ,-1282.9588675068119, positive,  negative, wrong
+No.147 Rushed: -238.67069061078564 ,-250.9291319447026, positive,  negative, wrong
+No.148 Imagine a Turkey: -1246.1666409686782 ,-1303.7976668551742, positive,  negative, wrong
+No.149 6 months later and I still can't get over this: -10731.100321937209 ,-11707.019330477047, positive,  negative, wrong
+No.150 This is utterly disrespectful: -902.8847837936497 ,-1022.322992968189, positive,  negative, wrong
+No.151 Dreadful.: -983.2834956335337 ,-1074.455746910531, positive,  negative, wrong
+No.152 W- what?: -1010.2528667607648 ,-1178.5442240855818, positive,  negative, wrong
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2600.3335101889643 ,-2877.7808620547867, positive,  negative, wrong
+No.154 Not good.: -132.55280684553463 ,-146.6850376878777, positive,  negative, wrong
+No.155 How do I rate 0/10?: -233.4739164507258 ,-250.9335255069889, positive,  negative, wrong
+No.156 Great Disappointment...: -1538.6369171288102 ,-1689.460150425873, positive,  negative, wrong
+No.157 Made the whole series unwatchable: -174.979023858903 ,-209.21732405014865, positive,  negative, wrong
+No.158 The greatest TV show of all time had the worst finale: -224.7778302717596 ,-240.5068208838058, positive,  negative, wrong
+No.159 I feel like Tommen in 6x10: -136.51192080387054 ,-146.68588499697776, positive,  negative, wrong
+No.160 Just like Kit Harington said; 'Dissapointing': -232.23924722938554 ,-250.92183074105355, positive,  negative, wrong
+No.161 Don't tell me I don't know this show: -2373.3321617755437 ,-2648.454334148346, positive,  negative, wrong
+No.162 A parody ending to what was a brilliant series: -821.7539116613003 ,-897.2144106014022, positive,  negative, wrong
+The prediction correctness is 0.2222222222222222
+
+------------------Testing for frequency based removal at 1, total words count: 375364
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1276.6940861114258 ,-1387.1518993571779, positive,  negative, wrong
+No.2 Script writers KILLED the best TV show: -2095.5233707241146 ,-2398.247757363157, positive,  negative, wrong
+No.3 Dumbed down to the level of a cartoon strip: -2830.6794243213017 ,-3107.1257556664914, positive,  negative, wrong
+No.4 Overrated Episode/Season: -1477.857398407573 ,-1699.8302905645173, positive,  negative, wrong
+No.5 Holy smokes... This has truly been something else: -763.0030427151011 ,-865.9281957611272, positive,  positive, right
+No.6 Brilliant on all fronts!: -1523.307331835767 ,-1679.0148764692335, positive,  positive, right
+No.7 A lot of things come together, finally: -507.32809205520914 ,-594.9076045006708, positive,  positive, right
+No.8 Terrible writings: -3050.8317955962802 ,-3461.4913268806486, positive,  negative, wrong
+No.9 i hate the new GoT: -4597.214078424017 ,-5129.385320499914, positive,  negative, wrong
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -592.8503195549806 ,-688.7303708974835, positive,  positive, right
+No.11 Season Finale: -964.4336897432478 ,-1084.8423645300923, positive,  positive, right
+No.12 Jon Snow's Lineage: -1300.3873873350549 ,-1480.960010813915, positive,  positive, right
+No.13 Really bad fan-fiction.: -1162.8879590567558 ,-1251.6665373920996, positive,  negative, wrong
+No.14 Boring finale: -4844.178765387298 ,-5525.469815034778, positive,  negative, wrong
+No.15 We warmed up!: -2124.834672799929 ,-2356.5283195620236, positive,  positive, right
+No.16 Underwhelming, bordering on disappointing: -2229.3464841525165 ,-2419.156787514832, positive,  negative, wrong
+No.17 You can tell they have run out of books: -757.3504486928651 ,-803.4243297580199, positive,  negative, wrong
+No.18 An extension of the tone of Season 7: -2957.7016903586355 ,-3242.6638538700627, positive,  negative, wrong
+No.19 Should've been much better (very mediocre): -854.3080662028476 ,-980.5156612659713, positive,  negative, wrong
+No.20 I like GOT, but....: -344.6641384926592 ,-376.00992444803904, positive,  negative, wrong
+No.21 Not the best.: -226.29341139549615 ,-261.34705825524975, positive,  negative, wrong
+No.22 Underwhelming: -12598.093373515116 ,-13604.373888039836, positive,  negative, wrong
+No.23 Best season premiere!: -1043.0925147854043 ,-1220.2893909743068, positive,  positive, right
+No.24 A disappointment: -638.7039472744344 ,-751.2490088734655, positive,  negative, wrong
+No.25 Just Not Good.: -4097.890762890977 ,-4503.915642479812, positive,  negative, wrong
+No.26 Average GoT episode with terrible dialogues: -144.39717574007432 ,-167.5183909144363, positive,  negative, wrong
+No.27 Mediocre: -411.26957625836485 ,-459.38993282388805, positive,  negative, wrong
+No.28 Meh!: -2735.769310443817 ,-2909.1588347340817, positive,  negative, wrong
+No.29 Why the Rush? And when did It became a Disney show?: -763.9884067605017 ,-855.495594572292, positive,  negative, wrong
+No.30 Don't know what you guys expected...: -1031.2131989727002 ,-1147.3900244144418, positive,  positive, right
+No.31 Get the Damn White Walkers !!: -712.1147958844259 ,-792.9838321758504, positive,  negative, wrong
+No.32 Meh...: -522.4093227308682 ,-584.4821271402667, positive,  negative, wrong
+No.33 Disappointment!: -194.07679884108992 ,-230.05300584917327, positive,  negative, wrong
+No.34 A poor start: -1436.6045772309426 ,-1574.7759385825384, positive,  negative, wrong
+No.35 Good opener: -941.1275467326656 ,-1095.2171410425235, positive,  positive, right
+No.36 Not that good!!! And I love GOT!!!: -360.0817351319332 ,-396.8537068327963, positive,  negative, wrong
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -985.8618438002703 ,-1095.2668180518274, positive,  negative, wrong
+No.38 Plays it Safe: -896.2744466227331 ,-1022.2761762113591, positive,  negative, wrong
+No.39 Why is the terrible writing accepted.: -1971.3738077456333 ,-2168.9358163592474, positive,  negative, wrong
+No.40 Really the last good GoT episode: -93.86651232283495 ,-125.80958300135043, positive,  positive, right
+No.41 Come on people!: -314.55059307988597 ,-344.7240436811309, positive,  positive, right
+No.42 Goodbye, friends: -812.0634557915196 ,-897.2050669941523, positive,  positive, right
+No.43 Michael Bay fans please leave!: -1166.601666406239 ,-1314.1700691667002, positive,  positive, right
+No.44 A great episode showing each character in what is potentially their last moments: -1102.7677096686343 ,-1272.387165285422, positive,  positive, right
+No.45 One of the Best Episodes: -1988.7861276779763 ,-2252.3365668232987, positive,  positive, right
+No.46 Build-up for the most anticipated battle in tv history: -1225.5976299606732 ,-1439.2116690453602, positive,  positive, right
+No.47 This episode was for true fans!: -810.025078011512 ,-897.1619563920468, positive,  positive, right
+No.48 It was awesome: -322.44068265137696 ,-376.00290004255345, positive,  positive, right
+No.49 Towards War!: -1711.0684000572883 ,-1949.9691235511577, positive,  positive, right
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7345.495654333838 ,-8204.482319613076, positive,  positive, right
+No.51 One of the masterpieces of Game of Thrones: -1501.9870115201754 ,-1658.1640495933748, positive,  positive, right
+No.52 Ser Brienne of Tarth: -355.17764031460234 ,-417.67917380997324, positive,  positive, right
+No.53 The best action-less episode of Game of Thrones!: -710.799360373629 ,-772.1264106118535, positive,  positive, right
+No.54 Touching: -192.59081872571062 ,-219.65248862374673, positive,  positive, right
+No.55 Quiet reflections: -586.2819707983232 ,-615.7725722208945, positive,  positive, right
+No.56 The only good episode of this season: -627.8514533505506 ,-730.3963716710907, positive,  positive, right
+No.57 Only real "GoT" episode in this dissappointing season: -539.0642812797074 ,-574.077872817233, positive,  positive, right
+No.58 The Last Night: -6504.239190526073 ,-7308.005481276606, positive,  positive, right
+No.59 One of the most relatable episodes ever: -312.73365779525085 ,-386.42572086319535, positive,  positive, right
+No.60 True GoT episode: -629.6177568647738 ,-699.173862033435, positive,  positive, right
+No.61 Reconciliations, Realization and Discovery: -807.7294894117839 ,-918.0441855184205, positive,  positive, right
+No.62 Without memories men are not men, we are just animals: -600.6574890396797 ,-657.4738303843885, positive,  positive, right
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2057.3000317450324 ,-2335.703218962873, positive,  positive, right
+No.64 A really great episode: -88.1809181748835 ,-115.39426257126051, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -7727.1905439844395 ,-8579.771616500951, positive,  negative, wrong
+No.66 VERY cool: -7795.236573762947 ,-8569.402014391548, positive,  negative, wrong
+No.67 Micheal Bay level of storytelling: -221.02477381357747 ,-261.34101454106076, positive,  negative, wrong
+No.68 Letter from Daenerys to Daario: -1331.3425783012788 ,-1428.90140299244, positive,  negative, wrong
+No.69 I saw this coming ever since Season 7.: -10798.846169941713 ,-11634.249369255267, positive,  negative, wrong
+No.70 Unpredictable: -273.71418868023875 ,-303.0560773575978, positive,  negative, wrong
+No.71 Well directed, poorly written: -763.7602078068203 ,-845.0844777970514, positive,  negative, wrong
+No.72 The biggest middle finger to fans in HISTORY!: -1308.3988114301665 ,-1418.4376660017576, positive,  negative, wrong
+No.73 If I had no mouth, I would still scream: -4479.447721867421 ,-4889.709817331855, positive,  negative, wrong
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1800.8776784537376 ,-1960.5096267291522, positive,  negative, wrong
+No.75 Instead of BOTs they could have used that money for good writting.: -135.88723907282377 ,-157.10727178894177, positive,  negative, wrong
+No.76 A sick joke: -1122.743211392324 ,-1293.2932897126284, positive,  negative, wrong
+No.77 Where is Old Nan when you need her?: -241.1357994695821 ,-271.76472280877545, positive,  negative, wrong
+No.78 What's the point?: -1143.77110061544 ,-1262.036220543007, positive,  negative, wrong
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1310.0477167382023 ,-1418.4290215517706, positive,  negative, wrong
+No.80 8 years wasted in 80 minutes: -305.4023763629474 ,-344.7244551338708, positive,  negative, wrong
+No.81 Producers using bots for rating?: -1062.0572401958434 ,-1168.2056135408357, positive,  negative, wrong
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1171.664025516849 ,-1293.3499597114667, positive,  negative, wrong
+No.83 Is the show getting bot reviews????: -203.12215324232366 ,-209.22890312289968, positive,  negative, wrong
+No.84 Say thank you to the mediocre writing.: -3010.0198476983232 ,-3242.6737178209432, positive,  negative, wrong
+No.85 Everything that happened until now is pointless: -555.4154189609421 ,-647.0213250099127, positive,  negative, wrong
+No.86 Fans deserved better: -178.94809426190182 ,-209.21372504426304, positive,  negative, wrong
+No.87 The showrunners think they can fool everyone: -424.7808556729469 ,-469.801414615165, positive,  negative, wrong
+No.88 Hodor Held the Door for This?: -301.57289776920305 ,-323.88035214334883, positive,  negative, wrong
+No.89 Great disappointment.: -523.3345318774391 ,-594.8993320873552, positive,  negative, wrong
+No.90 Lore Breaking and Ignores Source Material: -8820.254605737859 ,-9528.488925091875, positive,  negative, wrong
+No.91 Massive Budget, Massive Wait, Massive Letdown: -608.2906100419314 ,-647.0461601910687, positive,  negative, wrong
+No.92 I'm not mad, just disappointed: -3915.169373954902 ,-4274.596036079713, positive,  negative, wrong
+No.93 Feels like D&D are just trolling us now: -4598.991390637094 ,-5035.63670514693, positive,  negative, wrong
+No.94 I have to change my rating: -178.63589138054752 ,-198.8004313631477, positive,  negative, wrong
+No.95 Wow!! The Night King is not even an afterthought!!: -1836.3815399932485 ,-2002.1726854067779, positive,  negative, wrong
+No.96 Dumb and Dumber: -617.4686782780477 ,-667.8847174228115, positive,  negative, wrong
+No.97 This doesn't feel like GoT anymore.: -1530.431912980758 ,-1637.355776386301, positive,  negative, wrong
+No.98 This episode outright angered me: -1737.0560939926934 ,-1866.7178768194904, positive,  negative, wrong
+No.99 The shark didn't just jump, it is flying.: -235.71466379600378 ,-271.77021583396197, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1445.8130093239215 ,-1543.5314093098405, positive,  negative, wrong
+No.101 Did HBO Honestly Believe People Would Like This???: -1545.1245433303477 ,-1679.0249003000529, positive,  negative, wrong
+No.102 Sad: -299.19913098107105 ,-344.7121332435171, positive,  negative, wrong
+No.103 Guess GoT means Game of Teleportation now.: -5767.644024918311 ,-6265.708502346635, positive,  negative, wrong
+No.104 I feel sorry for GRRM: -1328.303199580114 ,-1449.6936172242074, positive,  negative, wrong
+No.105 I almost cried how bad this is.: -1922.9490608018446 ,-2054.325565741362, positive,  negative, wrong
+No.106 Too disappointed to type up a full review.: -368.5344718426267 ,-448.9186527297821, positive,  negative, wrong
+No.107 Shame: -4280.278316126583 ,-4618.704780383385, positive,  negative, wrong
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5345.000122446551 ,-5879.961148238136, positive,  negative, wrong
+No.109 D&D should be fired from their job: -149.37605640250496 ,-167.52282650390293, positive,  negative, wrong
+No.110 Last week I was left disappointed. Now I'm just sad: -414.48325295354806 ,-448.99683568192, positive,  negative, wrong
+No.111 Horrible: -1303.1559591765968 ,-1449.6927092476817, positive,  negative, wrong
+No.112 I don't care anymore: -321.6221767085094 ,-365.5861913422179, positive,  negative, wrong
+No.113 Dany Forgot about the Iron fleet!!: -479.756902971303 ,-532.3700120872379, positive,  negative, wrong
+No.114 What happened to the "Game" in "Game of Thrones"?: -4798.3065429329745 ,-5119.115250114565, positive,  negative, wrong
+No.115 The right ending feels wrong: -1768.83588005524 ,-2002.1206685071165, positive,  negative, wrong
+No.116 D&D: -457.0476752424714 ,-501.120205430955, positive,  negative, wrong
+No.117 Visually compelling, but fatally undermined by the context: -3835.673755789915 ,-4180.842087536998, positive,  negative, wrong
+No.118 Can we have season 8 reshoot? Please.: -549.3738120851526 ,-626.1592347018315, positive,  negative, wrong
+No.119 Why this episode made no sense.: -5493.237790983103 ,-6005.0814895037165, positive,  negative, wrong
+No.120 A visual masterpiece with mediocre writing: -924.1749950309751 ,-1032.7029982328013, positive,  negative, wrong
+No.121 Dany is not the only crazy: -189.95213903863203 ,-209.23254034535077, positive,  negative, wrong
+No.122 Throwing out of the window 7s of character buildup: -179.06687386887432 ,-198.79919267938325, positive,  negative, wrong
+No.123 Am I missing something?: -1805.8038988531403 ,-1960.4646067209028, positive,  negative, wrong
+No.124 Years of character building thrown away for shock value: -224.25933247734702 ,-230.08621398541072, positive,  negative, wrong
+No.125 A glorified view of how bad writing can be: -5521.709890698489 ,-6025.8539368784395, positive,  negative, wrong
+No.126 7 seasons of character development and story telling for no reason: -143.54987771002416 ,-188.36463534048036, positive,  negative, wrong
+No.127 Episode where the shows is Ruined completely: -634.2929776486736 ,-761.6293892177447, positive,  negative, wrong
+No.128 What was the point?: -2097.5177162682294 ,-2273.207010988992, positive,  negative, wrong
+No.129 Remember?: -565.1949591503311 ,-605.342879325413, positive,  negative, wrong
+No.130 What's the point Dany's army?: -664.7773949196165 ,-730.4368555925295, positive,  negative, wrong
+No.131 The show ended in S7 for me: -714.893858691983 ,-782.5503567942916, positive,  negative, wrong
+No.132 The first real fantasy anti-war movie ever: -3750.638112081889 ,-3993.246860776764, positive,  positive, right
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2150.275328271911 ,-2408.7066436625514, positive,  negative, wrong
+No.134 What happened...: -257.8710081538663 ,-292.62221466158155, positive,  negative, wrong
+No.135 Season 8 is a slippery slide going from bad to worse.: -1951.1592116459453 ,-2148.1082322772677, positive,  negative, wrong
+No.136 Can't forgive the rushed writing: -1406.3373771987144 ,-1606.0531975059291, positive,  negative, wrong
+No.137 Why do I still bother watching?: -2023.4750109080394 ,-2189.82994523949, positive,  negative, wrong
+No.138 Worst than Dexter: -614.710816277812 ,-688.7420869426583, positive,  negative, wrong
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -685.5026645482495 ,-782.5281860442777, positive,  negative, wrong
+No.140 A Message to Dan and Dave: -4400.17152113234 ,-4889.695540877188, positive,  negative, wrong
+No.141 This show became a Meme: -3473.494877393852 ,-3815.9789092533474, positive,  negative, wrong
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -116.7172859678718 ,-136.2585582314954, positive,  negative, wrong
+No.143 she's muh queen: -167.98437167910097 ,-188.3811287675024, positive,  negative, wrong
+No.144 Still sad after 7 weeks: -1036.6746551516976 ,-1147.4138847226923, positive,  negative, wrong
+No.145 Better if Whitewalkers had won and last episode just silence.: -1171.8915024616406 ,-1293.324359759746, positive,  negative, wrong
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1215.1679331379235 ,-1282.9588675068119, positive,  negative, wrong
+No.147 Rushed: -238.67069061078564 ,-250.9291319447026, positive,  negative, wrong
+No.148 Imagine a Turkey: -1246.1666409686782 ,-1303.7976668551742, positive,  negative, wrong
+No.149 6 months later and I still can't get over this: -10731.100321937209 ,-11707.019330477047, positive,  negative, wrong
+No.150 This is utterly disrespectful: -902.8847837936497 ,-1022.322992968189, positive,  negative, wrong
+No.151 Dreadful.: -983.2834956335337 ,-1074.455746910531, positive,  negative, wrong
+No.152 W- what?: -1010.2528667607648 ,-1178.5442240855818, positive,  negative, wrong
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2600.3335101889643 ,-2877.7808620547867, positive,  negative, wrong
+No.154 Not good.: -132.55280684553463 ,-146.6850376878777, positive,  negative, wrong
+No.155 How do I rate 0/10?: -233.4739164507258 ,-250.9335255069889, positive,  negative, wrong
+No.156 Great Disappointment...: -1538.6369171288102 ,-1689.460150425873, positive,  negative, wrong
+No.157 Made the whole series unwatchable: -174.979023858903 ,-209.21732405014865, positive,  negative, wrong
+No.158 The greatest TV show of all time had the worst finale: -224.7778302717596 ,-240.5068208838058, positive,  negative, wrong
+No.159 I feel like Tommen in 6x10: -136.51192080387054 ,-146.68588499697776, positive,  negative, wrong
+No.160 Just like Kit Harington said; 'Dissapointing': -232.23924722938554 ,-250.92183074105355, positive,  negative, wrong
+No.161 Don't tell me I don't know this show: -2373.3321617755437 ,-2648.454334148346, positive,  negative, wrong
+No.162 A parody ending to what was a brilliant series: -821.7539116613003 ,-897.2144106014022, positive,  negative, wrong
+The prediction correctness is 0.2222222222222222
+
+------------------Testing for frequency based removal at 10, total words count: 337574
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1268.3374790583619 ,-1372.7238143714424, positive,  negative, wrong
+No.2 Script writers KILLED the best TV show: -2087.1890972250585 ,-2373.2969354650563, positive,  negative, wrong
+No.3 Dumbed down to the level of a cartoon strip: -2826.549639392746 ,-3074.7981249541976, positive,  negative, wrong
+No.4 Overrated Episode/Season: -1469.0039258178397 ,-1682.1477098025796, positive,  negative, wrong
+No.5 Holy smokes... This has truly been something else: -757.4148052410625 ,-856.9241710070048, positive,  positive, right
+No.6 Brilliant on all fronts!: -1514.47780175922 ,-1661.549281971559, positive,  positive, right
+No.7 A lot of things come together, finally: -504.68183225305677 ,-588.7241668900324, positive,  positive, right
+No.8 Terrible writings: -3030.8239085967134 ,-3425.475291761523, positive,  negative, wrong
+No.9 i hate the new GoT: -4576.85199337047 ,-5076.012428948958, positive,  negative, wrong
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -587.0626494999385 ,-681.5705270479137, positive,  positive, right
+No.11 Season Finale: -960.5286348544613 ,-1073.560271538867, positive,  positive, right
+No.12 Jon Snow's Lineage: -1293.6605825762967 ,-1465.5555408873302, positive,  positive, right
+No.13 Really bad fan-fiction.: -1161.6450701611748 ,-1238.6490015626448, positive,  negative, wrong
+No.14 Boring finale: -4817.278293644943 ,-5467.9745678476165, positive,  negative, wrong
+No.15 We warmed up!: -2106.924772478811 ,-2332.0112998004906, positive,  positive, right
+No.16 Underwhelming, bordering on disappointing: -2216.569039553878 ,-2393.989320129586, positive,  negative, wrong
+No.17 You can tell they have run out of books: -751.9961069706553 ,-795.0711786001882, positive,  negative, wrong
+No.18 An extension of the tone of Season 7: -2944.324293693342 ,-3208.9259721814024, positive,  negative, wrong
+No.19 Should've been much better (very mediocre): -848.4172034910517 ,-970.3183292035864, positive,  negative, wrong
+No.20 I like GOT, but....: -342.46147006298463 ,-372.10455507554707, positive,  negative, wrong
+No.21 Not the best.: -226.7455507216904 ,-258.6351239821129, positive,  negative, wrong
+No.22 Underwhelming: -12571.240466190831 ,-13462.805419725148, positive,  negative, wrong
+No.23 Best season premiere!: -1038.3397203510724 ,-1207.5969618128292, positive,  positive, right
+No.24 A disappointment: -635.0345639856746 ,-743.4382914276053, positive,  negative, wrong
+No.25 Just Not Good.: -4082.4204657025793 ,-4457.051593389968, positive,  negative, wrong
+No.26 Average GoT episode with terrible dialogues: -145.63854280104715 ,-165.78273509018132, positive,  negative, wrong
+No.27 Mediocre: -408.36537206444245 ,-454.61681008489995, positive,  negative, wrong
+No.28 Meh!: -2732.905964043533 ,-2878.892754566498, positive,  negative, wrong
+No.29 Why the Rush? And when did It became a Disney show?: -760.1780573370229 ,-846.6000523007384, positive,  negative, wrong
+No.30 Don't know what you guys expected...: -1022.9650222229711 ,-1135.4569939295504, positive,  positive, right
+No.31 Get the Damn White Walkers !!: -709.2671761618327 ,-784.7392273974408, positive,  negative, wrong
+No.32 Meh...: -522.7874495600709 ,-578.4072146099253, positive,  negative, wrong
+No.33 Disappointment!: -192.14757548940923 ,-227.66639123265037, positive,  negative, wrong
+No.34 A poor start: -1434.528863344219 ,-1558.3952328074095, positive,  negative, wrong
+No.35 Good opener: -938.0961620043197 ,-1083.8266081669788, positive,  positive, right
+No.36 Not that good!!! And I love GOT!!!: -357.7036827611966 ,-392.7314363909737, positive,  negative, wrong
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -982.3867615726919 ,-1083.8763703712154, positive,  negative, wrong
+No.38 Plays it Safe: -890.5433610390197 ,-1011.6449994120637, positive,  negative, wrong
+No.39 Why is the terrible writing accepted.: -1958.2819404106465 ,-2146.371758164754, positive,  negative, wrong
+No.40 Really the last good GoT episode: -92.81420867646366 ,-124.50779321051982, positive,  positive, right
+No.41 Come on people!: -311.6567580523648 ,-341.14412175634646, positive,  positive, right
+No.42 Goodbye, friends: -812.3301867528121 ,-887.8756586896963, positive,  positive, right
+No.43 Michael Bay fans please leave!: -1162.6829928061818 ,-1300.5014680519646, positive,  positive, right
+No.44 A great episode showing each character in what is potentially their last moments: -1096.7736543000844 ,-1259.1523450102227, positive,  positive, right
+No.45 One of the Best Episodes: -1979.276251039295 ,-2228.904414485189, positive,  positive, right
+No.46 Build-up for the most anticipated battle in tv history: -1225.1795763225907 ,-1424.2412355415424, positive,  positive, right
+No.47 This episode was for true fans!: -810.909806823475 ,-887.8324841902162, positive,  positive, right
+No.48 It was awesome: -319.28377171226293 ,-372.0975306700614, positive,  positive, right
+No.49 Towards War!: -1700.0592119658675 ,-1929.682899310704, positive,  positive, right
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7300.2396562076 ,-8119.106818821973, positive,  positive, right
+No.51 One of the masterpieces of Game of Thrones: -1494.949094332212 ,-1640.9154413599629, positive,  positive, right
+No.52 Ser Brienne of Tarth: -353.3601575733933 ,-413.3398745072042, positive,  positive, right
+No.53 The best action-less episode of Game of Thrones!: -704.3101545543402 ,-764.0987069017293, positive,  positive, right
+No.54 Touching: -190.74928734456083 ,-217.37435648979314, positive,  positive, right
+No.55 Quiet reflections: -584.925114574755 ,-609.3721270484345, positive,  positive, right
+No.56 The only good episode of this season: -624.8011515020854 ,-722.8025978912441, positive,  positive, right
+No.57 Only real "GoT" episode in this dissappointing season: -540.4843425888805 ,-568.1113788736528, positive,  positive, right
+No.58 The Last Night: -6469.80303154694 ,-7231.959431388159, positive,  positive, right
+No.59 One of the most relatable episodes ever: -310.8869948942779 ,-382.4118690081341, positive,  positive, right
+No.60 True GoT episode: -624.6966373486404 ,-691.9055357012953, positive,  positive, right
+No.61 Reconciliations, Realization and Discovery: -801.92108102394 ,-908.4977483514512, positive,  positive, right
+No.62 Without memories men are not men, we are just animals: -596.0871374056701 ,-650.6394339825265, positive,  positive, right
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2044.5621364725541 ,-2311.4032919596652, positive,  positive, right
+No.64 A really great episode: -87.21630649904316 ,-114.20095526299906, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -7681.247773157107 ,-8490.490852828825, positive,  negative, wrong
+No.66 VERY cool: -7766.299472852659 ,-8480.230478663581, positive,  negative, wrong
+No.67 Micheal Bay level of storytelling: -218.83247455030389 ,-258.62895247683025, positive,  negative, wrong
+No.68 Letter from Daenerys to Daario: -1334.536930600128 ,-1414.0394732724046, positive,  negative, wrong
+No.69 I saw this coming ever since Season 7.: -10755.964009476998 ,-11513.183834562647, positive,  negative, wrong
+No.70 Unpredictable: -271.17112153484135 ,-299.91008536309033, positive,  negative, wrong
+No.71 Well directed, poorly written: -756.6571581938153 ,-836.2973967089421, positive,  negative, wrong
+No.72 The biggest middle finger to fans in HISTORY!: -1302.6418559938281 ,-1403.6841761649973, positive,  negative, wrong
+No.73 If I had no mouth, I would still scream: -4469.572779001122 ,-4838.831980285912, positive,  negative, wrong
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1793.6488766384869 ,-1940.1151755877938, positive,  negative, wrong
+No.75 Instead of BOTs they could have used that money for good writting.: -134.57185951485968 ,-155.4800345504035, positive,  negative, wrong
+No.76 A sick joke: -1126.4155728699934 ,-1279.8415896687898, positive,  negative, wrong
+No.77 Where is Old Nan when you need her?: -238.85580823577754 ,-268.94417826197565, positive,  negative, wrong
+No.78 What's the point?: -1136.466797208748 ,-1248.9098614512511, positive,  negative, wrong
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1307.2838005942062 ,-1403.6755530146584, positive,  negative, wrong
+No.80 8 years wasted in 80 minutes: -302.50854133542623 ,-341.1445332090864, positive,  negative, wrong
+No.81 Producers using bots for rating?: -1054.8801780858478 ,-1156.0557671815473, positive,  negative, wrong
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1165.4945862072364 ,-1279.8981531720033, positive,  negative, wrong
+No.83 Is the show getting bot reviews????: -201.3683138317049 ,-207.05929606924283, positive,  negative, wrong
+No.84 Say thank you to the mediocre writing.: -3001.459381427352 ,-3208.9361130156867, positive,  negative, wrong
+No.85 Everything that happened until now is pointless: -552.3306993061356 ,-640.2955601824054, positive,  negative, wrong
+No.86 Fans deserved better: -177.19425485128303 ,-207.0440753928786, positive,  negative, wrong
+No.87 The showrunners think they can fool everyone: -420.83471699905436 ,-464.9197454972775, positive,  negative, wrong
+No.88 Hodor Held the Door for This?: -300.2523866914158 ,-320.5174377814305, positive,  negative, wrong
+No.89 Great disappointment.: -521.1319695745193 ,-588.7159796737393, positive,  negative, wrong
+No.90 Lore Breaking and Ignores Source Material: -8804.66063406402 ,-9429.337022266815, positive,  negative, wrong
+No.91 Massive Budget, Massive Wait, Massive Letdown: -605.9418439577139 ,-640.3203953625169, positive,  negative, wrong
+No.92 I'm not mad, just disappointed: -3901.8465890570237 ,-4230.118793293286, positive,  negative, wrong
+No.93 Feels like D&D are just trolling us now: -4575.258199000264 ,-4983.2399003543, positive,  negative, wrong
+No.94 I have to change my rating: -176.96974394045975 ,-196.73926419433252, positive,  negative, wrong
+No.95 Wow!! The Night King is not even an afterthought!!: -1824.0976052596507 ,-1981.344133949454, positive,  negative, wrong
+No.96 Dumb and Dumber: -614.2085746821792 ,-660.9419663310409, positive,  negative, wrong
+No.97 This doesn't feel like GoT anymore.: -1517.6185161168385 ,-1620.3240266229254, positive,  negative, wrong
+No.98 This episode outright angered me: -1732.9915613538942 ,-1847.2998745163598, positive,  negative, wrong
+No.99 The shark didn't just jump, it is flying.: -233.43467256219924 ,-268.9496712871623, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1435.6973252136597 ,-1527.47615098033, positive,  negative, wrong
+No.101 Did HBO Honestly Believe People Would Like This???: -1544.0135472462173 ,-1661.5593270999361, positive,  negative, wrong
+No.102 Sad: -297.9954920335784 ,-341.1322113187328, positive,  negative, wrong
+No.103 Guess GoT means Game of Teleportation now.: -5758.000372379557 ,-6200.511233183285, positive,  negative, wrong
+No.104 I feel sorry for GRRM: -1320.8183807125358 ,-1434.6147651341512, positive,  negative, wrong
+No.105 I almost cried how bad this is.: -1916.103562700103 ,-2032.954708366295, positive,  negative, wrong
+No.106 Too disappointed to type up a full review.: -364.7637171097961 ,-444.25390597930556, positive,  negative, wrong
+No.107 Shame: -4261.63554655057 ,-4570.64740268721, positive,  negative, wrong
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5332.000732745724 ,-5818.777411449739, positive,  negative, wrong
+No.109 D&D should be fired from their job: -149.370924882682 ,-165.78714938052295, positive,  negative, wrong
+No.110 Last week I was left disappointed. Now I'm just sad: -414.90631824673346 ,-444.33217412742084, positive,  negative, wrong
+No.111 Horrible: -1303.9706792812874 ,-1434.6138784593613, positive,  negative, wrong
+No.112 I don't care anymore: -322.5442281291214 ,-361.78934705054496, positive,  negative, wrong
+No.113 Dany Forgot about the Iron fleet!!: -480.4995225206543 ,-526.8374906721848, positive,  negative, wrong
+No.114 What happened to the "Game" in "Game of Thrones"?: -4785.671326348051 ,-5065.85050026697, positive,  negative, wrong
+No.115 The right ending feels wrong: -1760.8126128586325 ,-1981.292202246297, positive,  negative, wrong
+No.116 D&D: -452.83846065698594 ,-495.9130462676323, positive,  negative, wrong
+No.117 Visually compelling, but fatally undermined by the context: -3821.4763686332153 ,-4137.340910213424, positive,  negative, wrong
+No.118 Can we have season 8 reshoot? Please.: -546.4644763714075 ,-619.6503283454049, positive,  negative, wrong
+No.119 Why this episode made no sense.: -5469.050033673361 ,-5942.596133311224, positive,  negative, wrong
+No.120 A visual masterpiece with mediocre writing: -918.289369965758 ,-1021.963317653378, positive,  negative, wrong
+No.121 Dany is not the only crazy: -189.1525421374525 ,-207.06289069396632, positive,  negative, wrong
+No.122 Throwing out of the window 7s of character buildup: -180.04516501825427 ,-196.738025510568, positive,  negative, wrong
+No.123 Am I missing something?: -1796.7334595299842 ,-1940.0699638952544, positive,  negative, wrong
+No.124 Years of character building thrown away for shock value: -222.3301091256663 ,-227.69959936888782, positive,  negative, wrong
+No.125 A glorified view of how bad writing can be: -5505.7748709242505 ,-5963.15176481522, positive,  negative, wrong
+No.126 7 seasons of character development and story telling for no reason: -141.9714222404673 ,-186.41195065423437, positive,  negative, wrong
+No.127 Episode where the shows is Ruined completely: -627.8914637999151 ,-753.7102957818062, positive,  negative, wrong
+No.128 What was the point?: -2079.7988067011543 ,-2249.5579362824233, positive,  negative, wrong
+No.129 Remember?: -562.0173098784152 ,-599.0509166355223, positive,  negative, wrong
+No.130 What's the point Dany's army?: -663.1250330798238 ,-722.843081812683, positive,  negative, wrong
+No.131 The show ended in S7 for me: -714.267824519182 ,-774.4143622900666, positive,  negative, wrong
+No.132 The first real fantasy anti-war movie ever: -3742.010450783945 ,-3951.6983255396153, positive,  positive, right
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2139.568027795187 ,-2383.6472540864274, positive,  negative, wrong
+No.134 What happened...: -256.8135729876719 ,-289.5847051496434, positive,  negative, wrong
+No.135 Season 8 is a slippery slide going from bad to worse.: -1939.948663634081 ,-2125.7608834657253, positive,  negative, wrong
+No.136 Can't forgive the rushed writing: -1399.9122202148444 ,-1589.3470016853662, positive,  negative, wrong
+No.137 Why do I still bother watching?: -2011.0105607135558 ,-2167.0487303950463, positive,  negative, wrong
+No.138 Worst than Dexter: -610.3210862314419 ,-681.5822643922135, positive,  negative, wrong
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -678.9257667584292 ,-774.391999851584, positive,  negative, wrong
+No.140 A Message to Dan and Dave: -4391.391635418967 ,-4838.8177464227, positive,  negative, wrong
+No.141 This show became a Meme: -3459.729390237797 ,-3776.2746614137614, positive,  negative, wrong
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -116.53153286040892 ,-134.8483072572205, positive,  negative, wrong
+No.143 she's muh queen: -168.75809872765544 ,-186.4285292761893, positive,  negative, wrong
+No.144 Still sad after 7 weeks: -1035.354443451987 ,-1135.4808968360514, positive,  negative, wrong
+No.145 Better if Whitewalkers had won and last episode just silence.: -1166.9685617328244 ,-1279.8727662073532, positive,  negative, wrong
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1214.5933519166267 ,-1269.615671243623, positive,  negative, wrong
+No.147 Rushed: -237.9640233267151 ,-248.32555236304128, positive,  negative, wrong
+No.148 Imagine a Turkey: -1245.1983868674686 ,-1290.2375056273684, positive,  negative, wrong
+No.149 6 months later and I still can't get over this: -10718.276009307367 ,-11585.195014769426, positive,  negative, wrong
+No.150 This is utterly disrespectful: -899.5798478605548 ,-1011.6917096764026, positive,  negative, wrong
+No.151 Dreadful.: -981.3817373556901 ,-1063.2821789969908, positive,  negative, wrong
+No.152 W- what?: -1004.0937966175536 ,-1166.2857461529834, positive,  negative, wrong
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2581.8631010005947 ,-2847.8398672565777, positive,  negative, wrong
+No.154 Not good.: -133.67730177621283 ,-145.16630423103354, positive,  negative, wrong
+No.155 How do I rate 0/10?: -232.3235516674225 ,-248.32994592532754, positive,  negative, wrong
+No.156 Great Disappointment...: -1533.9803626187218 ,-1671.8861586405621, positive,  negative, wrong
+No.157 Made the whole series unwatchable: -176.5316094758349 ,-207.04775959369712, positive,  negative, wrong
+No.158 The greatest TV show of all time had the worst finale: -222.76091494954792 ,-238.01172378471367, positive,  negative, wrong
+No.159 I feel like Tommen in 6x10: -135.2842332164374 ,-145.16713024100872, positive,  negative, wrong
+No.160 Just like Kit Harington said; 'Dissapointing': -230.1346399366429 ,-248.31825115939222, positive,  negative, wrong
+No.161 Don't tell me I don't know this show: -2365.4866113642715 ,-2620.9001030589693, positive,  negative, wrong
+No.162 A parody ending to what was a brilliant series: -817.3005382843412 ,-887.8850235955485, positive,  negative, wrong
+The prediction correctness is 0.2222222222222222
+
+------------------Testing for frequency based removal at 20, total words count: 317770
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1274.2787889291346 ,-1364.6110886395359, positive,  negative, wrong
+No.2 Script writers KILLED the best TV show: -2086.2621246118088 ,-2359.266965786182, positive,  negative, wrong
+No.3 Dumbed down to the level of a cartoon strip: -2833.3806537132664 ,-3056.6202546781847, positive,  negative, wrong
+No.4 Overrated Episode/Season: -1469.264189319433 ,-1672.2050016585424, positive,  negative, wrong
+No.5 Holy smokes... This has truly been something else: -761.962517569873 ,-851.861182684516, positive,  positive, right
+No.6 Brilliant on all fronts!: -1511.9405066858337 ,-1651.7284069540217, positive,  positive, right
+No.7 A lot of things come together, finally: -506.3626536445372 ,-585.2471568837625, positive,  positive, right
+No.8 Terrible writings: -3032.686430339783 ,-3405.223893475497, positive,  negative, wrong
+No.9 i hate the new GoT: -4593.860994016463 ,-5046.0011566816975, positive,  negative, wrong
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -586.2086547071669 ,-677.5444837084193, positive,  positive, right
+No.11 Season Finale: -964.4289201070021 ,-1067.2162617486888, positive,  positive, right
+No.12 Jon Snow's Lineage: -1292.7768969562642 ,-1456.8935887749456, positive,  positive, right
+No.13 Really bad fan-fiction.: -1157.3081887220626 ,-1231.3289754122698, positive,  negative, wrong
+No.14 Boring finale: -4813.157542758839 ,-5435.645063671488, positive,  negative, wrong
+No.15 We warmed up!: -2103.3461937327743 ,-2318.2253583359525, positive,  positive, right
+No.16 Underwhelming, bordering on disappointing: -2221.1187449262343 ,-2379.8374931923863, positive,  negative, wrong
+No.17 You can tell they have run out of books: -752.914126135725 ,-790.3741481471893, positive,  negative, wrong
+No.18 An extension of the tone of Season 7: -2948.549405549607 ,-3189.955064482958, positive,  negative, wrong
+No.19 Should've been much better (very mediocre): -849.2031588855098 ,-964.584570941312, positive,  negative, wrong
+No.20 I like GOT, but....: -342.5618318261209 ,-369.90866305757794, positive,  negative, wrong
+No.21 Not the best.: -225.48990957186948 ,-257.1100984245398, positive,  negative, wrong
+No.22 Underwhelming: -12570.688268005066 ,-13383.201474616311, positive,  negative, wrong
+No.23 Best season premiere!: -1034.3718047887876 ,-1200.459962859179, positive,  positive, right
+No.24 A disappointment: -635.9983866969148 ,-739.04629021862, positive,  negative, wrong
+No.25 Just Not Good.: -4079.478711785192 ,-4430.700092874299, positive,  negative, wrong
+No.26 Average GoT episode with terrible dialogues: -144.83493246516178 ,-164.80671873333444, positive,  negative, wrong
+No.27 Mediocre: -408.2382290110738 ,-451.93278923606914, positive,  negative, wrong
+No.28 Meh!: -2748.374334667912 ,-2861.8741209060604, positive,  negative, wrong
+No.29 Why the Rush? And when did It became a Disney show?: -758.2874410702225 ,-841.5979926043967, positive,  negative, wrong
+No.30 Don't know what you guys expected...: -1019.901099006513 ,-1128.746929740558, positive,  positive, right
+No.31 Get the Damn White Walkers !!: -707.6779137709891 ,-780.1031738349164, positive,  negative, wrong
+No.32 Meh...: -534.3874429992051 ,-574.9915676000317, positive,  negative, wrong
+No.33 Disappointment!: -193.5035091203234 ,-226.32441700631318, positive,  negative, wrong
+No.34 A poor start: -1434.927331577692 ,-1549.1843921521033, positive,  negative, wrong
+No.35 Good opener: -935.0503558796835 ,-1077.421549089499, positive,  positive, right
+No.36 Not that good!!! And I love GOT!!!: -360.37517743619367 ,-390.4135182032743, positive,  negative, wrong
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -984.0453204842781 ,-1077.471335426235, positive,  negative, wrong
+No.38 Plays it Safe: -890.1073238290932 ,-1005.6672370632591, positive,  negative, wrong
+No.39 Why is the terrible writing accepted.: -1959.3109409980552 ,-2133.683810974533, positive,  negative, wrong
+No.40 Really the last good GoT episode: -92.21150092454967 ,-123.7757809428846, positive,  positive, right
+No.41 Come on people!: -309.9993117346011 ,-339.13108802034964, positive,  positive, right
+No.42 Goodbye, friends: -810.362963715538 ,-882.6295949041428, positive,  positive, right
+No.43 Michael Bay fans please leave!: -1164.7934684852373 ,-1292.8155805580718, positive,  positive, right
+No.44 A great episode showing each character in what is potentially their last moments: -1095.0810933773846 ,-1251.710292684754, positive,  positive, right
+No.45 One of the Best Episodes: -1977.654497461274 ,-2215.728434983374, positive,  positive, right
+No.46 Build-up for the most anticipated battle in tv history: -1220.3312225458958 ,-1415.823118596242, positive,  positive, right
+No.47 This episode was for true fans!: -808.8182879727036 ,-882.5864445364914, positive,  positive, right
+No.48 It was awesome: -319.9365462992772 ,-369.90151799965435, positive,  positive, right
+No.49 Towards War!: -1704.2101560005858 ,-1918.2759253238419, positive,  positive, right
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7320.062389225459 ,-8071.09983475949, positive,  positive, right
+No.51 One of the masterpieces of Game of Thrones: -1493.5896852027438 ,-1631.2164718677625, positive,  positive, right
+No.52 Ser Brienne of Tarth: -352.30537424311876 ,-410.8999542708762, positive,  positive, right
+No.53 The best action-less episode of Game of Thrones!: -707.0820109924725 ,-759.5848243012464, positive,  positive, right
+No.54 Touching: -191.77733414902772 ,-216.09335915393055, positive,  positive, right
+No.55 Quiet reflections: -588.1809585549852 ,-605.7732597865174, positive,  positive, right
+No.56 The only good episode of this season: -625.8654255053108 ,-718.532767638937, positive,  positive, right
+No.57 Only real "GoT" episode in this dissappointing season: -542.1568999477013 ,-564.7564191756454, positive,  positive, right
+No.58 The Last Night: -6461.094296503921 ,-7189.198366314985, positive,  positive, right
+No.59 One of the most relatable episodes ever: -309.0286459925428 ,-380.1548311829256, positive,  positive, right
+No.60 True GoT episode: -627.0988419374264 ,-687.8186843927836, positive,  positive, right
+No.61 Reconciliations, Realization and Discovery: -802.0449073896426 ,-903.1297307842786, positive,  positive, right
+No.62 Without memories men are not men, we are just animals: -599.8395929601043 ,-646.7964419742672, positive,  positive, right
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2050.5045209133905 ,-2297.7394973199744, positive,  positive, right
+No.64 A really great episode: -86.66382439312198 ,-113.52994401766679, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -7676.192545900893 ,-8440.288073249541, positive,  negative, wrong
+No.66 VERY cool: -7777.096533505419 ,-8430.088603592005, positive,  negative, wrong
+No.67 Micheal Bay level of storytelling: -217.57683340048297 ,-257.10392691925716, positive,  negative, wrong
+No.68 Letter from Daenerys to Daario: -1340.4816841544412 ,-1405.68269518428, positive,  negative, wrong
+No.69 I saw this coming ever since Season 7.: -10785.100200011217 ,-11445.109251607266, positive,  negative, wrong
+No.70 Unpredictable: -269.7145778010492 ,-298.1410557163054, positive,  negative, wrong
+No.71 Well directed, poorly written: -752.5888808683943 ,-831.3563139024045, positive,  negative, wrong
+No.72 The biggest middle finger to fans in HISTORY!: -1304.907234120252 ,-1395.3882301877734, positive,  negative, wrong
+No.73 If I had no mouth, I would still scream: -4472.356837667196 ,-4810.222959329213, positive,  negative, wrong
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1798.9888151732998 ,-1928.6472971079559, positive,  negative, wrong
+No.75 Instead of BOTs they could have used that money for good writting.: -133.81847482496715 ,-154.56501921585956, positive,  negative, wrong
+No.76 A sick joke: -1122.2703781371965 ,-1272.2774870357287, positive,  negative, wrong
+No.77 Where is Old Nan when you need her?: -237.5499414399638 ,-267.35815168209956, positive,  negative, wrong
+No.78 What's the point?: -1134.2064640813708 ,-1241.5289790641796, positive,  negative, wrong
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1304.2700827769395 ,-1395.379655293045, positive,  negative, wrong
+No.80 8 years wasted in 80 minutes: -304.7099328690911 ,-339.13164426338926, positive,  negative, wrong
+No.81 Producers using bots for rating?: -1051.337691104964 ,-1149.2236768161206, positive,  negative, wrong
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1165.6308645322301 ,-1272.3340988019293, positive,  negative, wrong
+No.83 Is the show getting bot reviews????: -202.8246987546047 ,-205.8392756231844, positive,  negative, wrong
+No.84 Say thank you to the mediocre writing.: -3005.6826679683977 ,-3189.965205321263, positive,  negative, wrong
+No.85 Everything that happened until now is pointless: -554.2872974946644 ,-636.5140035398634, positive,  negative, wrong
+No.86 Fans deserved better: -179.67046731041484 ,-205.82419973711984, positive,  negative, wrong
+No.87 The showrunners think they can fool everyone: -418.5745629293762 ,-462.17469949364505, positive,  negative, wrong
+No.88 Hodor Held the Door for This?: -298.6953916656377 ,-318.62640609003967, positive,  negative, wrong
+No.89 Great disappointment.: -525.0872824918227 ,-585.2390903232592, positive,  negative, wrong
+No.90 Lore Breaking and Ignores Source Material: -8808.435643187004 ,-9373.583318579405, positive,  negative, wrong
+No.91 Massive Budget, Massive Wait, Massive Letdown: -604.225793914829 ,-636.5384285057075, positive,  negative, wrong
+No.92 I'm not mad, just disappointed: -3894.61080771838 ,-4205.108567207099, positive,  negative, wrong
+No.93 Feels like D&D are just trolling us now: -4582.037635720533 ,-4953.777613155263, positive,  negative, wrong
+No.94 I have to change my rating: -179.39584882665287 ,-195.58043782185183, positive,  negative, wrong
+No.95 Wow!! The Night King is not even an afterthought!!: -1830.5987293560215 ,-1969.6325168231424, positive,  negative, wrong
+No.96 Dumb and Dumber: -612.9026183575155 ,-657.0379974296253, positive,  negative, wrong
+No.97 This doesn't feel like GoT anymore.: -1524.9016988741346 ,-1610.747179835814, positive,  negative, wrong
+No.98 This episode outright angered me: -1744.9663017867992 ,-1836.3811500268755, positive,  negative, wrong
+No.99 The shark didn't just jump, it is flying.: -232.12880576638545 ,-267.3636447072862, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1432.0140521335052 ,-1518.4481203379758, positive,  negative, wrong
+No.101 Did HBO Honestly Believe People Would Like This???: -1540.187885778364 ,-1651.7384520743549, positive,  negative, wrong
+No.102 Sad: -296.33804571581476 ,-339.1191775827359, positive,  negative, wrong
+No.103 Guess GoT means Game of Teleportation now.: -5780.574286808385 ,-6163.851862986157, positive,  negative, wrong
+No.104 I feel sorry for GRRM: -1320.2891841514836 ,-1426.1359850034298, positive,  negative, wrong
+No.105 I almost cried how bad this is.: -1917.262153415 ,-2020.937772421406, positive,  negative, wrong
+No.106 Too disappointed to type up a full review.: -362.60401433210404 ,-441.63086202027915, positive,  negative, wrong
+No.107 Shame: -4252.412698396874 ,-4543.624263518108, positive,  negative, wrong
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5328.1514241692885 ,-5784.373558816936, positive,  negative, wrong
+No.109 D&D should be fired from their job: -149.96525455546868 ,-164.81122954964874, positive,  negative, wrong
+No.110 Last week I was left disappointed. Now I'm just sad: -414.43681154906966 ,-441.7092025638794, positive,  negative, wrong
+No.111 Horrible: -1306.9585941088737 ,-1426.135001805349, positive,  negative, wrong
+No.112 I don't care anymore: -320.7863305193721 ,-359.6543112699422, positive,  negative, wrong
+No.113 Dany Forgot about the Iron fleet!!: -477.9380145750188 ,-523.7264385347343, positive,  negative, wrong
+No.114 What happened to the "Game" in "Game of Thrones"?: -4780.919036100079 ,-5035.899408557947, positive,  negative, wrong
+No.115 The right ending feels wrong: -1761.794214793108 ,-1969.580247280419, positive,  negative, wrong
+No.116 D&D: -455.00769887205433 ,-492.9851178569029, positive,  negative, wrong
+No.117 Visually compelling, but fatally undermined by the context: -3835.4387272004283 ,-4112.880755103617, positive,  negative, wrong
+No.118 Can we have season 8 reshoot? Please.: -543.4509376118367 ,-615.9902670072288, positive,  negative, wrong
+No.119 Why this episode made no sense.: -5478.432997666507 ,-5907.460582117828, positive,  negative, wrong
+No.120 A visual masterpiece with mediocre writing: -915.3998163827816 ,-1015.9242647097154, positive,  negative, wrong
+No.121 Dany is not the only crazy: -188.1480292175958 ,-205.84287024790788, positive,  negative, wrong
+No.122 Throwing out of the window 7s of character buildup: -179.09087774439038 ,-195.57900608681246, positive,  negative, wrong
+No.123 Am I missing something?: -1796.0535210197281 ,-1928.60232671828, positive,  negative, wrong
+No.124 Years of character building thrown away for shock value: -221.22514491382387 ,-226.3575768782236, positive,  negative, wrong
+No.125 A glorified view of how bad writing can be: -5494.804687805588 ,-5927.89351176492, positive,  negative, wrong
+No.126 7 seasons of character development and story telling for no reason: -141.0673606125963 ,-185.31393225278168, positive,  negative, wrong
+No.127 Episode where the shows is Ruined completely: -628.4856591794274 ,-749.2573659439918, positive,  negative, wrong
+No.128 What was the point?: -2079.5979793637566 ,-2236.2600271254614, positive,  negative, wrong
+No.129 Remember?: -559.1042224108296 ,-595.5128573419518, positive,  negative, wrong
+No.130 What's the point Dany's army?: -661.8371245649378 ,-718.5730585158043, positive,  negative, wrong
+No.131 The show ended in S7 for me: -712.5836864400345 ,-769.8393338816737, positive,  negative, wrong
+No.132 The first real fantasy anti-war movie ever: -3739.871928086509 ,-3928.3352477080603, positive,  positive, right
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2133.7924713743687 ,-2369.5564522919567, positive,  negative, wrong
+No.134 What happened...: -257.31573991875115 ,-287.87679718095126, positive,  negative, wrong
+No.135 Season 8 is a slippery slide going from bad to worse.: -1938.3686260437216 ,-2113.19484179682, positive,  negative, wrong
+No.136 Can't forgive the rushed writing: -1396.4251740138843 ,-1579.952940776695, positive,  negative, wrong
+No.137 Why do I still bother watching?: -2009.3539163527223 ,-2154.238684636256, positive,  negative, wrong
+No.138 Worst than Dexter: -608.6963896759423 ,-677.5562934461924, positive,  negative, wrong
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -683.7593819380257 ,-769.8171403633083, positive,  negative, wrong
+No.140 A Message to Dan and Dave: -4388.48336214342 ,-4810.209039163696, positive,  negative, wrong
+No.141 This show became a Meme: -3464.1019647539397 ,-3753.9493007635892, positive,  negative, wrong
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -118.43610666440776 ,-134.0553180997812, positive,  negative, wrong
+No.143 she's muh queen: -167.85403709978442 ,-185.3305108747365, positive,  negative, wrong
+No.144 Still sad after 7 weeks: -1040.242599512598 ,-1128.7709291737017, positive,  negative, wrong
+No.145 Better if Whitewalkers had won and last episode just silence.: -1170.9070205253024 ,-1272.308977286051, positive,  negative, wrong
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1218.9465302992512 ,-1262.1128592154762, positive,  negative, wrong
+No.147 Rushed: -236.75860782288703 ,-246.86152782777114, positive,  negative, wrong
+No.148 Imagine a Turkey: -1241.0029664886815 ,-1282.6124984952962, positive,  negative, wrong
+No.149 6 months later and I still can't get over this: -10713.951643353734 ,-11516.693062664412, positive,  negative, wrong
+No.150 This is utterly disrespectful: -903.2600984975319 ,-1005.713850804977, positive,  negative, wrong
+No.151 Dreadful.: -980.3740665590584 ,-1056.9991219647877, positive,  negative, wrong
+No.152 W- what?: -1001.0627372098298 ,-1159.3926306327533, positive,  negative, wrong
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2573.6822891757984 ,-2831.0040435849496, positive,  negative, wrong
+No.154 Not good.: -132.97414273231317 ,-144.31228991879252, positive,  negative, wrong
+No.155 How do I rate 0/10?: -231.1181361635944 ,-246.86592139005748, positive,  negative, wrong
+No.156 Great Disappointment...: -1528.0716946725004 ,-1662.0040895534696, positive,  negative, wrong
+No.157 Made the whole series unwatchable: -176.92503656465018 ,-205.82783567361116, positive,  negative, wrong
+No.158 The greatest TV show of all time had the worst finale: -224.06662293446928 ,-236.60870027174656, positive,  negative, wrong
+No.159 I feel like Tommen in 6x10: -134.5810741725377 ,-144.31311592876764, positive,  negative, wrong
+No.160 Just like Kit Harington said; 'Dissapointing': -228.92922443281483 ,-246.85422662412216, positive,  negative, wrong
+No.161 Don't tell me I don't know this show: -2364.474629383796 ,-2605.406036450686, positive,  negative, wrong
+No.162 A parody ending to what was a brilliant series: -818.5894115936262 ,-882.6392493812092, positive,  negative, wrong
+The prediction correctness is 0.2222222222222222
+
+------------------Testing for percentage based removal at 100, total words count: 317770
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1274.2787889291346 ,-1364.6110886395359, positive,  negative, wrong
+No.2 Script writers KILLED the best TV show: -2086.2621246118088 ,-2359.266965786182, positive,  negative, wrong
+No.3 Dumbed down to the level of a cartoon strip: -2833.3806537132664 ,-3056.6202546781847, positive,  negative, wrong
+No.4 Overrated Episode/Season: -1469.264189319433 ,-1672.2050016585424, positive,  negative, wrong
+No.5 Holy smokes... This has truly been something else: -761.962517569873 ,-851.861182684516, positive,  positive, right
+No.6 Brilliant on all fronts!: -1511.9405066858337 ,-1651.7284069540217, positive,  positive, right
+No.7 A lot of things come together, finally: -506.3626536445372 ,-585.2471568837625, positive,  positive, right
+No.8 Terrible writings: -3032.686430339783 ,-3405.223893475497, positive,  negative, wrong
+No.9 i hate the new GoT: -4593.860994016463 ,-5046.0011566816975, positive,  negative, wrong
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -586.2086547071669 ,-677.5444837084193, positive,  positive, right
+No.11 Season Finale: -964.4289201070021 ,-1067.2162617486888, positive,  positive, right
+No.12 Jon Snow's Lineage: -1292.7768969562642 ,-1456.8935887749456, positive,  positive, right
+No.13 Really bad fan-fiction.: -1157.3081887220626 ,-1231.3289754122698, positive,  negative, wrong
+No.14 Boring finale: -4813.157542758839 ,-5435.645063671488, positive,  negative, wrong
+No.15 We warmed up!: -2103.3461937327743 ,-2318.2253583359525, positive,  positive, right
+No.16 Underwhelming, bordering on disappointing: -2221.1187449262343 ,-2379.8374931923863, positive,  negative, wrong
+No.17 You can tell they have run out of books: -752.914126135725 ,-790.3741481471893, positive,  negative, wrong
+No.18 An extension of the tone of Season 7: -2948.549405549607 ,-3189.955064482958, positive,  negative, wrong
+No.19 Should've been much better (very mediocre): -849.2031588855098 ,-964.584570941312, positive,  negative, wrong
+No.20 I like GOT, but....: -342.5618318261209 ,-369.90866305757794, positive,  negative, wrong
+No.21 Not the best.: -225.48990957186948 ,-257.1100984245398, positive,  negative, wrong
+No.22 Underwhelming: -12570.688268005066 ,-13383.201474616311, positive,  negative, wrong
+No.23 Best season premiere!: -1034.3718047887876 ,-1200.459962859179, positive,  positive, right
+No.24 A disappointment: -635.9983866969148 ,-739.04629021862, positive,  negative, wrong
+No.25 Just Not Good.: -4079.478711785192 ,-4430.700092874299, positive,  negative, wrong
+No.26 Average GoT episode with terrible dialogues: -144.83493246516178 ,-164.80671873333444, positive,  negative, wrong
+No.27 Mediocre: -408.2382290110738 ,-451.93278923606914, positive,  negative, wrong
+No.28 Meh!: -2748.374334667912 ,-2861.8741209060604, positive,  negative, wrong
+No.29 Why the Rush? And when did It became a Disney show?: -758.2874410702225 ,-841.5979926043967, positive,  negative, wrong
+No.30 Don't know what you guys expected...: -1019.901099006513 ,-1128.746929740558, positive,  positive, right
+No.31 Get the Damn White Walkers !!: -707.6779137709891 ,-780.1031738349164, positive,  negative, wrong
+No.32 Meh...: -534.3874429992051 ,-574.9915676000317, positive,  negative, wrong
+No.33 Disappointment!: -193.5035091203234 ,-226.32441700631318, positive,  negative, wrong
+No.34 A poor start: -1434.927331577692 ,-1549.1843921521033, positive,  negative, wrong
+No.35 Good opener: -935.0503558796835 ,-1077.421549089499, positive,  positive, right
+No.36 Not that good!!! And I love GOT!!!: -360.37517743619367 ,-390.4135182032743, positive,  negative, wrong
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -984.0453204842781 ,-1077.471335426235, positive,  negative, wrong
+No.38 Plays it Safe: -890.1073238290932 ,-1005.6672370632591, positive,  negative, wrong
+No.39 Why is the terrible writing accepted.: -1959.3109409980552 ,-2133.683810974533, positive,  negative, wrong
+No.40 Really the last good GoT episode: -92.21150092454967 ,-123.7757809428846, positive,  positive, right
+No.41 Come on people!: -309.9993117346011 ,-339.13108802034964, positive,  positive, right
+No.42 Goodbye, friends: -810.362963715538 ,-882.6295949041428, positive,  positive, right
+No.43 Michael Bay fans please leave!: -1164.7934684852373 ,-1292.8155805580718, positive,  positive, right
+No.44 A great episode showing each character in what is potentially their last moments: -1095.0810933773846 ,-1251.710292684754, positive,  positive, right
+No.45 One of the Best Episodes: -1977.654497461274 ,-2215.728434983374, positive,  positive, right
+No.46 Build-up for the most anticipated battle in tv history: -1220.3312225458958 ,-1415.823118596242, positive,  positive, right
+No.47 This episode was for true fans!: -808.8182879727036 ,-882.5864445364914, positive,  positive, right
+No.48 It was awesome: -319.9365462992772 ,-369.90151799965435, positive,  positive, right
+No.49 Towards War!: -1704.2101560005858 ,-1918.2759253238419, positive,  positive, right
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7320.062389225459 ,-8071.09983475949, positive,  positive, right
+No.51 One of the masterpieces of Game of Thrones: -1493.5896852027438 ,-1631.2164718677625, positive,  positive, right
+No.52 Ser Brienne of Tarth: -352.30537424311876 ,-410.8999542708762, positive,  positive, right
+No.53 The best action-less episode of Game of Thrones!: -707.0820109924725 ,-759.5848243012464, positive,  positive, right
+No.54 Touching: -191.77733414902772 ,-216.09335915393055, positive,  positive, right
+No.55 Quiet reflections: -588.1809585549852 ,-605.7732597865174, positive,  positive, right
+No.56 The only good episode of this season: -625.8654255053108 ,-718.532767638937, positive,  positive, right
+No.57 Only real "GoT" episode in this dissappointing season: -542.1568999477013 ,-564.7564191756454, positive,  positive, right
+No.58 The Last Night: -6461.094296503921 ,-7189.198366314985, positive,  positive, right
+No.59 One of the most relatable episodes ever: -309.0286459925428 ,-380.1548311829256, positive,  positive, right
+No.60 True GoT episode: -627.0988419374264 ,-687.8186843927836, positive,  positive, right
+No.61 Reconciliations, Realization and Discovery: -802.0449073896426 ,-903.1297307842786, positive,  positive, right
+No.62 Without memories men are not men, we are just animals: -599.8395929601043 ,-646.7964419742672, positive,  positive, right
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2050.5045209133905 ,-2297.7394973199744, positive,  positive, right
+No.64 A really great episode: -86.66382439312198 ,-113.52994401766679, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -7676.192545900893 ,-8440.288073249541, positive,  negative, wrong
+No.66 VERY cool: -7777.096533505419 ,-8430.088603592005, positive,  negative, wrong
+No.67 Micheal Bay level of storytelling: -217.57683340048297 ,-257.10392691925716, positive,  negative, wrong
+No.68 Letter from Daenerys to Daario: -1340.4816841544412 ,-1405.68269518428, positive,  negative, wrong
+No.69 I saw this coming ever since Season 7.: -10785.100200011217 ,-11445.109251607266, positive,  negative, wrong
+No.70 Unpredictable: -269.7145778010492 ,-298.1410557163054, positive,  negative, wrong
+No.71 Well directed, poorly written: -752.5888808683943 ,-831.3563139024045, positive,  negative, wrong
+No.72 The biggest middle finger to fans in HISTORY!: -1304.907234120252 ,-1395.3882301877734, positive,  negative, wrong
+No.73 If I had no mouth, I would still scream: -4472.356837667196 ,-4810.222959329213, positive,  negative, wrong
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1798.9888151732998 ,-1928.6472971079559, positive,  negative, wrong
+No.75 Instead of BOTs they could have used that money for good writting.: -133.81847482496715 ,-154.56501921585956, positive,  negative, wrong
+No.76 A sick joke: -1122.2703781371965 ,-1272.2774870357287, positive,  negative, wrong
+No.77 Where is Old Nan when you need her?: -237.5499414399638 ,-267.35815168209956, positive,  negative, wrong
+No.78 What's the point?: -1134.2064640813708 ,-1241.5289790641796, positive,  negative, wrong
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1304.2700827769395 ,-1395.379655293045, positive,  negative, wrong
+No.80 8 years wasted in 80 minutes: -304.7099328690911 ,-339.13164426338926, positive,  negative, wrong
+No.81 Producers using bots for rating?: -1051.337691104964 ,-1149.2236768161206, positive,  negative, wrong
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1165.6308645322301 ,-1272.3340988019293, positive,  negative, wrong
+No.83 Is the show getting bot reviews????: -202.8246987546047 ,-205.8392756231844, positive,  negative, wrong
+No.84 Say thank you to the mediocre writing.: -3005.6826679683977 ,-3189.965205321263, positive,  negative, wrong
+No.85 Everything that happened until now is pointless: -554.2872974946644 ,-636.5140035398634, positive,  negative, wrong
+No.86 Fans deserved better: -179.67046731041484 ,-205.82419973711984, positive,  negative, wrong
+No.87 The showrunners think they can fool everyone: -418.5745629293762 ,-462.17469949364505, positive,  negative, wrong
+No.88 Hodor Held the Door for This?: -298.6953916656377 ,-318.62640609003967, positive,  negative, wrong
+No.89 Great disappointment.: -525.0872824918227 ,-585.2390903232592, positive,  negative, wrong
+No.90 Lore Breaking and Ignores Source Material: -8808.435643187004 ,-9373.583318579405, positive,  negative, wrong
+No.91 Massive Budget, Massive Wait, Massive Letdown: -604.225793914829 ,-636.5384285057075, positive,  negative, wrong
+No.92 I'm not mad, just disappointed: -3894.61080771838 ,-4205.108567207099, positive,  negative, wrong
+No.93 Feels like D&D are just trolling us now: -4582.037635720533 ,-4953.777613155263, positive,  negative, wrong
+No.94 I have to change my rating: -179.39584882665287 ,-195.58043782185183, positive,  negative, wrong
+No.95 Wow!! The Night King is not even an afterthought!!: -1830.5987293560215 ,-1969.6325168231424, positive,  negative, wrong
+No.96 Dumb and Dumber: -612.9026183575155 ,-657.0379974296253, positive,  negative, wrong
+No.97 This doesn't feel like GoT anymore.: -1524.9016988741346 ,-1610.747179835814, positive,  negative, wrong
+No.98 This episode outright angered me: -1744.9663017867992 ,-1836.3811500268755, positive,  negative, wrong
+No.99 The shark didn't just jump, it is flying.: -232.12880576638545 ,-267.3636447072862, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1432.0140521335052 ,-1518.4481203379758, positive,  negative, wrong
+No.101 Did HBO Honestly Believe People Would Like This???: -1540.187885778364 ,-1651.7384520743549, positive,  negative, wrong
+No.102 Sad: -296.33804571581476 ,-339.1191775827359, positive,  negative, wrong
+No.103 Guess GoT means Game of Teleportation now.: -5780.574286808385 ,-6163.851862986157, positive,  negative, wrong
+No.104 I feel sorry for GRRM: -1320.2891841514836 ,-1426.1359850034298, positive,  negative, wrong
+No.105 I almost cried how bad this is.: -1917.262153415 ,-2020.937772421406, positive,  negative, wrong
+No.106 Too disappointed to type up a full review.: -362.60401433210404 ,-441.63086202027915, positive,  negative, wrong
+No.107 Shame: -4252.412698396874 ,-4543.624263518108, positive,  negative, wrong
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5328.1514241692885 ,-5784.373558816936, positive,  negative, wrong
+No.109 D&D should be fired from their job: -149.96525455546868 ,-164.81122954964874, positive,  negative, wrong
+No.110 Last week I was left disappointed. Now I'm just sad: -414.43681154906966 ,-441.7092025638794, positive,  negative, wrong
+No.111 Horrible: -1306.9585941088737 ,-1426.135001805349, positive,  negative, wrong
+No.112 I don't care anymore: -320.7863305193721 ,-359.6543112699422, positive,  negative, wrong
+No.113 Dany Forgot about the Iron fleet!!: -477.9380145750188 ,-523.7264385347343, positive,  negative, wrong
+No.114 What happened to the "Game" in "Game of Thrones"?: -4780.919036100079 ,-5035.899408557947, positive,  negative, wrong
+No.115 The right ending feels wrong: -1761.794214793108 ,-1969.580247280419, positive,  negative, wrong
+No.116 D&D: -455.00769887205433 ,-492.9851178569029, positive,  negative, wrong
+No.117 Visually compelling, but fatally undermined by the context: -3835.4387272004283 ,-4112.880755103617, positive,  negative, wrong
+No.118 Can we have season 8 reshoot? Please.: -543.4509376118367 ,-615.9902670072288, positive,  negative, wrong
+No.119 Why this episode made no sense.: -5478.432997666507 ,-5907.460582117828, positive,  negative, wrong
+No.120 A visual masterpiece with mediocre writing: -915.3998163827816 ,-1015.9242647097154, positive,  negative, wrong
+No.121 Dany is not the only crazy: -188.1480292175958 ,-205.84287024790788, positive,  negative, wrong
+No.122 Throwing out of the window 7s of character buildup: -179.09087774439038 ,-195.57900608681246, positive,  negative, wrong
+No.123 Am I missing something?: -1796.0535210197281 ,-1928.60232671828, positive,  negative, wrong
+No.124 Years of character building thrown away for shock value: -221.22514491382387 ,-226.3575768782236, positive,  negative, wrong
+No.125 A glorified view of how bad writing can be: -5494.804687805588 ,-5927.89351176492, positive,  negative, wrong
+No.126 7 seasons of character development and story telling for no reason: -141.0673606125963 ,-185.31393225278168, positive,  negative, wrong
+No.127 Episode where the shows is Ruined completely: -628.4856591794274 ,-749.2573659439918, positive,  negative, wrong
+No.128 What was the point?: -2079.5979793637566 ,-2236.2600271254614, positive,  negative, wrong
+No.129 Remember?: -559.1042224108296 ,-595.5128573419518, positive,  negative, wrong
+No.130 What's the point Dany's army?: -661.8371245649378 ,-718.5730585158043, positive,  negative, wrong
+No.131 The show ended in S7 for me: -712.5836864400345 ,-769.8393338816737, positive,  negative, wrong
+No.132 The first real fantasy anti-war movie ever: -3739.871928086509 ,-3928.3352477080603, positive,  positive, right
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2133.7924713743687 ,-2369.5564522919567, positive,  negative, wrong
+No.134 What happened...: -257.31573991875115 ,-287.87679718095126, positive,  negative, wrong
+No.135 Season 8 is a slippery slide going from bad to worse.: -1938.3686260437216 ,-2113.19484179682, positive,  negative, wrong
+No.136 Can't forgive the rushed writing: -1396.4251740138843 ,-1579.952940776695, positive,  negative, wrong
+No.137 Why do I still bother watching?: -2009.3539163527223 ,-2154.238684636256, positive,  negative, wrong
+No.138 Worst than Dexter: -608.6963896759423 ,-677.5562934461924, positive,  negative, wrong
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -683.7593819380257 ,-769.8171403633083, positive,  negative, wrong
+No.140 A Message to Dan and Dave: -4388.48336214342 ,-4810.209039163696, positive,  negative, wrong
+No.141 This show became a Meme: -3464.1019647539397 ,-3753.9493007635892, positive,  negative, wrong
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -118.43610666440776 ,-134.0553180997812, positive,  negative, wrong
+No.143 she's muh queen: -167.85403709978442 ,-185.3305108747365, positive,  negative, wrong
+No.144 Still sad after 7 weeks: -1040.242599512598 ,-1128.7709291737017, positive,  negative, wrong
+No.145 Better if Whitewalkers had won and last episode just silence.: -1170.9070205253024 ,-1272.308977286051, positive,  negative, wrong
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1218.9465302992512 ,-1262.1128592154762, positive,  negative, wrong
+No.147 Rushed: -236.75860782288703 ,-246.86152782777114, positive,  negative, wrong
+No.148 Imagine a Turkey: -1241.0029664886815 ,-1282.6124984952962, positive,  negative, wrong
+No.149 6 months later and I still can't get over this: -10713.951643353734 ,-11516.693062664412, positive,  negative, wrong
+No.150 This is utterly disrespectful: -903.2600984975319 ,-1005.713850804977, positive,  negative, wrong
+No.151 Dreadful.: -980.3740665590584 ,-1056.9991219647877, positive,  negative, wrong
+No.152 W- what?: -1001.0627372098298 ,-1159.3926306327533, positive,  negative, wrong
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2573.6822891757984 ,-2831.0040435849496, positive,  negative, wrong
+No.154 Not good.: -132.97414273231317 ,-144.31228991879252, positive,  negative, wrong
+No.155 How do I rate 0/10?: -231.1181361635944 ,-246.86592139005748, positive,  negative, wrong
+No.156 Great Disappointment...: -1528.0716946725004 ,-1662.0040895534696, positive,  negative, wrong
+No.157 Made the whole series unwatchable: -176.92503656465018 ,-205.82783567361116, positive,  negative, wrong
+No.158 The greatest TV show of all time had the worst finale: -224.06662293446928 ,-236.60870027174656, positive,  negative, wrong
+No.159 I feel like Tommen in 6x10: -134.5810741725377 ,-144.31311592876764, positive,  negative, wrong
+No.160 Just like Kit Harington said; 'Dissapointing': -228.92922443281483 ,-246.85422662412216, positive,  negative, wrong
+No.161 Don't tell me I don't know this show: -2364.474629383796 ,-2605.406036450686, positive,  negative, wrong
+No.162 A parody ending to what was a brilliant series: -818.5894115936262 ,-882.6392493812092, positive,  negative, wrong
+The prediction correctness is 0.2222222222222222
+
+------------------Testing for percentage based removal at 5, total words count: 200948
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1348.1046409373419 ,-1312.7659145682921, negative,  negative, right
+No.2 Script writers KILLED the best TV show: -2269.3248160833377 ,-2269.628190788729, positive,  negative, wrong
+No.3 Dumbed down to the level of a cartoon strip: -2972.811591887186 ,-2940.4520640431533, negative,  negative, right
+No.4 Overrated Episode/Season: -1629.279136387063 ,-1608.7073361781634, negative,  negative, right
+No.5 Holy smokes... This has truly been something else: -819.2989099358099 ,-819.5308335424903, positive,  positive, right
+No.6 Brilliant on all fronts!: -1598.4495995245684 ,-1588.9770870822542, negative,  positive, wrong
+No.7 A lot of things come together, finally: -571.2097443038591 ,-563.0406573687046, negative,  positive, wrong
+No.8 Terrible writings: -3314.5762923007937 ,-3275.848897512666, negative,  negative, right
+No.9 i hate the new GoT: -4882.194996625515 ,-4854.202265849484, negative,  negative, right
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -650.3904248596091 ,-651.8256416205636, positive,  positive, right
+No.11 Season Finale: -1055.5674673677859 ,-1026.6966250075593, negative,  positive, wrong
+No.12 Jon Snow's Lineage: -1413.7242877810584 ,-1401.5544552758574, negative,  positive, wrong
+No.13 Really bad fan-fiction.: -1184.0919626671534 ,-1184.517016976574, positive,  negative, wrong
+No.14 Boring finale: -5231.948830188138 ,-5229.059490672521, negative,  negative, right
+No.15 We warmed up!: -2269.4597823888407 ,-2230.204479072603, negative,  positive, wrong
+No.16 Underwhelming, bordering on disappointing: -2336.035918131424 ,-2289.381625881292, negative,  negative, right
+No.17 You can tell they have run out of books: -781.2842291392425 ,-760.3396225404427, negative,  negative, right
+No.18 An extension of the tone of Season 7: -3064.3929271246557 ,-3068.6866980661584, positive,  negative, wrong
+No.19 Should've been much better (very mediocre): -961.7029237969575 ,-928.0412542833409, negative,  negative, right
+No.20 I like GOT, but....: -353.2052591298848 ,-355.8771762134223, positive,  negative, wrong
+No.21 Not the best.: -250.96644605660737 ,-247.3661041866727, negative,  negative, right
+No.22 Underwhelming: -13102.939201398007 ,-12874.300452488736, negative,  negative, right
+No.23 Best season premiere!: -1155.5946338428148 ,-1154.932844211518, negative,  positive, wrong
+No.24 A disappointment: -692.1069928274677 ,-711.0014308376027, positive,  negative, wrong
+No.25 Just Not Good.: -4375.335862661329 ,-4262.33575223681, negative,  negative, right
+No.26 Average GoT episode with terrible dialogues: -152.06124320844546 ,-158.58153452448008, positive,  negative, wrong
+No.27 Mediocre: -449.04181879736245 ,-434.7998368357859, negative,  negative, right
+No.28 Meh!: -2814.7486087707334 ,-2753.0263928051395, negative,  negative, right
+No.29 Why the Rush? And when did It became a Disney show?: -819.9854424316427 ,-809.6566440838029, negative,  negative, right
+No.30 Don't know what you guys expected...: -1085.5566940236347 ,-1085.8697522316352, positive,  positive, right
+No.31 Get the Damn White Walkers !!: -747.450533007389 ,-750.4718592461844, positive,  negative, wrong
+No.32 Meh...: -579.2192701444908 ,-553.1838433561142, negative,  negative, right
+No.33 Disappointment!: -209.96922816893033 ,-217.76831662217083, positive,  negative, wrong
+No.34 A poor start: -1505.7614280352893 ,-1490.3224531555704, negative,  negative, right
+No.35 Good opener: -1030.1104400834279 ,-1036.5446829173757, positive,  positive, right
+No.36 Not that good!!! And I love GOT!!!: -381.7545101975415 ,-375.60965645395225, negative,  negative, right
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -1063.3763770147118 ,-1036.5526197723327, negative,  negative, right
+No.38 Plays it Safe: -962.7878558378193 ,-967.4955110934345, positive,  negative, wrong
+No.39 Why is the terrible writing accepted.: -2117.808389360643 ,-2052.639283946888, negative,  negative, right
+No.40 Really the last good GoT episode: -119.26196250709557 ,-119.12760905651976, negative,  positive, wrong
+No.41 Come on people!: -317.20831328133687 ,-326.2805414436047, positive,  positive, right
+No.42 Goodbye, friends: -871.5656226998349 ,-849.1279978928238, negative,  positive, wrong
+No.43 Michael Bay fans please leave!: -1220.301518199607 ,-1243.6948651574203, positive,  positive, right
+No.44 A great episode showing each character in what is potentially their last moments: -1233.5415272850687 ,-1204.2553709799024, negative,  positive, wrong
+No.45 One of the Best Episodes: -2140.8285170943527 ,-2131.5469291345385, negative,  positive, wrong
+No.46 Build-up for the most anticipated battle in tv history: -1390.8044990511435 ,-1362.0985318882942, negative,  positive, wrong
+No.47 This episode was for true fans!: -877.5083173244112 ,-849.1274974931376, negative,  positive, wrong
+No.48 It was awesome: -359.8490060530653 ,-355.8835194899734, negative,  positive, wrong
+No.49 Towards War!: -1927.1763430376077 ,-1845.4897614440604, negative,  positive, wrong
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7900.116604007339 ,-7764.383182952449, negative,  positive, wrong
+No.51 One of the masterpieces of Game of Thrones: -1608.4046260906832 ,-1569.2648472671945, negative,  positive, wrong
+No.52 Ser Brienne of Tarth: -410.0112020256996 ,-395.3375878685039, negative,  positive, wrong
+No.53 The best action-less episode of Game of Thrones!: -737.9532481566517 ,-730.7456930986256, negative,  positive, wrong
+No.54 Touching: -201.84040600322777 ,-207.9108946793265, positive,  positive, right
+No.55 Quiet reflections: -624.2708221943291 ,-582.7825930322882, negative,  positive, wrong
+No.56 The only good episode of this season: -686.2689804116204 ,-691.2837352694248, positive,  positive, right
+No.57 Only real "GoT" episode in this dissappointing season: -563.3697478451063 ,-543.3183639985443, negative,  positive, wrong
+No.58 The Last Night: -7009.294273691151 ,-6916.001730946006, negative,  positive, wrong
+No.59 One of the most relatable episodes ever: -347.6760933035139 ,-365.7407892658541, positive,  positive, right
+No.60 True GoT episode: -663.042063761484 ,-661.6901972687097, negative,  positive, wrong
+No.61 Reconciliations, Realization and Discovery: -860.3439414775918 ,-868.8533002519755, positive,  positive, right
+No.62 Without memories men are not men, we are just animals: -626.5667456807673 ,-622.2311334679022, negative,  positive, wrong
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2220.1930576736295 ,-2210.458064744676, negative,  positive, wrong
+No.64 A really great episode: -108.4859899368436 ,-109.26286123956382, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -8192.078550022625 ,-8119.441696102785, negative,  negative, right
+No.66 VERY cool: -8184.12373510715 ,-8109.5855530394065, negative,  negative, right
+No.67 Micheal Bay level of storytelling: -232.13191453480206 ,-247.3669252949301, positive,  negative, wrong
+No.68 Letter from Daenerys to Daario: -1380.0634950782078 ,-1352.2283757605765, negative,  negative, right
+No.69 I saw this coming ever since Season 7.: -11065.985618412782 ,-11009.791160567665, negative,  negative, right
+No.70 Unpredictable: -258.11158099995333 ,-286.8176683001506, positive,  negative, wrong
+No.71 Well directed, poorly written: -791.5029987040314 ,-799.7931045889918, positive,  negative, wrong
+No.72 The biggest middle finger to fans in HISTORY!: -1362.7889653365485 ,-1342.3630080734858, negative,  negative, right
+No.73 If I had no mouth, I would still scream: -4625.138407247899 ,-4627.301250003192, positive,  negative, wrong
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1862.132634230012 ,-1855.32207846522, negative,  negative, right
+No.75 Instead of BOTs they could have used that money for good writting.: -127.81692475543478 ,-148.70809469026233, positive,  negative, wrong
+No.76 A sick joke: -1196.03362332438 ,-1223.9740647281837, positive,  negative, wrong
+No.77 Where is Old Nan when you need her?: -251.09616746982616 ,-257.22590419657496, positive,  negative, wrong
+No.78 What's the point?: -1201.3734405479006 ,-1194.3815826355346, negative,  negative, right
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1375.1909737785297 ,-1342.3608620703162, negative,  negative, right
+No.80 8 years wasted in 80 minutes: -339.0802783524617 ,-326.2888090783429, negative,  negative, right
+No.81 Producers using bots for rating?: -1103.8995197806396 ,-1105.5985468859717, positive,  negative, wrong
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1178.786774095814 ,-1223.9597434397924, positive,  negative, wrong
+No.83 Is the show getting bot reviews????: -202.31200012178203 ,-198.0456168527662, negative,  negative, right
+No.84 Say thank you to the mediocre writing.: -3114.367537207038 ,-3068.7022904306227, negative,  negative, right
+No.85 Everything that happened until now is pointless: -615.5784349136096 ,-612.3584238577638, negative,  negative, right
+No.86 Fans deserved better: -202.5387926585812 ,-198.0440120521436, negative,  negative, right
+No.87 The showrunners think they can fool everyone: -455.90565801412333 ,-444.6596991874196, negative,  negative, right
+No.88 Hodor Held the Door for This?: -312.9438186628603 ,-306.55509513117147, negative,  negative, right
+No.89 Great disappointment.: -581.8998597976407 ,-563.0394237101125, negative,  negative, right
+No.90 Lore Breaking and Ignores Source Material: -9105.008283758165 ,-9017.146064789953, negative,  negative, right
+No.91 Massive Budget, Massive Wait, Massive Letdown: -625.7014914002799 ,-612.3620826742367, negative,  negative, right
+No.92 I'm not mad, just disappointed: -4084.9039845579096 ,-4045.3029467896176, negative,  negative, right
+No.93 Feels like D&D are just trolling us now: -4760.193168440783 ,-4765.436953549792, positive,  negative, wrong
+No.94 I have to change my rating: -184.56501108920222 ,-188.17273327791062, positive,  negative, wrong
+No.95 Wow!! The Night King is not even an afterthought!!: -1920.9968885805845 ,-1894.7834636344755, negative,  negative, right
+No.96 Dumb and Dumber: -635.6585305149023 ,-632.0901072853866, negative,  negative, right
+No.97 This doesn't feel like GoT anymore.: -1585.3579142361143 ,-1549.530934150619, negative,  negative, right
+No.98 This episode outright angered me: -1798.7673479819518 ,-1766.5524344396679, negative,  negative, right
+No.99 The shark didn't just jump, it is flying.: -241.17320640780662 ,-257.22583563998944, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1459.7766643512755 ,-1460.7174642304558, positive,  negative, wrong
+No.101 Did HBO Honestly Believe People Would Like This???: -1617.7602819903948 ,-1588.974398356562, negative,  negative, right
+No.102 Sad: -344.7353333396027 ,-326.2912291574257, negative,  negative, right
+No.103 Guess GoT means Game of Teleportation now.: -5993.228365621796 ,-5929.458381879091, negative,  negative, right
+No.104 I feel sorry for GRRM: -1386.0949143952082 ,-1371.9441665843692, negative,  negative, right
+No.105 I almost cried how bad this is.: -1977.9167480159228 ,-1944.1057020277685, negative,  negative, right
+No.106 Too disappointed to type up a full review.: -414.2780780481007 ,-424.9211525293451, positive,  negative, wrong
+No.107 Shame: -4405.504795736077 ,-4370.846022811893, negative,  negative, right
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5583.92858196654 ,-5564.44546045209, negative,  negative, right
+No.109 D&D should be fired from their job: -161.42014583798095 ,-158.584474804711, negative,  negative, right
+No.110 Last week I was left disappointed. Now I'm just sad: -431.32686013304294 ,-424.9342642086575, negative,  negative, right
+No.111 Horrible: -1390.0039254365133 ,-1371.9500926683668, negative,  negative, right
+No.112 I don't care anymore: -330.2771400530961 ,-346.0056403936946, positive,  negative, wrong
+No.113 Dany Forgot about the Iron fleet!!: -516.0749229904936 ,-503.85534668529607, negative,  negative, right
+No.114 What happened to the "Game" in "Game of Thrones"?: -5016.989643852498 ,-4844.393592476663, negative,  negative, right
+No.115 The right ending feels wrong: -1890.7248403064557 ,-1894.7697654903266, positive,  negative, wrong
+No.116 D&D: -476.1875904840256 ,-474.26081616290213, negative,  negative, right
+No.117 Visually compelling, but fatally undermined by the context: -3999.0913484974303 ,-3956.528307439015, negative,  negative, right
+No.118 Can we have season 8 reshoot? Please.: -604.8384168017025 ,-592.6309508022857, negative,  negative, right
+No.119 Why this episode made no sense.: -5739.141931171752 ,-5682.870040230225, negative,  negative, right
+No.120 A visual masterpiece with mediocre writing: -975.1854872483375 ,-977.3526006539607, positive,  negative, wrong
+No.121 Dany is not the only crazy: -191.68260955677877 ,-198.0405847680765, positive,  negative, wrong
+No.122 Throwing out of the window 7s of character buildup: -190.89605780456372 ,-188.18121251946164, negative,  negative, right
+No.123 Am I missing something?: -1870.567489350605 ,-1855.3226576456161, negative,  negative, right
+No.124 Years of character building thrown away for shock value: -229.89166924238225 ,-217.77896342871085, negative,  negative, right
+No.125 A glorified view of how bad writing can be: -5800.444885940455 ,-5702.596777290886, negative,  negative, right
+No.126 7 seasons of character development and story telling for no reason: -169.5024632217377 ,-178.31073713688585, positive,  negative, wrong
+No.127 Episode where the shows is Ruined completely: -745.7129879571038 ,-720.8806210505616, negative,  negative, right
+No.128 What was the point?: -2185.8982805801174 ,-2151.26342057935, negative,  negative, right
+No.129 Remember?: -588.5161699936631 ,-572.9127024572359, negative,  negative, right
+No.130 What's the point Dany's army?: -684.1629904467131 ,-691.2763980648529, positive,  negative, wrong
+No.131 The show ended in S7 for me: -760.0711735607189 ,-740.6113594753962, negative,  negative, right
+No.132 The first real fantasy anti-war movie ever: -3874.75159970365 ,-3778.9959533789674, negative,  positive, wrong
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2251.324774380376 ,-2279.4980212446435, positive,  negative, wrong
+No.134 What happened...: -279.61056456259496 ,-276.9622278555319, negative,  negative, right
+No.135 Season 8 is a slippery slide going from bad to worse.: -2059.4281386487046 ,-2032.9040103984285, negative,  negative, right
+No.136 Can't forgive the rushed writing: -1498.5361302922672 ,-1519.9207240989297, positive,  negative, wrong
+No.137 Why do I still bother watching?: -2064.803901074977 ,-2072.333080966102, positive,  negative, wrong
+No.138 Worst than Dexter: -647.7889142799387 ,-651.8135855521567, positive,  negative, wrong
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -743.8039317171012 ,-740.5956023212323, negative,  negative, right
+No.140 A Message to Dan and Dave: -4589.4138073639515 ,-4627.319628057406, positive,  negative, wrong
+No.141 This show became a Meme: -3668.4987274416067 ,-3611.232189652495, negative,  negative, right
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -135.73337286552254 ,-128.99297910554722, negative,  negative, right
+No.143 she's muh queen: -178.7865963980654 ,-178.31502388031862, negative,  negative, right
+No.144 Still sad after 7 weeks: -1093.2736961805506 ,-1085.8777088213203, negative,  negative, right
+No.145 Better if Whitewalkers had won and last episode just silence.: -1246.9361170112772 ,-1223.984005201795, negative,  negative, right
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1244.2802117555325 ,-1214.1258027218746, negative,  negative, right
+No.147 Rushed: -238.752717545385 ,-237.501398127657, negative,  negative, right
+No.148 Imagine a Turkey: -1267.179130178899 ,-1233.8495414306174, negative,  negative, right
+No.149 6 months later and I still can't get over this: -11320.935396711444 ,-11078.92139680142, negative,  negative, right
+No.150 This is utterly disrespectful: -920.8768648467125 ,-967.4825793403744, positive,  negative, wrong
+No.151 Dreadful.: -1025.961211815161 ,-1016.8200346878316, negative,  negative, right
+No.152 W- what?: -1103.8727869814218 ,-1115.4636444464313, positive,  negative, wrong
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2716.336068647116 ,-2723.4112566025324, positive,  negative, wrong
+No.154 Not good.: -138.81930353184714 ,-138.8540655416663, positive,  negative, wrong
+No.155 How do I rate 0/10?: -232.85062359773292 ,-237.49903064424686, positive,  negative, wrong
+No.156 Great Disappointment...: -1607.4544650772018 ,-1598.8423395137063, negative,  negative, right
+No.157 Made the whole series unwatchable: -203.77387500987902 ,-198.04369536246028, negative,  negative, right
+No.158 The greatest TV show of all time had the worst finale: -226.93085638628477 ,-227.63962643165905, positive,  negative, wrong
+No.159 I feel like Tommen in 6x10: -146.8465661699335 ,-138.8586100663309, negative,  negative, right
+No.160 Just like Kit Harington said; 'Dissapointing': -237.33267327080472 ,-237.50154072158375, positive,  negative, wrong
+No.161 Don't tell me I don't know this show: -2519.1520283719906 ,-2506.397083000667, negative,  negative, right
+No.162 A parody ending to what was a brilliant series: -849.9301166520418 ,-849.1108060743611, negative,  negative, right
+The prediction correctness is 0.5925925925925926
+
+------------------Testing for percentage based removal at 10, total words count: 132992
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1351.9124307721806 ,-1267.2050955720506, negative,  negative, right
+No.2 Script writers KILLED the best TV show: -2314.3400820558445 ,-2190.8525413191405, negative,  negative, right
+No.3 Dumbed down to the level of a cartoon strip: -3029.0580017775096 ,-2838.3719067706966, negative,  negative, right
+No.4 Overrated Episode/Season: -1645.965693078127 ,-1552.8675876729228, negative,  negative, right
+No.5 Holy smokes... This has truly been something else: -826.5263575037529 ,-791.0929735461723, negative,  positive, wrong
+No.6 Brilliant on all fronts!: -1614.968004016789 ,-1533.8230578873404, negative,  positive, wrong
+No.7 A lot of things come together, finally: -588.9716033571077 ,-543.5179915520506, negative,  positive, wrong
+No.8 Terrible writings: -3368.7276373456803 ,-3162.120113099845, negative,  negative, right
+No.9 i hate the new GoT: -4966.166205462768 ,-4685.664317373421, negative,  negative, right
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -654.8324595391799 ,-629.2141415790319, negative,  positive, wrong
+No.11 Season Finale: -1055.1853666249565 ,-991.0641259567161, negative,  positive, wrong
+No.12 Jon Snow's Lineage: -1400.380632706231 ,-1352.8993733920834, negative,  positive, wrong
+No.13 Really bad fan-fiction.: -1206.3652880099112 ,-1143.4116153005828, negative,  negative, right
+No.14 Boring finale: -5345.405909584795 ,-5047.522465130698, negative,  negative, right
+No.15 We warmed up!: -2254.298506987568 ,-2152.7680869320525, negative,  positive, wrong
+No.16 Underwhelming, bordering on disappointing: -2307.610032084494 ,-2209.8862124658694, negative,  negative, right
+No.17 You can tell they have run out of books: -762.7563730353558 ,-733.9540096716571, negative,  negative, right
+No.18 An extension of the tone of Season 7: -3113.3163210595853 ,-2962.1481343188675, negative,  negative, right
+No.19 Should've been much better (very mediocre): -969.8169658464766 ,-895.8424938586749, negative,  negative, right
+No.20 I like GOT, but....: -364.3612979239623 ,-343.5491086843661, negative,  negative, right
+No.21 Not the best.: -255.72326917297227 ,-238.80225817971927, negative,  negative, right
+No.22 Underwhelming: -13087.633282721981 ,-12427.203264960566, negative,  negative, right
+No.23 Best season premiere!: -1169.937251719291 ,-1114.8497184510475, negative,  positive, wrong
+No.24 A disappointment: -704.4741503178969 ,-686.3413654723787, negative,  negative, right
+No.25 Just Not Good.: -4387.2220138662215 ,-4114.3448818707775, negative,  negative, right
+No.26 Average GoT episode with terrible dialogues: -155.5078873281825 ,-153.10141677307402, negative,  negative, right
+No.27 Mediocre: -447.45996196481735 ,-419.72621764287624, negative,  negative, right
+No.28 Meh!: -2812.5557172219674 ,-2657.444770979901, negative,  negative, right
+No.29 Why the Rush? And when did It became a Disney show?: -832.084405977601 ,-781.5711048556299, negative,  negative, right
+No.30 Don't know what you guys expected...: -1116.0219463655383 ,-1048.191933637917, negative,  positive, wrong
+No.31 Get the Damn White Walkers !!: -752.7530195930891 ,-724.4347642175028, negative,  negative, right
+No.32 Meh...: -563.2918823810306 ,-533.9929521070973, negative,  negative, right
+No.33 Disappointment!: -225.94671317421253 ,-210.23781038194122, negative,  negative, right
+No.34 A poor start: -1544.9524945486003 ,-1438.6064227644138, negative,  negative, right
+No.35 Good opener: -1039.4094801514252 ,-1000.573316307791, negative,  positive, wrong
+No.36 Not that good!!! And I love GOT!!!: -391.27354845808145 ,-362.5924275592749, negative,  negative, right
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -1085.717487903618 ,-1000.5899651724613, negative,  negative, right
+No.38 Plays it Safe: -969.2205282802613 ,-933.9215473040987, negative,  negative, right
+No.39 Why is the terrible writing accepted.: -2116.940725778876 ,-1981.3765514086344, negative,  negative, right
+No.40 Really the last good GoT episode: -124.22129282289112 ,-115.01690327103479, negative,  positive, wrong
+No.41 Come on people!: -323.06950280394943 ,-314.97892344649705, negative,  positive, wrong
+No.42 Goodbye, friends: -864.4532111191403 ,-819.6631558528675, negative,  positive, wrong
+No.43 Michael Bay fans please leave!: -1254.5511982403036 ,-1200.540413039532, negative,  positive, wrong
+No.44 A great episode showing each character in what is potentially their last moments: -1246.4194036114611 ,-1162.4602365749827, negative,  positive, wrong
+No.45 One of the Best Episodes: -2180.525082201725 ,-2057.5551462085555, negative,  positive, wrong
+No.46 Build-up for the most anticipated battle in tv history: -1396.2621120658305 ,-1314.8187414816966, negative,  positive, wrong
+No.47 This episode was for true fans!: -879.2913126823248 ,-819.6627789190212, negative,  positive, wrong
+No.48 It was awesome: -365.38554799256235 ,-343.55083323447184, negative,  positive, wrong
+No.49 Towards War!: -1888.413388661052 ,-1781.4082098917474, negative,  positive, wrong
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7930.018887214348 ,-7494.748558278882, negative,  positive, wrong
+No.51 One of the masterpieces of Game of Thrones: -1607.9647405628873 ,-1514.78770259444, negative,  positive, wrong
+No.52 Ser Brienne of Tarth: -414.2924784694997 ,-381.63953824387323, negative,  positive, wrong
+No.53 The best action-less episode of Game of Thrones!: -730.4532318753414 ,-705.3906262735308, negative,  positive, wrong
+No.54 Touching: -199.14250653813644 ,-200.71471619189342, positive,  positive, right
+No.55 Quiet reflections: -607.9027632349447 ,-562.5643183822011, negative,  positive, wrong
+No.56 The only good episode of this season: -703.1822418780924 ,-667.3064730498979, negative,  positive, wrong
+No.57 Only real "GoT" episode in this dissappointing season: -567.2377488036119 ,-524.4746917653741, negative,  positive, wrong
+No.58 The Last Night: -7093.791319265739 ,-6675.8474782460435, negative,  positive, wrong
+No.59 One of the most relatable episodes ever: -372.24408886367814 ,-353.0707781012598, negative,  positive, wrong
+No.60 True GoT episode: -672.4671626761295 ,-638.7369129753315, negative,  positive, wrong
+No.61 Reconciliations, Realization and Discovery: -860.8598602107223 ,-838.7029447685705, negative,  positive, wrong
+No.62 Without memories men are not men, we are just animals: -636.2106930447808 ,-600.645801706622, negative,  positive, wrong
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2230.2501842419024 ,-2133.716268386239, negative,  positive, wrong
+No.64 A really great episode: -104.49472104843177 ,-105.4929669870797, positive,  positive, right
+No.65 More I think about it, the less I'm enjoying it: -8301.001230148428 ,-7837.525451588876, negative,  negative, right
+No.66 VERY cool: -8320.409100053846 ,-7828.005219445996, negative,  negative, right
+No.67 Micheal Bay level of storytelling: -251.16811268688244 ,-238.8029586352686, negative,  negative, right
+No.68 Letter from Daenerys to Daario: -1387.181776610555 ,-1305.2962851625612, negative,  negative, right
+No.69 I saw this coming ever since Season 7.: -11204.529247672768 ,-10627.506474373587, negative,  negative, right
+No.70 Unpredictable: -266.3361545317304 ,-276.8853433176601, positive,  negative, wrong
+No.71 Well directed, poorly written: -809.7814132957562 ,-772.0474486733302, negative,  negative, right
+No.72 The biggest middle finger to fans in HISTORY!: -1366.4149339211676 ,-1295.7659347125737, negative,  negative, right
+No.73 If I had no mouth, I would still scream: -4764.469606775394 ,-4466.672876943048, negative,  negative, right
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1902.8058178359797 ,-1790.9281317913665, negative,  negative, right
+No.75 Instead of BOTs they could have used that money for good writting.: -141.2329125785892 ,-143.5774183560989, positive,  negative, wrong
+No.76 A sick joke: -1258.920709265671 ,-1181.50367279519, negative,  negative, right
+No.77 Where is Old Nan when you need her?: -250.7364106936757 ,-248.31881190020067, negative,  negative, right
+No.78 What's the point?: -1214.3468835185085 ,-1152.934352272627, negative,  negative, right
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1387.5597032152466 ,-1295.7702326558162, negative,  negative, right
+No.80 8 years wasted in 80 minutes: -336.6907645952906 ,-314.9830175164797, negative,  negative, right
+No.81 Producers using bots for rating?: -1114.590550343855 ,-1067.233868795373, negative,  negative, right
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1251.6226428746852 ,-1181.5005796624225, negative,  negative, right
+No.83 Is the show getting bot reviews????: -199.53123980365447 ,-191.19296646460964, negative,  negative, right
+No.84 Say thank you to the mediocre writing.: -3138.1451056784554 ,-2962.160965471148, negative,  negative, right
+No.85 Everything that happened until now is pointless: -616.6100902265746 ,-591.1183209772156, negative,  negative, right
+No.86 Fans deserved better: -209.6059693730016 ,-191.19541508902623, negative,  negative, right
+No.87 The showrunners think they can fool everyone: -457.46783684118907 ,-429.2426352800387, negative,  negative, right
+No.88 Hodor Held the Door for This?: -315.21717096230503 ,-295.93725020205176, negative,  negative, right
+No.89 Great disappointment.: -584.2244596187891 ,-543.5141231631802, negative,  negative, right
+No.90 Lore Breaking and Ignores Source Material: -9101.3747145943 ,-8704.007162278793, negative,  negative, right
+No.91 Massive Budget, Massive Wait, Massive Letdown: -630.9018115954684 ,-591.1205225448616, negative,  negative, right
+No.92 I'm not mad, just disappointed: -4113.491380912247 ,-3904.845302252874, negative,  negative, right
+No.93 Feels like D&D are just trolling us now: -4772.661980258221 ,-4599.95099761096, negative,  negative, right
+No.94 I have to change my rating: -186.6817624630372 ,-181.66604176663557, negative,  negative, right
+No.95 Wow!! The Night King is not even an afterthought!!: -1953.0698769875137 ,-1829.0170206446862, negative,  negative, right
+No.96 Dumb and Dumber: -638.9155207246927 ,-610.1639607593615, negative,  negative, right
+No.97 This doesn't feel like GoT anymore.: -1585.136362663574 ,-1495.7372393137402, negative,  negative, right
+No.98 This episode outright angered me: -1794.592397181813 ,-1705.2245419399603, negative,  negative, right
+No.99 The shark didn't just jump, it is flying.: -246.0871818000529 ,-248.31955467797434, positive,  negative, wrong
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1466.1001805020592 ,-1410.017789903679, negative,  negative, right
+No.101 Did HBO Honestly Believe People Would Like This???: -1630.6673041439503 ,-1533.8227587654565, negative,  negative, right
+No.102 Sad: -337.5255607595166 ,-314.9841802702312, negative,  negative, right
+No.103 Guess GoT means Game of Teleportation now.: -6002.578419945858 ,-5723.574812445441, negative,  negative, right
+No.104 I feel sorry for GRRM: -1387.4765215494563 ,-1324.3231551536978, negative,  negative, right
+No.105 I almost cried how bad this is.: -2003.2630087632883 ,-1876.6215819310435, negative,  negative, right
+No.106 Too disappointed to type up a full review.: -432.54431475284184 ,-410.20208106496534, negative,  negative, right
+No.107 Shame: -4441.689903238147 ,-4219.083357897735, negative,  negative, right
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5715.8249436749 ,-5371.268927951825, negative,  negative, right
+No.109 D&D should be fired from their job: -165.1769533781142 ,-153.10500508419045, negative,  negative, right
+No.110 Last week I was left disappointed. Now I'm just sad: -429.6899552988263 ,-410.20121661097414, negative,  negative, right
+No.111 Horrible: -1409.9850024402933 ,-1324.3361360072658, negative,  negative, right
+No.112 I don't care anymore: -350.36216273627167 ,-334.0191998898655, negative,  negative, right
+No.113 Dany Forgot about the Iron fleet!!: -507.12098063017623 ,-486.3798680885194, negative,  negative, right
+No.114 What happened to the "Game" in "Game of Thrones"?: -5010.132780132829 ,-4676.163457298593, negative,  negative, right
+No.115 The right ending feels wrong: -1914.2722443482248 ,-1829.0063162389079, negative,  negative, right
+No.116 D&D: -476.91599134791295 ,-457.8118697290262, negative,  negative, right
+No.117 Visually compelling, but fatally undermined by the context: -4072.5261830860463 ,-3819.1623825065176, negative,  negative, right
+No.118 Can we have season 8 reshoot? Please.: -615.3010336455247 ,-572.0800512811627, negative,  negative, right
+No.119 Why this episode made no sense.: -5787.464050251245 ,-5485.539349395923, negative,  negative, right
+No.120 A visual masterpiece with mediocre writing: -967.7599430696284 ,-943.4344151883088, negative,  negative, right
+No.121 Dany is not the only crazy: -193.1984338651086 ,-191.1896362639682, negative,  negative, right
+No.122 Throwing out of the window 7s of character buildup: -193.30279896265557 ,-181.67099679812188, negative,  negative, right
+No.123 Am I missing something?: -1872.7426102232896 ,-1790.9158588116725, negative,  negative, right
+No.124 Years of character building thrown away for shock value: -221.90913146555852 ,-210.23917492374295, negative,  negative, right
+No.125 A glorified view of how bad writing can be: -5860.917329895064 ,-5504.59551669606, negative,  negative, right
+No.126 7 seasons of character development and story telling for no reason: -176.51404268424125 ,-172.14627915313122, negative,  negative, right
+No.127 Episode where the shows is Ruined completely: -742.3267824671371 ,-695.8722837961805, negative,  negative, right
+No.128 What was the point?: -2221.858218171028 ,-2076.5955584003777, negative,  negative, right
+No.129 Remember?: -582.049637395608 ,-553.0376741964565, negative,  negative, right
+No.130 What's the point Dany's army?: -696.6223724587913 ,-667.3011996074355, negative,  negative, right
+No.131 The show ended in S7 for me: -755.6841254925306 ,-714.9158047276158, negative,  negative, right
+No.132 The first real fantasy anti-war movie ever: -3887.077318112461 ,-3647.774098132182, negative,  positive, wrong
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2290.3003585536408 ,-2200.3681471370223, negative,  negative, right
+No.134 What happened...: -274.21500511360534 ,-267.3669446672803, negative,  negative, right
+No.135 Season 8 is a slippery slide going from bad to worse.: -2064.9356733172935 ,-1962.3286597785257, negative,  negative, right
+No.136 Can't forgive the rushed writing: -1527.4436628070086 ,-1467.1616229527924, negative,  negative, right
+No.137 Why do I still bother watching?: -2091.546743419648 ,-2000.4007990498333, negative,  negative, right
+No.138 Worst than Dexter: -656.5691440040863 ,-629.2056527580702, negative,  negative, right
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -757.8907667974128 ,-714.9099742113658, negative,  negative, right
+No.140 A Message to Dan and Dave: -4609.416041936682 ,-4466.6436689716775, negative,  negative, right
+No.141 This show became a Meme: -3698.689654670782 ,-3485.858368502, negative,  negative, right
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -131.0164187246722 ,-124.53764953442962, negative,  negative, right
+No.143 she's muh queen: -181.33043767581458 ,-172.1491061603986, negative,  negative, right
+No.144 Still sad after 7 weeks: -1105.6793306686095 ,-1048.1927142958737, negative,  negative, right
+No.145 Better if Whitewalkers had won and last episode just silence.: -1262.6059917558152 ,-1181.5075273176067, negative,  negative, right
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1255.0251333253168 ,-1171.9885190306252, negative,  negative, right
+No.147 Rushed: -239.69769357244786 ,-229.27812117655745, negative,  negative, right
+No.148 Imagine a Turkey: -1251.0867563355766 ,-1191.0199688997254, negative,  negative, right
+No.149 6 months later and I still can't get over this: -11276.398788397735 ,-10694.167192594103, negative,  negative, right
+No.150 This is utterly disrespectful: -947.4764853701533 ,-933.9133175035447, negative,  negative, right
+No.151 Dreadful.: -1026.22259699626 ,-981.5328048703839, negative,  negative, right
+No.152 W- what?: -1114.786328020144 ,-1076.7525627305704, negative,  negative, right
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2728.8643765649335 ,-2628.855964331476, negative,  negative, right
+No.154 Not good.: -143.1810983687665 ,-134.059099482248, negative,  negative, right
+No.155 How do I rate 0/10?: -238.26785424386975 ,-229.2798047448865, negative,  negative, right
+No.156 Great Disappointment...: -1630.1846460266675 ,-1543.3471336177993, negative,  negative, right
+No.157 Made the whole series unwatchable: -201.2517343275459 ,-191.19092345650594, negative,  negative, right
+No.158 The greatest TV show of all time had the worst finale: -232.56650931518053 ,-219.7604044464332, negative,  negative, right
+No.159 I feel like Tommen in 6x10: -141.76676940286393 ,-134.06056283589658, negative,  negative, right
+No.160 Just like Kit Harington said; 'Dissapointing': -238.08609551300586 ,-229.28020809357156, negative,  negative, right
+No.161 Don't tell me I don't know this show: -2563.5311567557033 ,-2419.390419209846, negative,  negative, right
+No.162 A parody ending to what was a brilliant series: -866.1472404981855 ,-819.6495759011185, negative,  negative, right
+The prediction correctness is 0.7716049382716049
+
+------------------Testing for percentage based removal at 20, total words count: 76052
+-----------------------No.1 A Hollywood tune. Suspension of disbelief fail.: -1306.035880329786 ,-1208.1189314224769, negative,  negative, right
+No.2 Script writers KILLED the best TV show: -2260.960844084882 ,-2088.682225698596, negative,  negative, right
+No.3 Dumbed down to the level of a cartoon strip: -2941.393866004055 ,-2705.9858340473434, negative,  negative, right
+No.4 Overrated Episode/Season: -1627.9521357683402 ,-1480.4665056222052, negative,  negative, right
+No.5 Holy smokes... This has truly been something else: -821.5926688963965 ,-754.2224649133257, negative,  positive, wrong
+No.6 Brilliant on all fronts!: -1591.6323255961315 ,-1462.3049829107165, negative,  positive, wrong
+No.7 A lot of things come together, finally: -568.4955346593207 ,-518.1954270223907, negative,  positive, wrong
+No.8 Terrible writings: -3272.4143126098534 ,-3014.6372821102027, negative,  negative, right
+No.9 i hate the new GoT: -4840.294169631237 ,-4467.107411154951, negative,  negative, right
+No.10 Negotiations take place in the capital, Bran and Sam talk about stuff and the Whitewakers feature.: -653.6736899018873 ,-599.8973907369492, negative,  positive, wrong
+No.11 Season Finale: -1032.0592562147424 ,-944.8644620274539, negative,  positive, wrong
+No.12 Jon Snow's Lineage: -1366.4605474832467 ,-1289.815776012137, negative,  positive, wrong
+No.13 Really bad fan-fiction.: -1184.390605342189 ,-1090.1055627720239, negative,  negative, right
+No.14 Boring finale: -5257.556726415983 ,-4812.088429087475, negative,  negative, right
+No.15 We warmed up!: -2211.1619358102557 ,-2052.3732281809876, negative,  positive, wrong
+No.16 Underwhelming, bordering on disappointing: -2256.705740297755 ,-2106.828800131983, negative,  negative, right
+No.17 You can tell they have run out of books: -740.6538890737655 ,-699.7489368594887, negative,  negative, right
+No.18 An extension of the tone of Season 7: -3035.9021621350885 ,-2823.9936834182645, negative,  negative, right
+No.19 Should've been much better (very mediocre): -939.1363127516987 ,-854.0820387234401, negative,  negative, right
+No.20 I like GOT, but....: -358.51302716908464 ,-327.55714254035826, negative,  negative, right
+No.21 Not the best.: -243.29384542669172 ,-227.69476194372427, negative,  negative, right
+No.22 Underwhelming: -12781.427699858763 ,-11847.489130843434, negative,  negative, right
+No.23 Best season premiere!: -1147.0963476976017 ,-1062.875721994457, negative,  positive, wrong
+No.24 A disappointment: -689.1425418521624 ,-654.3573724514434, negative,  negative, right
+No.25 Just Not Good.: -4271.697029431565 ,-3922.440553484852, negative,  negative, right
+No.26 Average GoT episode with terrible dialogues: -159.6040029406839 ,-145.9973113786394, negative,  negative, right
+No.27 Mediocre: -437.9448861908592 ,-400.17925067076476, negative,  negative, right
+No.28 Meh!: -2721.277796376534 ,-2533.495223460099, negative,  negative, right
+No.29 Why the Rush? And when did It became a Disney show?: -814.5180064563497 ,-745.145014826042, negative,  negative, right
+No.30 Don't know what you guys expected...: -1085.3977784148724 ,-999.3263504830395, negative,  positive, wrong
+No.31 Get the Damn White Walkers !!: -734.9622954360286 ,-690.6733913835612, negative,  negative, right
+No.32 Meh...: -547.3217783614489 ,-509.11697291343097, negative,  negative, right
+No.33 Disappointment!: -218.9076002907755 ,-200.46351471279704, negative,  negative, right
+No.34 A poor start: -1494.4403344596774 ,-1371.5240647572025, negative,  negative, right
+No.35 Good opener: -1026.6539222853885 ,-953.9333817478229, negative,  positive, wrong
+No.36 Not that good!!! And I love GOT!!!: -372.38082436373503 ,-345.70903328056283, negative,  negative, right
+No.37 GOT is history now. Funny episode as opposed to GOT standard.: -1049.8522187352862 ,-953.9413096838831, negative,  negative, right
+No.38 Plays it Safe: -944.084516481876 ,-890.3876223170554, negative,  negative, right
+No.39 Why is the terrible writing accepted.: -2065.8527220129768 ,-1888.9730147642942, negative,  negative, right
+No.40 Really the last good GoT episode: -118.2551694246765 ,-109.6853050777572, negative,  positive, wrong
+No.41 Come on people!: -314.7934493819831 ,-300.31967555248013, negative,  positive, wrong
+No.42 Goodbye, friends: -837.6964438956281 ,-781.4560170009604, negative,  positive, wrong
+No.43 Michael Bay fans please leave!: -1239.1473969203528 ,-1144.5733717121138, negative,  positive, wrong
+No.44 A great episode showing each character in what is potentially their last moments: -1213.613713605225 ,-1108.264678632203, negative,  positive, wrong
+No.45 One of the Best Episodes: -2133.834444089188 ,-1961.6000369138703, negative,  positive, wrong
+No.46 Build-up for the most anticipated battle in tv history: -1363.997573874493 ,-1253.5136064518363, negative,  positive, wrong
+No.47 This episode was for true fans!: -860.5563643216124 ,-781.4594302493489, negative,  positive, wrong
+No.48 It was awesome: -351.5778237554917 ,-327.5569413974511, negative,  positive, wrong
+No.49 Towards War!: -1850.927709483603 ,-1698.3350313934752, negative,  positive, wrong
+No.50 Thrones delivers the character piece we've been waiting for in the calm before the storm - and it's beautiful.: -7733.855549852975 ,-7145.129463563662, negative,  positive, wrong
+No.51 One of the masterpieces of Game of Thrones: -1561.0854249222048 ,-1444.1514874541235, negative,  positive, wrong
+No.52 Ser Brienne of Tarth: -398.5267961561581 ,-363.8687477149868, negative,  positive, wrong
+No.53 The best action-less episode of Game of Thrones!: -733.9072695011998 ,-672.5211033170262, negative,  positive, wrong
+No.54 Touching: -200.96618505363588 ,-191.38646582085408, negative,  positive, wrong
+No.55 Quiet reflections: -582.3862932314792 ,-536.3515300080658, negative,  positive, wrong
+No.56 The only good episode of this season: -684.4322865857475 ,-636.2078912493491, negative,  positive, wrong
+No.57 Only real "GoT" episode in this dissappointing season: -547.5890251047889 ,-500.0392233840433, negative,  positive, wrong
+No.58 The Last Night: -6894.878760525969 ,-6364.424335042883, negative,  positive, wrong
+No.59 One of the most relatable episodes ever: -366.09197845359535 ,-336.6337898303847, negative,  positive, wrong
+No.60 True GoT episode: -659.9068794484972 ,-608.9742381033283, negative,  positive, wrong
+No.61 Reconciliations, Realization and Discovery: -858.4280467733179 ,-799.6132242198746, negative,  positive, wrong
+No.62 Without memories men are not men, we are just animals: -628.7824513415043 ,-572.6615304223988, negative,  positive, wrong
+No.63 AGAIN! DO NOT lsiten to those "USELESS EPISODE" reviews: -2200.646249279992 ,-2034.2163215406633, negative,  positive, wrong
+No.64 A really great episode: -111.62678426684708 ,-100.60735372159942, negative,  positive, wrong
+No.65 More I think about it, the less I'm enjoying it: -8090.346913332203 ,-7471.925276408082, negative,  negative, right
+No.66 VERY cool: -8064.877027239376 ,-7462.834482887666, negative,  negative, right
+No.67 Micheal Bay level of storytelling: -238.73868894060192 ,-227.69546239927357, negative,  negative, right
+No.68 Letter from Daenerys to Daario: -1343.562388334968 ,-1244.4312381741752, negative,  negative, right
+No.69 I saw this coming ever since Season 7.: -10981.948555055105 ,-10131.763744772054, negative,  negative, right
+No.70 Unpredictable: -273.170467848572 ,-264.00636420072937, negative,  negative, right
+No.71 Well directed, poorly written: -797.8858938796984 ,-736.0653593985801, negative,  negative, right
+No.72 The biggest middle finger to fans in HISTORY!: -1334.6395993293536 ,-1235.3534878793077, negative,  negative, right
+No.73 If I had no mouth, I would still scream: -4648.040146561537 ,-4258.3277746660815, negative,  negative, right
+No.74 What was the purpose of Bran in the series? Just a cripple with a remote controlled bird drone video cam?: -1845.5108885827137 ,-1707.4080642807073, negative,  negative, right
+No.75 Instead of BOTs they could have used that money for good writting.: -145.81284650388173 ,-136.91604959376716, negative,  negative, right
+No.76 A sick joke: -1232.505310699405 ,-1126.4195770226024, negative,  negative, right
+No.77 Where is Old Nan when you need her?: -245.75375255034348 ,-236.76990365429532, negative,  negative, right
+No.78 What's the point?: -1198.4539217154581 ,-1099.1862237707533, negative,  negative, right
+No.79 For the first time ever, I don't care about the next episode of Game of Thrones: -1349.6211321921637 ,-1235.3576024262507, negative,  negative, right
+No.80 8 years wasted in 80 minutes: -332.15224418677826 ,-300.3241915854581, negative,  negative, right
+No.81 Producers using bots for rating?: -1107.1663833360467 ,-1017.484560390756, negative,  negative, right
+No.82 GOT IS DEAD! this episode killed the whole previous 7 seasons!: -1209.6660627506005 ,-1126.4133547306635, negative,  negative, right
+No.83 Is the show getting bot reviews????: -193.40467084438737 ,-182.30781206495215, negative,  negative, right
+No.84 Say thank you to the mediocre writing.: -3056.9750398258066 ,-2823.9968915412683, negative,  negative, right
+No.85 Everything that happened until now is pointless: -611.1376408192733 ,-563.5832767032597, negative,  negative, right
+No.86 Fans deserved better: -199.6624303759772 ,-182.3094181002302, negative,  negative, right
+No.87 The showrunners think they can fool everyone: -449.14507806950087 ,-409.257501367344, negative,  negative, right
+No.88 Hodor Held the Door for This?: -307.40598222764515 ,-282.1655795898685, negative,  negative, right
+No.89 Great disappointment.: -565.9313430820135 ,-518.1946238194178, negative,  negative, right
+No.90 Lore Breaking and Ignores Source Material: -8941.012550555504 ,-8298.006922287686, negative,  negative, right
+No.91 Massive Budget, Massive Wait, Massive Letdown: -603.7289903100933 ,-563.5752555815138, negative,  negative, right
+No.92 I'm not mad, just disappointed: -4044.115344421973 ,-3722.7217134718194, negative,  negative, right
+No.93 Feels like D&D are just trolling us now: -4700.130904144969 ,-4385.392802559117, negative,  negative, right
+No.94 I have to change my rating: -177.235400415864 ,-173.22434462727935, negative,  negative, right
+No.95 Wow!! The Night King is not even an afterthought!!: -1888.674051806492 ,-1743.7216775673862, negative,  negative, right
+No.96 Dumb and Dumber: -618.8524843518564 ,-581.7337630481671, negative,  negative, right
+No.97 This doesn't feel like GoT anymore.: -1546.7493933875726 ,-1425.9913702035433, negative,  negative, right
+No.98 This episode outright angered me: -1753.379607254326 ,-1625.7072047295992, negative,  negative, right
+No.99 The shark didn't just jump, it is flying.: -249.40759626272992 ,-236.77130921845816, negative,  negative, right
+No.100 I'm not sure I am watching the same show, is this a parody of GoT?: -1444.6383304899678 ,-1344.2834866874698, negative,  negative, right
+No.101 Did HBO Honestly Believe People Would Like This???: -1594.192318262401 ,-1462.301374565049, negative,  negative, right
+No.102 Sad: -325.20936737199963 ,-300.3231879815297, negative,  negative, right
+No.103 Guess GoT means Game of Teleportation now.: -5871.979220062366 ,-5456.604205791224, negative,  negative, right
+No.104 I feel sorry for GRRM: -1342.9762866574815 ,-1262.573897595746, negative,  negative, right
+No.105 I almost cried how bad this is.: -1945.4669393933195 ,-1789.1067239590352, negative,  negative, right
+No.106 Too disappointed to type up a full review.: -423.19751047824235 ,-391.101698437955, negative,  negative, right
+No.107 Shame: -4357.576482171594 ,-4022.29510836875, negative,  negative, right
+No.108 I pretty much loved everything the show had to offer. Up until this point.: -5563.7095189631755 ,-5120.721417295276, negative,  negative, right
+No.109 D&D should be fired from their job: -157.2221221804947 ,-145.9962074931536, negative,  negative, right
+No.110 Last week I was left disappointed. Now I'm just sad: -416.2395827415267 ,-391.09999214417064, negative,  negative, right
+No.111 Horrible: -1360.6583142116833 ,-1262.582428112774, negative,  negative, right
+No.112 I don't care anymore: -349.44098719557564 ,-318.47628373416717, negative,  negative, right
+No.113 Dany Forgot about the Iron fleet!!: -497.8699442209473 ,-463.7240058232022, negative,  negative, right
+No.114 What happened to the "Game" in "Game of Thrones"?: -4839.691118793343 ,-4458.032567558876, negative,  negative, right
+No.115 The right ending feels wrong: -1897.0067957141102 ,-1743.7237864587269, negative,  negative, right
+No.116 D&D: -460.88282496206585 ,-436.488544931923, negative,  negative, right
+No.117 Visually compelling, but fatally undermined by the context: -3949.2567319526856 ,-3641.0149321734402, negative,  negative, right
+No.118 Can we have season 8 reshoot? Please.: -597.7805570874501 ,-545.4259710796351, negative,  negative, right
+No.119 Why this episode made no sense.: -5645.91538330801 ,-5229.664148763893, negative,  negative, right
+No.120 A visual masterpiece with mediocre writing: -975.1148164885708 ,-899.4655744413553, negative,  negative, right
+No.121 Dany is not the only crazy: -190.88883494359882 ,-182.3058052164626, negative,  negative, right
+No.122 Throwing out of the window 7s of character buildup: -187.39814093876666 ,-173.23056323615867, negative,  negative, right
+No.123 Am I missing something?: -1835.5245918293147 ,-1707.404151699783, negative,  negative, right
+No.124 Years of character building thrown away for shock value: -214.85027707406888 ,-200.4651199943353, negative,  negative, right
+No.125 A glorified view of how bad writing can be: -5722.3156689858015 ,-5247.828290461071, negative,  negative, right
+No.126 7 seasons of character development and story telling for no reason: -175.52531896970137 ,-164.1517089749118, negative,  negative, right
+No.127 Episode where the shows is Ruined completely: -713.6211438395312 ,-663.4401400940302, negative,  negative, right
+No.128 What was the point?: -2169.2094371096005 ,-1979.752932718383, negative,  negative, right
+No.129 Remember?: -575.9580227022899 ,-527.273879705217, negative,  negative, right
+No.130 What's the point Dany's army?: -689.6758189715958 ,-636.2086942206125, negative,  negative, right
+No.131 The show ended in S7 for me: -734.4807334377725 ,-681.5976484476691, negative,  negative, right
+No.132 The first real fantasy anti-war movie ever: -3789.6468776926226 ,-3477.6267540923404, negative,  positive, wrong
+No.133 Mixed feelings: The Dragon can be seen as a metaphor: -2254.509885739705 ,-2097.756060491775, negative,  negative, right
+No.134 What happened...: -271.4948526763741 ,-254.9299185519352, negative,  negative, right
+No.135 Season 8 is a slippery slide going from bad to worse.: -2036.0682063868207 ,-1870.8196197861955, negative,  negative, right
+No.136 Can't forgive the rushed writing: -1515.4540375507504 ,-1398.7573151659521, negative,  negative, right
+No.137 Why do I still bother watching?: -2067.7280875032666 ,-1907.1212956415484, negative,  negative, right
+No.138 Worst than Dexter: -640.3238614407148 ,-599.8865556536583, negative,  negative, right
+No.139 HBO wanted 10 seasons. GRRM wanted 12. D&D wanted Star Wars.: -749.0719645507611 ,-681.5973507647088, negative,  negative, right
+No.140 A Message to Dan and Dave: -4556.496889212693 ,-4258.311205205424, negative,  negative, right
+No.141 This show became a Meme: -3609.1811578209536 ,-3323.277709660902, negative,  negative, right
+No.142 I always told myself that no matter how much I hate an episode, it will never deserve an 1/10.: -128.52666184513885 ,-118.76265423452392, negative,  negative, right
+No.143 she's muh queen: -172.38125257849265 ,-164.15170887048214, negative,  negative, right
+No.144 Still sad after 7 weeks: -1079.1114839924294 ,-999.3245455985534, negative,  negative, right
+No.145 Better if Whitewalkers had won and last episode just silence.: -1248.3290316524751 ,-1126.424696459331, negative,  negative, right
+No.146 Imagine if "Avatar: The Last Airbender" ended like Game of Thrones: -1205.9874230432486 ,-1117.3413229321388, negative,  negative, right
+No.147 Rushed: -231.18058712821443 ,-218.61630861228556, negative,  negative, right
+No.148 Imagine a Turkey: -1241.8830119174274 ,-1135.498131133653, negative,  negative, right
+No.149 6 months later and I still can't get over this: -11092.467674401594 ,-10195.322550056264, negative,  negative, right
+No.150 This is utterly disrespectful: -939.4975874310255 ,-890.3830042909658, negative,  negative, right
+No.151 Dreadful.: -1010.1301012422471 ,-935.7797870304028, negative,  negative, right
+No.152 W- what?: -1090.495680111805 ,-1026.5525776347527, negative,  negative, right
+No.153 It's been a year and a half and it still hurts. It hurts so much...: -2701.4403657208004 ,-2506.2642808486685, negative,  negative, right
+No.154 Not good.: -136.22062107084943 ,-127.83890159009079, negative,  negative, right
+No.155 How do I rate 0/10?: -230.64627952237058 ,-218.61781180703616, negative,  negative, right
+No.156 Great Disappointment...: -1606.4405152102088 ,-1471.3834357441797, negative,  negative, right
+No.157 Made the whole series unwatchable: -199.37624837807172 ,-182.30841487886227, negative,  negative, right
+No.158 The greatest TV show of all time had the worst finale: -233.3084026969399 ,-209.5439750440596, negative,  negative, right
+No.159 I feel like Tommen in 6x10: -138.86505966031729 ,-127.84090670200732, negative,  negative, right
+No.160 Just like Kit Harington said; 'Dissapointing': -234.46567409474835 ,-218.62032015620062, negative,  negative, right
+No.161 Don't tell me I don't know this show: -2487.427254549579 ,-2306.5497510621167, negative,  negative, right
+No.162 A parody ending to what was a brilliant series: -835.7687479334577 ,-781.4441803525668, negative,  negative, right
+The prediction correctness is 0.7777777777777778

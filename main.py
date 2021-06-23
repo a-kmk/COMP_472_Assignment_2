@@ -8,6 +8,7 @@ import pickle
 from webscraper import Review
 from matplotlib import pyplot as plt
 from analyser import Analyser
+from analyser import WordRecord
 
 
 def test_season():
@@ -133,6 +134,26 @@ def test_translate():
     ex_stripped = ex.translate(str.maketrans('', '', string.punctuation))
     print(f'before: {ex}\nafter: {ex_stripped}')
 
+def test_sorting():
+    word1 = WordRecord('wow', True)
+    word1.tot_freq = 10
+    word2 = WordRecord('wow2', True)
+    word2.tot_freq = 20
+    word3 = WordRecord('wow3', False)
+    word3.tot_freq = 30
+
+    sample_dict = {word1.word:word1, word3.word: word3, word2.word: word2}
+
+    print('\nbefore:\n')
+    for word_record in sample_dict.values():
+        print(word_record)
+    
+    sorted_dict = dict(sorted(sample_dict.items(), key=lambda word_record: word_record[1].tot_freq))
+
+    print('\nafter:\n')
+    for word_record in sorted_dict.values():
+        print(word_record)
+
 
 if __name__ == '__main__':
     # run webscraper
@@ -143,7 +164,7 @@ if __name__ == '__main__':
 
     # header = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
     # 'Chrome/91.0.4472.101 Safari/537.36'}
-    # show_url = 'https://www.imdb.com/title/tt0306414/'
+    # show_url = 'https://www.imdb.com/title/tt0944947/'
     # reviews_filename = 'review_objs.pickle'
     # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
     # sample_scraper.gather_data()
@@ -156,28 +177,27 @@ if __name__ == '__main__':
     dictionary_output_path = 'vocabulary_dictionary.pickle'
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path)
     sample_analyser.compute_statistics()
-<<<<<<< HEAD
+    #2.1
+    sample_analyser.gradual_word_removal_by_frequency()
 
-    sample_analyser.display_statistics()
-    sample_analyser.classify(1.6)
+    # sample_analyser.display_statistics()
+    # sample_analyser.classify(1.6)
     # sample_analyser.classify(1)
     # sample_analyser.classify(1.2)
     # sample_analyser.classify(1.4)
     # sample_analyser.classify(1.6)
     # sample_analyser.classify(1.8)
     # sample_analyser.classify(2.0)
-    #
-=======
-    #sample_analyser.display_statistics()
-    sample_analyser.register_word_statistics()
-    sample_analyser.register_stop_word()
-    sample_analyser.classify(0.5)
->>>>>>> 7099d48665eb394e8dc262ac6479d46e5141ebb9
+
+    # sample_analyser.display_statistics()
+    # sample_analyser.register_word_statistics()
+    # sample_analyser.register_stop_word()
+    # sample_analyser.classify(0.5)
+
 #    sample_analyser.infrequentWordFiltering()
     #sample_analyser.vocabulary
 #
 #     sample_analyser.display_statistics()
 #     sample_analyser.register_word_statistics()
 #     sample_analyser.register_stop_word()
-
 

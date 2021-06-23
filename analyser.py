@@ -1,3 +1,4 @@
+import os
 import pickle
 import string
 import math
@@ -39,14 +40,14 @@ class Analyser:
         with open(self.reviews_path, 'rb') as file:
             self.reviews = pickle.load(file)
 
-            #splits 10% into test array, keeps 90% in review array
+            # splits 10% into test array, keeps 90% in review array
             length = len(self.reviews)
             testnum = length * 10 / 100
-            splitat = length-math.floor(testnum)
-            for x in range(splitat,length):
+            splitat = length - math.floor(testnum)
+            for x in range(splitat, length):
                 self.testreviews.append(self.reviews[x])
 
-            tempArray=[]
+            tempArray = []
             for x in range(splitat):
                 tempArray.append(self.reviews[x])
             self.reviews = tempArray;
@@ -78,7 +79,7 @@ class Analyser:
                     # create an entry for the word in the dictionary
                     else:
                         self.vocabulary[word] = WordRecord(word, review.positive)
-                        self.vocabulary[word].tot_freq +=1
+                        self.vocabulary[word].tot_freq += 1
 
     def compute_reviews_frequency(self):
         self.total_reviews = len(self.reviews)
@@ -93,7 +94,6 @@ class Analyser:
             # print(str(word_record))
             self.positive_words += word_record.pos_freq
             self.negative_words += word_record.neg_freq
-
 
     def compute_words_probability(self):
         for word_record in self.vocabulary.values():
@@ -114,56 +114,59 @@ class Analyser:
         self.compute_prior_probability()
 
     def classify(self, smoothing):
-            counter = 0
-            rightCounter = 0
-            wrongCounter = 0
+        counter = 0
+        rightCounter = 0
+        wrongCounter = 0
 
-            file1 = open("result.txt", "a")
+        file1 = open("result.txt", "a")
 
-            for review in self.testreviews:
-                # remove all punctuations from the review body
-                content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
-                title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
-                words = content_no_punc.split() + title_no_punc.split()
+        for review in self.testreviews:
+            # remove all punctuations from the review body
+            content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+            title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+            words = content_no_punc.split() + title_no_punc.split()
 
-                #calculate probability of positive and negative review
-                positive_prob = math.log10(self.prior_prob_pos)
-                negative_prob = math.log10(self.prior_prob_neg)
-                for word in words:
-                    if word in self.vocabulary:
-                        positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing)/(self.positive_words + smoothing*self.positive_words))
-                        negative_prob += math.log10((self.vocabulary[word].neg_prob + smoothing)/(self.negative_words + smoothing*self.negative_words))
+            # calculate probability of positive and negative review
+            positive_prob = math.log10(self.prior_prob_pos)
+            negative_prob = math.log10(self.prior_prob_neg)
+            for word in words:
+                if word in self.vocabulary:
+                    positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing) / (
+                            self.positive_words + smoothing * self.positive_words))
+                    negative_prob += math.log10((self.vocabulary[word].neg_prob + smoothing) / (
+                            self.negative_words + smoothing * self.negative_words))
 
-                        if(positive_prob >= negative_prob) :
-                            prediction = "positive"
-                        else :
-                            prediction = "negative"
+                    if (positive_prob >= negative_prob):
+                        prediction = "positive"
+                    else:
+                        prediction = "negative"
 
-                if (review.positive) :
-                    actual = "positive"
-                else :
-                     actual = "negative"
+            if (review.positive):
+                actual = "positive"
+            else:
+                actual = "negative"
 
-                if (actual == prediction) :
-                    guess = "right"
-                    rightCounter+=1
-                else :
-                    guess = "wrong"
-                    wrongCounter +=1
+            if (actual == prediction):
+                guess = "right"
+                rightCounter += 1
+            else:
+                guess = "wrong"
+                wrongCounter += 1
 
-                file1.write("No." + str(counter+1) + " " +  review.title + ": ")
-                file1.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
-                counter+=1
-            file1.write("The prediction correctness is " + str(rightCounter/counter))
-            file1.close()
+            file1.write("No." + str(counter + 1) + " " + review.title + ": ")
+            file1.write(str(positive_prob) + " ," + str(
+                negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
+            counter += 1
+        file1.write("The prediction correctness is " + str(rightCounter / counter))
+        file1.close()
 
-   # def infrequentWordFiltering(self):
-       # for word_record in self.vocabulary.values():
-            # create new dictionary without
-            #if (!(word_record.tot_freq<1)) :
+    # def infrequentWordFiltering(self):
+    # for word_record in self.vocabulary.values():
+    # create new dictionary without
+    # if (!(word_record.tot_freq<1)) :
 
-        #create new maps
-            #print(word_record.word + ": " + str(word_record.tot_freq))
+    # create new maps
+    # print(word_record.word + ": " + str(word_record.tot_freq))
 
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
@@ -182,6 +185,16 @@ class Analyser:
                 f.writelines(
                     f'Freq in pos: {word_record.pos_freq}, prob in pos: {word_record.pos_prob}, freq in neg: {word_record.neg_freq}, prob in neg: {word_record.neg_prob}\n')
 
+    def register_word_stats_for_21(self, vocab):
+        with open('frequency-model.txt', 'a', encoding='utf-8') as f:
+            f.writelines('\n')
+            i = 0
+            for word_record in vocab.values():
+                i += 1
+                f.writelines(f'No. {i} {word_record.word}\n')
+                f.writelines(
+                    f'Freq in pos: {word_record.pos_freq}, prob in pos: {word_record.pos_prob}, freq in neg: {word_record.neg_freq}, prob in neg: {word_record.neg_prob}\n')
+
     def register_stop_word(self):
         with open(self.removed_path, 'w') as f:
             i = 0
@@ -190,6 +203,155 @@ class Analyser:
                     i += 1
                     f.writelines(f'No. {i} {k}\n')
                     f.writelines(f'Freq:{v}\n')
+
+    def classify_gradual_removal(self, smoothing, vocabulary, percentage, quantity, pos_words, neg_words):
+        counter = 0
+        rightCounter = 0
+        wrongCounter = 0
+
+        file1 = open("frequency-result.txt", "a")
+
+        testing_subject = 'percentage based removal' if percentage else 'frequency based removal'
+        file1.write(f'\n\n------------------Testing for {testing_subject} at {quantity}, total words count: {pos_words + neg_words}\n-----------------------')
+
+        for review in self.testreviews:
+            # remove all punctuations from the review body
+            content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+            title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
+            words = content_no_punc.split() + title_no_punc.split()
+
+            # calculate probability of positive and negative review
+            positive_prob = math.log10(self.prior_prob_pos)
+            negative_prob = math.log10(self.prior_prob_neg)
+            for word in words:
+                if word in vocabulary:
+                    positive_prob += math.log10((vocabulary[word].pos_freq + smoothing) / (
+                            pos_words + smoothing * pos_words))
+                    negative_prob += math.log10((vocabulary[word].neg_prob + smoothing) / (
+                            neg_words + smoothing * neg_words))
+                else:
+                    positive_prob += math.log10(smoothing / (pos_words + smoothing * pos_words))
+                    negative_prob += math.log10(smoothing / (neg_words + smoothing * neg_words))
+
+            if positive_prob >= negative_prob:
+                prediction = "positive"
+            else:
+                prediction = "negative"
+
+            if (review.positive):
+                actual = "positive"
+            else:
+                actual = "negative"
+
+            if (actual == prediction):
+                guess = "right"
+                rightCounter += 1
+            else:
+                guess = "wrong"
+                wrongCounter += 1
+
+            file1.write("No." + str(counter + 1) + " " + review.title + ": ")
+            file1.write(str(positive_prob) + " ," + str(
+                negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
+            counter += 1
+        file1.write("The prediction correctness is " + str(rightCounter / counter))
+        file1.close()
+
+    # returns a new dictionary after removing the words with less than specified number of frequency
+    def word_removal_by_count(self, vocabulary, removal_upper_bound):
+        filtered_dict = {}
+        total_pos = 0
+        total_neg = 0
+
+        for word, word_record in vocabulary.items():
+            if word_record.tot_freq > removal_upper_bound:
+                filtered_dict[word] = word_record
+                total_pos += word_record.pos_freq
+                total_neg += word_record.neg_freq
+
+        # these resets the pos_freq and neg_freq of each word record everytime, so need to rewrite them every time
+        for word_record in filtered_dict.values():
+            word_record.set_prob(True, word_record.pos_freq / total_pos)
+            word_record.set_prob(False, word_record.neg_freq / total_neg)
+
+        return filtered_dict, total_pos, total_neg
+
+    # returns a new dictionary after removing the specified top percentage entries
+    def word_removal_by_percent(self, vocabulary, removal_percentage_from_top):
+        total_entries = len(vocabulary)
+        entries_to_keep = total_entries * ((100 - removal_percentage_from_top) / 100)
+        entries_to_keep = int(entries_to_keep)
+
+        sorted_dict = dict(sorted(vocabulary.items(), key=lambda word_entry: word_entry[1].tot_freq))
+
+        filtered_dict = {}
+
+        total_pos = 0
+        total_neg = 0
+        i = 1
+        for word, word_record in sorted_dict.items():
+            filtered_dict[word] = word_record
+            total_pos += word_record.pos_freq
+            total_neg += word_record.neg_freq
+            i += 1
+            if i >= entries_to_keep:
+                break
+
+        for word_record in filtered_dict.values():
+            word_record.set_prob(True, word_record.pos_freq / total_pos)
+            word_record.set_prob(False, word_record.neg_freq / total_neg)
+
+        return filtered_dict, total_pos, total_neg
+
+    def gradual_word_removal_by_frequency(self):
+        # testing for frequency, 1, 10, 20
+        counts = [1, 10, 20]
+        count_vocabularies = [self.vocabulary]
+        count_positive_probs = [self.positive_words]
+        count_negative_probs = [self.negative_words]
+
+        index = 0
+        for count in counts:
+            filtered_dict, pos_words, neg_words = self.word_removal_by_count(count_vocabularies[index], count)
+            count_vocabularies.append(filtered_dict)
+            count_positive_probs.append(pos_words)
+            count_negative_probs.append(neg_words)
+            index += 1
+
+        # testing percentage, 5, 10, 20
+        percentages = [5, 10, 20]
+        perct_vocabularies = [count_vocabularies[len(count_vocabularies) - 1]]
+        perct_positive_probs = [count_positive_probs[len(count_positive_probs) - 1]]
+        perct_negative_probs = [count_negative_probs[len(count_negative_probs) - 1]]
+
+        index = 0
+        for percentage in percentages:
+            filtered_dict, pos_words, neg_words = self.word_removal_by_percent(perct_vocabularies[index], percentage)
+            perct_vocabularies.append(filtered_dict)
+            perct_positive_probs.append(pos_words)
+            perct_negative_probs.append(neg_words)
+            index += 1
+
+        if os.path.exists('frequency-model.txt'):
+            os.remove('frequency-model.txt')
+
+        for voc in count_vocabularies:
+            self.register_word_stats_for_21(voc)
+        
+        for voc in perct_vocabularies:
+            self.register_word_stats_for_21(voc)
+
+        if os.path.exists('frequency-result.txt'):
+            os.remove('frequency-result.txt')
+
+        # smoothing, vocabulary, percentage, quantity, pos_words, neg_words
+        counts.insert(0, 0)
+        percentages.insert(0, 100)
+        for i in range(len(count_vocabularies)):
+            self.classify_gradual_removal(1, count_vocabularies[i], False, counts[i], count_positive_probs[i], count_negative_probs[i])
+            
+        for i in range(len(perct_vocabularies)):
+            self.classify_gradual_removal(1, perct_vocabularies[i], True, percentages[i], perct_positive_probs[i], perct_negative_probs[i])
 
 
 class WordRecord:
@@ -215,4 +377,3 @@ class WordRecord:
 
     def __str__(self):
         return f'\nword: {self.word}\npositive frequency: {self.pos_freq}\nnegative frequency: {self.neg_freq}\npositive probability: {self.pos_prob}\nnegative probability: {self.neg_prob} '
-
