@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from requests import get
 import pickle
 from webscraper import Review
+from matplotlib import pyplot as plt
 from analyser import Analyser
 
 
@@ -151,10 +152,25 @@ if __name__ == '__main__':
     reviews_path = 'review_objs.pickle'
     stop_words_path = 'stopword.txt'
     txt_output_path = 'model.txt'
+    removed_words_path = 'removed.txt'
     dictionary_output_path = 'vocabulary_dictionary.pickle'
-    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path)
     sample_analyser.compute_statistics()
-    #sample_analyser.display_statistics()
-    sample_analyser.classify(0.5)
+
+    sample_analyser.display_statistics()
+    sample_analyser.classify(1.6)
+    # sample_analyser.classify(1)
+    # sample_analyser.classify(1.2)
+    # sample_analyser.classify(1.4)
+    # sample_analyser.classify(1.6)
+    # sample_analyser.classify(1.8)
+    # sample_analyser.classify(2.0)
+    #
 #    sample_analyser.infrequentWordFiltering()
     #sample_analyser.vocabulary
+#
+#     sample_analyser.display_statistics()
+#     sample_analyser.register_word_statistics()
+#     sample_analyser.register_stop_word()
+
+
