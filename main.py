@@ -140,7 +140,7 @@ if __name__ == '__main__':
     # adjust user-agent, pls change it to your own or grab one from the internet that is for mac/pc
 
     # header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'}
-    # show_url = 'https://www.imdb.com/title/tt0306414/'
+    # show_url = 'https://www.imdb.com/title/tt0944947/'
     # reviews_filename = 'review_objs.pickle'
     # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
     # sample_scraper.gather_data()
@@ -150,8 +150,8 @@ if __name__ == '__main__':
     txt_output_path = 'model.txt'
     dictionary_output_path = 'vocabulary_dictionary.pickle'
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
-    sample_analyser.compute_statistics()
-    sample_analyser.display_statistics(False)
+    sample_analyser.compute_statistics(0)
+    # sample_analyser.display_statistics()
     sample_analyser.classify(1, False)
 
     # START TASK 2.3
@@ -159,19 +159,22 @@ if __name__ == '__main__':
     text_file = open("length-result.txt", "w")
     text_file = open("length-model.txt", "w")
     text_file.close()
-    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
-    sample_analyser.compute_statistics(2)
-    sample_analyser.display_statistics(True)
-    sample_analyser.classify(1, True)
+    # sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    # sample_analyser.compute_statistics(2)
+    # sample_analyser.display_statistics()
+    # sample_analyser.register_word_stats_for_23(sample_analyser.vocabulary)
+    # sample_analyser.classify(1, True)
 
-    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
-    sample_analyser.compute_statistics(4)
-    sample_analyser.display_statistics(True)
-    sample_analyser.classify(1, True)
+    # sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    # sample_analyser.compute_statistics(4)
+    # # sample_analyser.display_statistics()
+    # sample_analyser.register_word_stats_for_23(sample_analyser.vocabulary)
+    # sample_analyser.classify(1, True)
 
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
     sample_analyser.compute_statistics(9)
-    sample_analyser.display_statistics(True)
+    sample_analyser.display_statistics()
+    sample_analyser.register_word_stats_for_23(sample_analyser.vocabulary)
     sample_analyser.classify(1, True)
     # END TASK 2.3
 

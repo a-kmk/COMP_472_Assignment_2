@@ -89,9 +89,9 @@ class Analyser:
             words = content_no_punc.split() + title_no_punc.split()
 
             for word in words:
-                if word in self.stop_words or len(word) <= 2:
+                if word in self.stop_words:
                     self.stop_words[word] += 1
-                else:
+                elif len(word) > 2:
                     if word in self.vocabulary:
                         self.vocabulary[word].add_freq(review.positive)
                     # create an entry for the word in the dictionary
@@ -109,9 +109,9 @@ class Analyser:
             words = content_no_punc.split() + title_no_punc.split()
 
             for word in words:
-                if word in self.stop_words or len(word) <= 4:
+                if word in self.stop_words:
                     self.stop_words[word] += 1
-                else:
+                elif len(word) > 4:
                     if word in self.vocabulary:
                         self.vocabulary[word].add_freq(review.positive)
                     # create an entry for the word in the dictionary
@@ -129,9 +129,9 @@ class Analyser:
             words = content_no_punc.split() + title_no_punc.split()
 
             for word in words:
-                if word in self.stop_words or len(word) >= 9:
+                if word in self.stop_words:
                     self.stop_words[word] += 1
-                else:
+                elif len(word) < 9:
                     if word in self.vocabulary:
                         self.vocabulary[word].add_freq(review.positive)
                     # create an entry for the word in the dictionary
@@ -166,7 +166,7 @@ class Analyser:
     # if filter = 9 -> use parse_reviews_remove2
     # else use parse_reviews (default)
     # *filter takes a number or if no number given its default
-    def compute_statistics(self, *filter):
+    def compute_statistics(self, filter):
         self.load_reviews()
         self.load_stop_words()
         if filter == 2:
@@ -184,61 +184,77 @@ class Analyser:
 
     # filter used to print to txt files
     def classify(self, smoothing, filter):
-        #todo: check for valid smoothing range
-        counter = 1;
+        counter = 0
+        rightCounter = 0
+        wrongCounter = 0
+
+        text_file = open("length-result.txt", "a")
         for review in self.testreviews:
             # remove all punctuations from the review body
             content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
             title_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
-
             words = content_no_punc.split() + title_no_punc.split()
 
-            #calculate probability of positive and negative review
-            positive_prob = math.log10(self.prior_prob_pos + smoothing)
-            negative_prob = math.log10(self.prior_prob_neg + smoothing)
+            # calculate probability of positive and negative review
+            positive_prob = math.log10(self.prior_prob_pos)
+            negative_prob = math.log10(self.prior_prob_neg)
             for word in words:
                 if word in self.vocabulary:
-                    positive_prob += math.log10(self.vocabulary[word].pos_prob + smoothing)
-                    negative_prob += math.log10(self.vocabulary[word].neg_prob + smoothing)
-                    if(positive_prob >= negative_prob) :
+                    positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing) / (
+                            self.positive_words + smoothing * self.positive_words))
+                    negative_prob += math.log10((self.vocabulary[word].neg_prob + smoothing) / (
+                            self.negative_words + smoothing * self.negative_words))
+
+                    if (positive_prob >= negative_prob):
                         prediction = "positive"
-                    else :
+                    else:
                         prediction = "negative"
 
-            if (review.positive) :
+            if (review.positive):
                 actual = "positive"
-            else :
-                 actual = "negative"
+            else:
+                actual = "negative"
 
-            if (actual == prediction) :
+            if (actual == prediction):
                 guess = "right"
-            else :
+                rightCounter += 1
+            else:
                 guess = "wrong"
+                wrongCounter += 1
 
             if filter == True:
-                text_file = open("length-result.txt", "a")
-                text_file.write("No." + str(counter) + " " +  review.title + ": \n")
-                text_file.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
+                text_file.write("No." + str(counter) + " " + review.title + ": \n")
+                text_file.write(
+                    str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
                 text_file.write("\n")
+                counter += 1
             else:
-                print("No." + str(counter) + " " +  review.title + ": ")
-                print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess +"\n")
-            counter+=1
-            #calculate probability of negative review
-
-    def display_statistics(self, filter):
+                print("No." + str(counter) + " " + review.title + ": ")
+                print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
         if filter == True:
-            f = open("length-model.txt", 'a', encoding='utf-8')
-            for word_record in self.vocabulary.values():
-                f.write(str(word_record))
-                f.write("\n")
-        else:
-            print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
-            print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
-            print(f'\nTotal positive words: {self.positive_words}\nTotal negative words: {self.negative_words}')
-            print(f'\nWord specific statistics: \n')
-            for word_record in self.vocabulary.values():
-                print(str(word_record))
+            text_file.write("The prediction correctness is " + str(rightCounter / counter))
+            text_file.write("\n")
+            text_file.write("\n")
+        text_file.close()
+
+
+    def display_statistics(self):
+        print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
+        print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
+        print(f'\nTotal positive words: {self.positive_words}\nTotal negative words: {self.negative_words}')
+        print(f'\nWord specific statistics: \n')
+        for word_record in self.vocabulary.values():
+            print(str(word_record))
+
+    def register_word_stats_for_23(self, vocab):
+        with open('length-model.txt', 'a', encoding='utf-8') as f:
+            f.writelines('\n')
+            i = 0
+            for word_record in vocab.values():
+                i += 1
+                f.writelines(f'No. {i} {word_record.word}\n')
+                f.writelines(
+                    f'Freq in pos: {word_record.pos_freq}, prob in pos: {word_record.pos_prob}, freq in neg: {word_record.neg_freq}, prob in neg: {word_record.neg_prob}\n')
 
 class WordRecord:
     def __init__(self, word, positive):
