@@ -1,3 +1,4 @@
+import re
 import string
 
 import classifier
@@ -156,25 +157,58 @@ if __name__ == '__main__':
     dictionary_output_path = 'vocabulary_dictionary.pickle'
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path)
     sample_analyser.compute_statistics()
-<<<<<<< HEAD
+
 
     sample_analyser.display_statistics()
+
+    # 2.2 code block.
+
+
+    #sample_analyser.classify(1.6)
+    sample_analyser.classify(1)
+    sample_analyser.classify(1.2)
+    sample_analyser.classify(1.4)
     sample_analyser.classify(1.6)
-    # sample_analyser.classify(1)
-    # sample_analyser.classify(1.2)
-    # sample_analyser.classify(1.4)
-    # sample_analyser.classify(1.6)
-    # sample_analyser.classify(1.8)
-    # sample_analyser.classify(2.0)
-    #
-=======
+    sample_analyser.classify(1.8)
+    sample_analyser.classify(2.0)
+
+
+
     #sample_analyser.display_statistics()
     sample_analyser.register_word_statistics()
     sample_analyser.register_stop_word()
-    sample_analyser.classify(0.5)
->>>>>>> 7099d48665eb394e8dc262ac6479d46e5141ebb9
+    #sample_analyser.classify(0.5)
+
+    with open('result.txt', 'r') as file:
+        outputStr = file.read()
+    substring = "The prediction correctness is "
+    matches = re.finditer(substring, outputStr)
+    matches_positions = [match.start() for match in matches]
+    print(matches_positions)
+
+    #this gets the y axis (accuracy)
+    yValues = []
+    xValues = []
+    for x in range(len(matches_positions)):
+        print(matches_positions[x])
+        aString = outputStr[matches_positions[x]+30] + outputStr[matches_positions[x] + 31] + outputStr[matches_positions[x] + 32] + outputStr[matches_positions[x] + 33]+ outputStr[matches_positions[x] + 34] + outputStr[matches_positions[x] + 35]
+        aFloat = float(aString)
+        yValues.append(aFloat)
+        xValues.append(1+0.2*x)
+    print(yValues)
+    print(xValues)
+
+    plt.xkcd()
+    plt.plot(xValues, yValues, color='#444444', linestyle='--')
+    plt.xlabel('smoothing values')
+    plt.ylabel('Accuracy')
+    plt.title('Model accuracy by smoothing value')
+
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 #    sample_analyser.infrequentWordFiltering()
-    #sample_analyser.vocabulary
+#    sample_analyser.vocabulary
 #
 #     sample_analyser.display_statistics()
 #     sample_analyser.register_word_statistics()
