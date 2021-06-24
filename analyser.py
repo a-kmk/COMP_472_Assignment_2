@@ -173,8 +173,6 @@ class Analyser:
         print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
         print(f'\nTotal positive words: {self.positive_words}\nTotal negative words: {self.negative_words}')
         print(f'\nWord specific statistics: \n')
-        for word_record in self.vocabulary.values():
-            print(str(word_record))
 
     def register_word_statistics(self):
         with open(self.text_path, 'w', encoding='utf-8') as f:
