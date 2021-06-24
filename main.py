@@ -1,3 +1,4 @@
+import re
 import string
 from math import log
 
@@ -163,40 +164,95 @@ if __name__ == '__main__':
     # adjust the show_ur, to a imdb url for a show of your liking
     # adjust user-agent, pls change it to your own or grab one from the internet that is for mac/pc
 
-    # header = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-    # 'Chrome/91.0.4472.101 Safari/537.36'}
+    # header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'}
     # show_url = 'https://www.imdb.com/title/tt0944947/'
     # reviews_filename = 'review_objs.pickle'
     # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
     # sample_scraper.gather_data()
-
     # run
     # reviews_path = 'review_objs.pickle'
     # stop_words_path = 'stopword.txt'
     # txt_output_path = 'model.txt'
     # removed_words_path = 'removed.txt'
     # dictionary_output_path = 'vocabulary_dictionary.pickle'
-    # sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path)
-    # sample_analyser.compute_statistics()
-    # #2.1
-    # sample_analyser.gradual_word_removal_by_frequency()
-
+    sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    sample_analyser.compute_statistics(0)
     # sample_analyser.display_statistics()
+    sample_analyser.classify(1, False)
+
+    # START TASK 2.3
+    # make new file
+    text_file = open("length-result.txt", "w")
+    text_file = open("length-model.txt", "w")
+    text_file.close()
+    # sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    # sample_analyser.compute_statistics(2)
+    # sample_analyser.display_statistics()
+    # sample_analyser.register_word_stats_for_23(sample_analyser.vocabulary)
+    # sample_analyser.classify(1, True)
+
+    # sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    # sample_analyser.compute_statistics(4)
+    # # sample_analyser.display_statistics()
+    # sample_analyser.register_word_stats_for_23(sample_analyser.vocabulary)
+    # sample_analyser.classify(1, True)
+
+    # sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path)
+    # sample_analyser.compute_statistics(9)
+    # sample_analyser.display_statistics()
+    # sample_analyser.register_word_stats_for_23(sample_analyser.vocabulary)
+    # sample_analyser.classify(1, True)
+    # END TASK 2.3
+
+    #sample_analyser.vocabulary
+
     # sample_analyser.classify(1.6)
-    # sample_analyser.classify(1)
-    # sample_analyser.classify(1.2)
-    # sample_analyser.classify(1.4)
-    # sample_analyser.classify(1.6)
-    # sample_analyser.classify(1.8)
-    # sample_analyser.classify(2.0)
+    #sample_analyser.classify(1.6)
+    sample_analyser.classify(1)
+
+    sample_analyser.classify(1.2)
+    sample_analyser.classify(1.4)
+    sample_analyser.classify(1.6)
+    sample_analyser.classify(1.8)
+    sample_analyser.classify(2.0)
+
+
 
     # sample_analyser.display_statistics()
     # sample_analyser.register_word_statistics()
     # sample_analyser.register_stop_word()
     # sample_analyser.classify(0.5)
 
+    with open('result.txt', 'r') as file:
+        outputStr = file.read()
+    substring = "The prediction correctness is "
+    matches = re.finditer(substring, outputStr)
+    matches_positions = [match.start() for match in matches]
+    print(matches_positions)
+
+    #this gets the y axis (accuracy)
+    yValues = []
+    xValues = []
+    for x in range(len(matches_positions)):
+        print(matches_positions[x])
+        aString = outputStr[matches_positions[x]+30] + outputStr[matches_positions[x] + 31] + outputStr[matches_positions[x] + 32] + outputStr[matches_positions[x] + 33]+ outputStr[matches_positions[x] + 34] + outputStr[matches_positions[x] + 35]
+        aFloat = float(aString)
+        yValues.append(aFloat)
+        xValues.append(1+0.2*x)
+    print(yValues)
+    print(xValues)
+
+    plt.xkcd()
+    plt.plot(xValues, yValues, color='#444444', linestyle='--')
+    plt.xlabel('smoothing values')
+    plt.ylabel('Accuracy')
+    plt.title('Model accuracy by smoothing value')
+
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 #    sample_analyser.infrequentWordFiltering()
-    #sample_analyser.vocabulary
+#    sample_analyser.vocabulary
 #
     # sample_analyser.display_statistics()
 #     sample_analyser.register_word_statistics()
