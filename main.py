@@ -1,10 +1,12 @@
 import string
 
+import classifier
 from webscraper import IMDBReviewsCollector
 from bs4 import BeautifulSoup
 from requests import get
 import pickle
 from webscraper import Review
+from matplotlib import pyplot as plt
 from analyser import Analyser
 
 
@@ -179,4 +181,26 @@ if __name__ == '__main__':
     # END TASK 2.3
 
     #sample_analyser.vocabulary
+
+    sample_analyser.classify(1.6)
+    # sample_analyser.classify(1)
+    # sample_analyser.classify(1.2)
+    # sample_analyser.classify(1.4)
+    # sample_analyser.classify(1.6)
+    # sample_analyser.classify(1.8)
+    # sample_analyser.classify(2.0)
+    #
+=======
+    #sample_analyser.display_statistics()
+    sample_analyser.register_word_statistics()
+    sample_analyser.register_stop_word()
+    sample_analyser.classify(0.5)
+>>>>>>> 7099d48665eb394e8dc262ac6479d46e5141ebb9
+#    sample_analyser.infrequentWordFiltering()
+    #sample_analyser.vocabulary
+#
+#     sample_analyser.display_statistics()
+#     sample_analyser.register_word_statistics()
+#     sample_analyser.register_stop_word()
+
 

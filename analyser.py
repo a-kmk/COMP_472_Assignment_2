@@ -48,8 +48,8 @@ class Analyser:
             tempArray=[]
             for x in range(splitat):
                 tempArray.append(self.reviews[x])
-            print(len(self.testreviews))
             self.reviews = tempArray;
+
 
     # read the stop words and store them into a dictionary with the word as the id for quick lookup
     def load_stop_words(self):
@@ -74,9 +74,11 @@ class Analyser:
                 else:
                     if word in self.vocabulary:
                         self.vocabulary[word].add_freq(review.positive)
+                        self.vocabulary[word].tot_freq += 1
                     # create an entry for the word in the dictionary
                     else:
                         self.vocabulary[word] = WordRecord(word, review.positive)
+                        self.vocabulary[word].tot_freq +=1
 
     def parse_reviews_remove2(self):
 
@@ -151,6 +153,7 @@ class Analyser:
             # print(str(word_record))
             self.positive_words += word_record.pos_freq
             self.negative_words += word_record.neg_freq
+
 
     def compute_words_probability(self):
         for word_record in self.vocabulary.values():
@@ -263,6 +266,7 @@ class WordRecord:
         self.neg_freq = 0 if positive else 1
         self.pos_prob = 0.0
         self.neg_prob = 0.0
+        self.tot_freq = 0
 
     def add_freq(self, positive):
         if positive:
