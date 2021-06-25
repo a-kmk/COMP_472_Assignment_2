@@ -205,12 +205,12 @@ class Analyser:
             for word in words:
                 if word in self.vocabulary:
                     positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing) / (
-                            self.positive_words + smoothing * len(self.vocabulary)))
+                            self.positive_words + smoothing * self.positive_words))
                     negative_prob += math.log10((self.vocabulary[word].neg_freq + smoothing) / (
-                            self.negative_words + smoothing * len(self.vocabulary)))
+                            self.negative_words + smoothing * self.negative_words))
                 else:
-                    positive_prob += math.log10(smoothing / (self.positive_words + smoothing * len(self.vocabulary)))
-                    negative_prob += math.log10(smoothing / (self.negative_words + smoothing * len(self.vocabulary)))
+                    positive_prob += math.log10(smoothing / (self.positive_words + smoothing * self.positive_words))
+                    negative_prob += math.log10(smoothing / (self.negative_words + smoothing * self.negative_words))
 
             prediction = ''
             actual = ''
@@ -234,7 +234,6 @@ class Analyser:
 
             text_file.write("No." + str(review_counter) + " " + review.title + ": \n")
             text_file.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
-            text_file.write("\n")
             review_counter += 1
 
         text_file.write(f'-------------------------------------------------------\nThe smoothing value is {smoothing}')
