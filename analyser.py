@@ -9,11 +9,12 @@ from decimal import *
 # load_reviews->load_stop_words->parse_reviews-> compute_reviews_statistics -> compute_words_frequency ->
 # compute_words_frequency -> compute_reviews_probabilities
 class Analyser:
-    def __init__(self, review_objs_path, stop_words_path, txt_output_path, dictionary_output_path):
+    def __init__(self, review_objs_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path):
         self.reviews_path = review_objs_path
         self.stop_path = stop_words_path
-        self.text_paht = txt_output_path
+        self.text_path = txt_output_path
         self.dict_path = dictionary_output_path
+        self.remove_path = removed_words_path
         # stored review objs from webscraping
         self.reviews = []
         self.testreviews = []
@@ -50,7 +51,6 @@ class Analyser:
             for x in range(splitat):
                 tempArray.append(self.reviews[x])
             self.reviews = tempArray;
-
 
     # read the stop words and store them into a dictionary with the word as the id for quick lookup
     def load_stop_words(self):
@@ -164,19 +164,20 @@ class Analyser:
         self.prior_prob_pos = self.positive_reviews / self.total_reviews
         self.prior_prob_neg = self.negative_reviews / self.total_reviews
 
+    # a consequence of doing it this way is that we'll need to re-parse the reviews between every task
     # if filter = 2 -> use parse_reviews_remove2
     # if filter = 4 -> use parse_reviews_remove2
     # if filter = 9 -> use parse_reviews_remove2
     # else use parse_reviews (default)
     # *filter takes a number or if no number given its default
-    def compute_statistics(self, filter):
+    def compute_statistics(self, length_filter=0):
         self.load_reviews()
         self.load_stop_words()
-        if filter == 2:
+        if length_filter == 2:
             self.parse_reviews_remove2()
-        elif filter == 4:
+        elif length_filter == 4:
             self.parse_reviews_remove4()
-        elif filter == 9:
+        elif length_filter == 9:
             self.parse_reviews_remove9()
         else:
             self.parse_reviews()
@@ -186,12 +187,12 @@ class Analyser:
         self.compute_prior_probability()
 
     # filter used to print to txt files
-    def classify(self, smoothing, filter):
-        counter = 0
-        rightCounter = 0
-        wrongCounter = 0
+    def classify(self, output_path='result.txt', smoothing=1.0):
+        review_counter = 0
+        right_review_counter = 0
+        wrong_review_counter = 0
 
-        text_file = open("length-result.txt", "a")
+        text_file = open(output_path, "a")
         for review in self.testreviews:
             # remove all punctuations from the review body
             content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
@@ -204,49 +205,58 @@ class Analyser:
             for word in words:
                 if word in self.vocabulary:
                     positive_prob += math.log10((self.vocabulary[word].pos_freq + smoothing) / (
-                            self.positive_words + smoothing * self.positive_words))
-                    else :
-                        positive_prob += math.log10((smoothing) / (self.positive_words + smoothing * self.positive_words))
-                        negative_prob += math.log10((smoothing) / (self.negative_words + smoothing * self.negative_words))
+                            self.positive_words + smoothing * len(self.vocabulary)))
+                    negative_prob += math.log10((self.vocabulary[word].neg_freq + smoothing) / (
+                            self.negative_words + smoothing * len(self.vocabulary)))
+                else:
+                    positive_prob += math.log10(smoothing / (self.positive_words + smoothing * len(self.vocabulary)))
+                    negative_prob += math.log10(smoothing / (self.negative_words + smoothing * len(self.vocabulary)))
 
-                    if (positive_prob >= negative_prob):
-                        prediction = "positive"
-                    else:
-                        prediction = "negative"
+            prediction = ''
+            actual = ''
 
-            if (review.positive):
+            if positive_prob >= negative_prob:
+                prediction = "positive"
+            else:
+                prediction = "negative"
+
+            if review.positive:
                 actual = "positive"
             else:
                 actual = "negative"
 
-            if (actual == prediction):
+            if actual == prediction:
                 guess = "right"
-                rightCounter += 1
+                right_review_counter += 1
             else:
                 guess = "wrong"
-                wrongCounter += 1
+                wrong_review_counter += 1
 
-            if filter == True:
-                text_file.write("No." + str(counter) + " " + review.title + ": \n")
-                text_file.write(
-                    str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
-                text_file.write("\n")
-                counter += 1
-            else:
-                print("No." + str(counter) + " " + review.title + ": ")
-                print(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
-        if filter == True:
-            text_file.write("The prediction correctness is " + str(rightCounter / counter))
+            text_file.write("No." + str(review_counter) + " " + review.title + ": \n")
+            text_file.write(str(positive_prob) + " ," + str(negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
             text_file.write("\n")
-            text_file.write("\n")
+            review_counter += 1
+
+        text_file.write(f'-------------------------------------------------------\nThe smoothing value is {smoothing}')
+        text_file.write("The prediction correctness is " + str(right_review_counter / review_counter))
+        text_file.write("\n")
+        text_file.write("\n")
         text_file.close()
 
-
+    # for debugging only
     def display_statistics(self):
         print(f'\nPrior probabilities:\nPositive: {self.prior_prob_pos}\nNegative: {self.prior_prob_neg}')
         print(f'\nTotal reviews:\nPositive: {self.positive_reviews}\nNegative:{self.negative_reviews}')
         print(f'\nTotal positive words: {self.positive_words}\nTotal negative words: {self.negative_words}')
         print(f'\nWord specific statistics: \n')
+
+    def register_stop_word(self):
+        total_removed_words = 0
+        with open(self.remove_path, 'w', encoding='utf-8') as f:
+            for word, frequency in self.stop_words.items():
+                total_removed_words += frequency
+                f.writelines(f'word:{word} frequency:{frequency}\n')
+            f.writelines(f'\nTotal words:{total_removed_words}\n')
 
     def register_word_stats_for_23(self, vocab):
         with open('length-model.txt', 'a', encoding='utf-8') as f:
@@ -268,15 +278,17 @@ class Analyser:
                 f.writelines(
                     f'Freq in pos: {word_record.pos_freq}, prob in pos: {word_record.pos_prob}, freq in neg: {word_record.neg_freq}, prob in neg: {word_record.neg_prob}\n')
 
+    # for 2.1
     def classify_gradual_removal(self, smoothing, vocabulary, percentage, quantity, pos_words, neg_words):
         counter = 0
-        rightCounter = 0
-        wrongCounter = 0
+        right_counter = 0
+        wrong_counter = 0
 
         file1 = open("frequency-result.txt", "a")
 
         testing_subject = 'percentage based removal' if percentage else 'frequency based removal'
-        file1.write(f'\n\n------------------Testing for {testing_subject} at {quantity}, total words count: {pos_words + neg_words}\n-----------------------')
+        file1.write(
+            f'\n\n------------------Testing for {testing_subject} at {quantity}, total words count: {pos_words + neg_words}\n-----------------------\n\n')
 
         for review in self.testreviews:
             # remove all punctuations from the review body
@@ -290,38 +302,38 @@ class Analyser:
             for word in words:
                 if word in vocabulary:
                     positive_prob += math.log10((vocabulary[word].pos_freq + smoothing) / (
-                            pos_words + smoothing * pos_words))
+                            pos_words + len(self.vocabulary)))
                     negative_prob += math.log10((vocabulary[word].neg_prob + smoothing) / (
-                            neg_words + smoothing * neg_words))
+                            neg_words + len(self.vocabulary)))
                 else:
-                    positive_prob += math.log10(smoothing / (pos_words + smoothing * pos_words))
-                    negative_prob += math.log10(smoothing / (neg_words + smoothing * neg_words))
+                    positive_prob += math.log10(smoothing / (pos_words + len(self.vocabulary)))
+                    negative_prob += math.log10(smoothing / (neg_words + len(self.vocabulary)))
 
             if positive_prob >= negative_prob:
                 prediction = "positive"
             else:
                 prediction = "negative"
 
-            if (review.positive):
+            if review.positive:
                 actual = "positive"
             else:
                 actual = "negative"
 
-            if (actual == prediction):
+            if actual == prediction:
                 guess = "right"
-                rightCounter += 1
+                right_counter += 1
             else:
                 guess = "wrong"
-                wrongCounter += 1
+                wrong_counter += 1
 
             file1.write("No." + str(counter + 1) + " " + review.title + ": ")
             file1.write(str(positive_prob) + " ," + str(
                 negative_prob) + ", " + prediction + ",  " + actual + ", " + guess + "\n")
             counter += 1
-        file1.write("The prediction correctness is " + str(rightCounter / counter))
+        file1.write("The prediction correctness is " + str(right_counter / counter))
         file1.close()
 
-    # returns a new dictionary after removing the words with less than specified number of frequency
+    # for 2.1 returns a new dictionary after removing the words with less than specified number of frequency
     def word_removal_by_count(self, vocabulary, removal_upper_bound):
         filtered_dict = {}
         total_pos = 0
@@ -340,7 +352,7 @@ class Analyser:
 
         return filtered_dict, total_pos, total_neg
 
-    # returns a new dictionary after removing the specified top percentage entries
+    # for 2.1 returns a new dictionary after removing the specified top percentage entries
     def word_removal_by_percent(self, vocabulary, removal_percentage_from_top):
         total_entries = len(vocabulary)
         entries_to_keep = total_entries * ((100 - removal_percentage_from_top) / 100)
@@ -367,8 +379,9 @@ class Analyser:
 
         return filtered_dict, total_pos, total_neg
 
+    # for 2.1, executes the tasks in 2.1 and save results and model
     def gradual_word_removal_by_frequency(self):
-        # testing for frequency, 1, 10, 20
+        # testing for frequency, 1, 10, 20, compounded, e.g. vocabulary after a stage of removal is passed to the next
         counts = [1, 10, 20]
         count_vocabularies = [self.vocabulary]
         count_positive_probs = [self.positive_words]
@@ -399,11 +412,13 @@ class Analyser:
         if os.path.exists('frequency-model.txt'):
             os.remove('frequency-model.txt')
 
-        for voc in count_vocabularies:
-            self.register_word_stats_for_21(voc)
-        
-        for voc in perct_vocabularies:
-            self.register_word_stats_for_21(voc)
+        # for voc in count_vocabularies:
+        #     self.register_word_stats_for_21(voc)
+
+        # for voc in perct_vocabularies:
+        #     self.register_word_stats_for_21(voc)
+
+        self.register_word_stats_for_21(perct_vocabularies[-1])
 
         if os.path.exists('frequency-result.txt'):
             os.remove('frequency-result.txt')
@@ -412,10 +427,13 @@ class Analyser:
         counts.insert(0, 0)
         percentages.insert(0, 100)
         for i in range(len(count_vocabularies)):
-            self.classify_gradual_removal(1, count_vocabularies[i], False, counts[i], count_positive_probs[i], count_negative_probs[i])
-            
+            self.classify_gradual_removal(1, count_vocabularies[i], False, counts[i], count_positive_probs[i],
+                                          count_negative_probs[i])
+
         for i in range(len(perct_vocabularies)):
-            self.classify_gradual_removal(1, perct_vocabularies[i], True, percentages[i], perct_positive_probs[i], perct_negative_probs[i])
+            self.classify_gradual_removal(1, perct_vocabularies[i], True, percentages[i], perct_positive_probs[i],
+                                          perct_negative_probs[i])
+
 
 class WordRecord:
     def __init__(self, word, positive):
