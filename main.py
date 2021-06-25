@@ -10,12 +10,12 @@ if __name__ == '__main__':
     # because analyser work with serialized reviews data file created by the scraper
     # adjust the show_ur, to a imdb url for a show of your liking
     # adjust user-agent, pls change it to your own or grab one from the internet that is for mac/pc
-
-    header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'}
-    show_url = 'https://www.imdb.com/title/tt0306414/'
-    reviews_filename = 'review_objs.pickle'
-    sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
-    sample_scraper.gather_data()
+    #
+    # header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'}
+    # show_url = 'https://www.imdb.com/title/tt0306414/'
+    # reviews_filename = 'review_objs.pickle'
+    # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
+    # sample_scraper.gather_data()
     # run
     reviews_path = 'review_objs.pickle'
     stop_words_path = 'stopword.txt'
