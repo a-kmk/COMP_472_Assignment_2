@@ -1,222 +1,222 @@
 No.0 Starting to lose its way....: 
--1529.8419097800033 ,-1389.5492581204053, negative,  negative, right
+-1529.8419097800033 ,-1529.4761055718961, negative,  negative, right
 No.1 5x06: 
--1606.8031487587918 ,-1441.0566684873775, negative,  negative, right
+-1606.8031487587918 ,-1571.0178513080757, negative,  negative, right
 No.2 5x07: 
--1168.212756327772 ,-1027.2968852829504, negative,  negative, right
+-1168.212756327772 ,-1180.3832428195142, positive,  negative, wrong
 No.3 Missing the point: 
--792.1135069505028 ,-728.2942329041745, negative,  positive, wrong
+-792.1135069505028 ,-798.2620047010209, positive,  positive, right
 No.4 I was shocked at first but then it all made sense: 
--1194.9342830209766 ,-1088.8970607911356, negative,  positive, wrong
+-1194.9342830209766 ,-1163.8971832855532, negative,  positive, wrong
 No.5 5x08: 
--2108.4246432011564 ,-1892.434088413696, negative,  negative, right
+-2108.4246432011564 ,-2119.3166308423274, positive,  negative, wrong
 No.6 Are you fn kidding me?!?: 
--360.6180922632221 ,-332.20235736473694, negative,  negative, right
+-360.6180922632221 ,-357.9024473548125, negative,  negative, right
 No.7 Oh god: 
--76.16930862051196 ,-71.52199855322037, negative,  positive, wrong
+-76.16930862051196 ,-83.68717955448014, positive,  positive, right
 No.8 Unsatisfied: 
--426.32816403738417 ,-394.1671043641966, negative,  negative, right
+-426.32816403738417 ,-440.96757852878005, positive,  negative, wrong
 No.9 Omar deserves a better death scene: 
--476.25775248003436 ,-434.8476019011571, negative,  positive, wrong
+-476.25775248003436 ,-482.50613433878334, positive,  positive, right
 No.10 What?: 
--75.24894693090607 ,-70.99172408404289, negative,  negative, right
+-75.24894693090607 ,-83.6843101867498, positive,  negative, wrong
 No.11 5x09: 
--1805.5984691213189 ,-1634.7377961123539, negative,  positive, wrong
+-1805.5984691213189 ,-1878.2296195999406, positive,  positive, right
 No.12 The best: 
--619.5971786966794 ,-569.0063529791818, negative,  positive, wrong
+-619.5971786966794 ,-623.7574075439964, positive,  positive, right
 No.13 Excellent ending: 
--1055.5821941720253 ,-974.2441409352765, negative,  positive, wrong
+-1055.5821941720253 ,-1055.8559092692308, positive,  positive, right
 No.14 The Life of Kings: 
--2165.834880131525 ,-1997.7118200365132, negative,  positive, wrong
+-2165.834880131525 ,-2152.7209622806035, negative,  positive, wrong
 No.15 Levy ain't that stupid!: 
--1094.7918735125752 ,-1012.0532442084899, negative,  positive, wrong
+-1094.7918735125752 ,-1072.5246109379036, negative,  positive, wrong
 No.16 5x10: 
--2800.630157414213 ,-2523.9787514185514, negative,  positive, wrong
+-2800.630157414213 ,-2883.612280631305, positive,  positive, right
 -------------------------------------------------------
-The smoothing value is 1The prediction correctness is 0.4117647058823529
+The smoothing value is 1The prediction correctness is 0.5882352941176471
 
 No.0 Starting to lose its way....: 
--1527.2440176851069 ,-1384.6670285269752, negative,  negative, right
+-1527.2440176851069 ,-1515.5957306834598, negative,  negative, right
 No.1 5x06: 
--1602.3145094382742 ,-1434.5335667091585, negative,  negative, right
+-1602.3145094382742 ,-1556.76091126563, negative,  negative, right
 No.2 5x07: 
--1166.3650341585342 ,-1025.0200216194949, negative,  negative, right
+-1166.3650341585342 ,-1169.689600469866, positive,  negative, wrong
 No.3 Missing the point: 
--790.7078576126439 ,-725.3779673625149, negative,  positive, wrong
+-790.7078576126439 ,-791.0222933883164, positive,  positive, right
 No.4 I was shocked at first but then it all made sense: 
--1191.028515593351 ,-1082.899068403222, negative,  positive, wrong
+-1191.028515593351 ,-1153.3324796671752, negative,  positive, wrong
 No.5 5x08: 
--2104.2756459256584 ,-1886.353190726055, negative,  negative, right
+-2104.2756459256584 ,-2100.097725357308, negative,  negative, right
 No.6 Are you fn kidding me?!?: 
--359.76470787823774 ,-330.5146246347149, negative,  negative, right
+-359.76470787823774 ,-354.6571464395229, negative,  negative, right
 No.7 Oh god: 
--76.18509423791892 ,-71.46928246116447, negative,  positive, wrong
+-76.18509423791892 ,-82.93378802032021, positive,  positive, right
 No.8 Unsatisfied: 
--426.1860877621562 ,-393.0958919510261, negative,  negative, right
+-426.1860877621562 ,-436.9721907596068, positive,  negative, wrong
 No.9 Omar deserves a better death scene: 
--475.4202264738158 ,-433.11909066816077, negative,  positive, wrong
+-475.4202264738158 ,-478.13471695047605, positive,  positive, right
 No.10 What?: 
--75.40569208077038 ,-71.03272548687468, negative,  negative, right
+-75.40569208077038 ,-82.93139019530224, positive,  negative, wrong
 No.11 5x09: 
--1804.6498033928394 ,-1631.323552946795, negative,  positive, wrong
+-1804.6498033928394 ,-1861.2187537117782, positive,  positive, right
 No.12 The best: 
--618.5678565747738 ,-566.5409586323575, negative,  positive, wrong
+-618.5678565747738 ,-618.1041056683284, negative,  positive, wrong
 No.13 Excellent ending: 
--1053.620798687161 ,-969.8183016316125, negative,  positive, wrong
+-1053.620798687161 ,-1046.275691507514, negative,  positive, wrong
 No.14 The Life of Kings: 
--2162.204460706501 ,-1988.3653617469697, negative,  positive, wrong
+-2162.204460706501 ,-2133.172464334269, negative,  positive, wrong
 No.15 Levy ain't that stupid!: 
--1092.1425428112166 ,-1006.537191194225, negative,  positive, wrong
+-1092.1425428112166 ,-1062.785144793384, negative,  positive, wrong
 No.16 5x10: 
--2797.8693246021153 ,-2517.923213546462, negative,  positive, wrong
+-2797.8693246021153 ,-2857.4766619575325, positive,  positive, right
 -------------------------------------------------------
-The smoothing value is 1.2The prediction correctness is 0.4117647058823529
+The smoothing value is 1.2The prediction correctness is 0.5294117647058824
 
 No.0 Starting to lose its way....: 
--1525.9354977930436 ,-1381.3897761777248, negative,  negative, right
+-1525.9354977930436 ,-1504.8839645260853, negative,  negative, right
 No.1 5x06: 
--1599.445959798024 ,-1429.9494070161973, negative,  negative, right
+-1599.445959798024 ,-1545.7585078595164, negative,  negative, right
 No.2 5x07: 
--1165.5006933071425 ,-1023.7724370827759, negative,  negative, right
+-1165.5006933071425 ,-1161.4360616444862, negative,  negative, right
 No.3 Missing the point: 
--789.9972361478192 ,-723.3665941163556, negative,  positive, wrong
+-789.9972361478192 ,-785.4351392350874, negative,  positive, wrong
 No.4 I was shocked at first but then it all made sense: 
--1188.4493146993063 ,-1078.5223882824534, negative,  positive, wrong
+-1188.4493146993063 ,-1145.1796839101837, negative,  positive, wrong
 No.5 5x08: 
--2102.0329134226254 ,-1882.4392404710222, negative,  negative, right
+-2102.0329134226254 ,-2085.265124695461, negative,  negative, right
 No.6 Are you fn kidding me?!?: 
--359.251166532013 ,-329.30567045430894, negative,  negative, right
+-359.251166532013 ,-352.15276662672466, negative,  negative, right
 No.7 Oh god: 
--76.2513589729666 ,-71.47063667131151, negative,  positive, wrong
+-76.2513589729666 ,-82.35232448789812, positive,  positive, right
 No.8 Unsatisfied: 
--426.32809925183676 ,-392.4269333845909, negative,  negative, right
+-426.32809925183676 ,-433.8887143851336, positive,  negative, wrong
 No.9 Omar deserves a better death scene: 
--475.0040228566283 ,-431.94286320485935, negative,  positive, wrong
+-475.0040228566283 ,-474.7609849255717, negative,  positive, wrong
 No.10 What?: 
--75.58868087492215 ,-71.10695406873606, negative,  negative, right
+-75.58868087492215 ,-82.3502651021205, positive,  negative, wrong
 No.11 5x09: 
--1804.956783115023 ,-1629.490807942814, negative,  positive, wrong
+-1804.956783115023 ,-1848.08900969948, positive,  positive, right
 No.12 The best: 
--618.0533464786533 ,-564.823465946241, negative,  positive, wrong
+-618.0533464786533 ,-613.7410922114731, negative,  positive, wrong
 No.13 Excellent ending: 
--1052.5836304586949 ,-966.6763700497792, negative,  positive, wrong
+-1052.5836304586949 ,-1038.8824310499267, negative,  positive, wrong
 No.14 The Life of Kings: 
--2160.3557964334295 ,-1981.6947092553507, negative,  positive, wrong
+-2160.3557964334295 ,-2118.0870746044584, negative,  positive, wrong
 No.15 Levy ain't that stupid!: 
--1090.5380645248626 ,-1002.4866859687468, negative,  positive, wrong
+-1090.5380645248626 ,-1055.269459713126, negative,  positive, wrong
 No.16 5x10: 
--2797.251355103231 ,-2514.459454666748, negative,  positive, wrong
+-2797.251355103231 ,-2837.304966984953, positive,  positive, right
 -------------------------------------------------------
-The smoothing value is 1.4The prediction correctness is 0.4117647058823529
+The smoothing value is 1.4The prediction correctness is 0.47058823529411764
 
 No.0 Starting to lose its way....: 
--1525.4357121754626 ,-1379.155874818651, negative,  negative, right
+-1525.4357121754626 ,-1496.3492419313225, negative,  negative, right
 No.1 5x06: 
--1597.6242135213379 ,-1426.645426214523, negative,  negative, right
+-1597.6242135213379 ,-1536.9921966572542, negative,  negative, right
 No.2 5x07: 
--1165.2504672948428 ,-1023.1754324920958, negative,  negative, right
+-1165.2504672948428 ,-1154.8593544674857, negative,  negative, right
 No.3 Missing the point: 
--789.7237073607257 ,-721.9482618364012, negative,  positive, wrong
+-789.7237073607257 ,-780.9834384328758, negative,  positive, wrong
 No.4 I was shocked at first but then it all made sense: 
--1186.7344973134352 ,-1075.229762067648, negative,  positive, wrong
+-1186.7344973134352 ,-1138.683966846431, negative,  positive, wrong
 No.5 5x08: 
--2100.9959410251668 ,-1879.9246049663466, negative,  negative, right
+-2100.9959410251668 ,-2073.446506868703, negative,  negative, right
 No.6 Are you fn kidding me?!?: 
--358.9552166620989 ,-328.4147901224971, negative,  negative, right
+-358.9552166620989 ,-350.1574226601832, negative,  negative, right
 No.7 Oh god: 
--76.34685407337425 ,-71.50441764985266, negative,  positive, wrong
+-76.34685407337425 ,-81.88900415003529, positive,  positive, right
 No.8 Unsatisfied: 
--426.6380134578791 ,-392.0154647961292, negative,  negative, right
+-426.6380134578791 ,-431.4318288717903, positive,  negative, wrong
 No.9 Omar deserves a better death scene: 
--474.85254374156483 ,-431.12843063818116, negative,  positive, wrong
+-474.85254374156483 ,-472.072796490019, negative,  positive, wrong
 No.10 What?: 
--75.78321741473461 ,-71.19892786798064, negative,  negative, right
+-75.78321741473461 ,-81.88719948531897, positive,  negative, wrong
 No.11 5x09: 
--1806.0152778914378 ,-1628.6533020316274, negative,  positive, wrong
+-1806.0152778914378 ,-1837.6265010417621, positive,  positive, right
 No.12 The best: 
--617.8618653257611 ,-563.5980705957444, negative,  positive, wrong
+-617.8618653257611 ,-610.2646673103588, negative,  positive, wrong
 No.13 Excellent ending: 
--1052.1292430395297 ,-964.3832271455395, negative,  positive, wrong
+-1052.1292430395297 ,-1032.9917584569391, negative,  positive, wrong
 No.14 The Life of Kings: 
--2159.6233269504282 ,-1976.7961817754824, negative,  positive, wrong
+-2159.6233269504282 ,-2106.067956582074, negative,  positive, wrong
 No.15 Levy ain't that stupid!: 
--1089.6015973736883 ,-999.4164916759007, negative,  positive, wrong
+-1089.6015973736883 ,-1049.2815183901005, negative,  positive, wrong
 No.16 5x10: 
--2797.944121253403 ,-2512.640251933907, negative,  positive, wrong
+-2797.944121253403 ,-2821.2315911881, positive,  positive, right
 -------------------------------------------------------
-The smoothing value is 1.6The prediction correctness is 0.4117647058823529
+The smoothing value is 1.6The prediction correctness is 0.47058823529411764
 
 No.0 Starting to lose its way....: 
--1525.4618467763148 ,-1377.629810121401, negative,  negative, right
+-1525.4618467763148 ,-1489.3798635041323, negative,  negative, right
 No.1 5x06: 
--1596.507453175567 ,-1424.224644562077, negative,  negative, right
+-1596.507453175567 ,-1529.833692512948, negative,  negative, right
 No.2 5x07: 
--1165.3974247300303 ,-1023.0054787978275, negative,  negative, right
+-1165.3974247300303 ,-1149.4884964579085, negative,  negative, right
 No.3 Missing the point: 
--789.7352506348119 ,-720.9358774548181, negative,  positive, wrong
+-789.7352506348119 ,-777.3481744428971, negative,  positive, wrong
 No.4 I was shocked at first but then it all made sense: 
--1185.6071596923175 ,-1072.6952890885775, negative,  positive, wrong
+-1185.6071596923175 ,-1133.3796948396043, negative,  positive, wrong
 No.5 5x08: 
--2100.7509025099353 ,-1878.3518391746568, negative,  negative, right
+-2100.7509025099353 ,-2063.7951713124567, negative,  negative, right
 No.6 Are you fn kidding me?!?: 
--358.80429391889976 ,-327.74479460307157, negative,  negative, right
+-358.80429391889976 ,-348.52807339345424, negative,  negative, right
 No.7 Oh god: 
--76.45940024502205 ,-71.55811474537292, negative,  positive, wrong
+-76.45940024502205 ,-81.51064059571912, positive,  positive, right
 No.8 Unsatisfied: 
--427.0489072792625 ,-391.7756775168755, negative,  negative, right
+-427.0489072792625 ,-429.42550167364413, positive,  negative, wrong
 No.9 Omar deserves a better death scene: 
--474.87351458146816 ,-430.5614539626392, negative,  positive, wrong
+-474.87351458146816 ,-469.8775654671867, negative,  positive, wrong
 No.10 What?: 
--75.98134713621599 ,-71.30003300947999, negative,  negative, right
+-75.98134713621599 ,-81.5090345775417, positive,  negative, wrong
 No.11 5x09: 
--1807.5337547527856 ,-1628.465845765926, negative,  positive, wrong
+-1807.5337547527856 ,-1829.082139025665, positive,  positive, right
 No.12 The best: 
--617.8805899784454 ,-562.7109336778701, negative,  positive, wrong
+-617.8805899784454 ,-607.4257597789153, negative,  positive, wrong
 No.13 Excellent ending: 
--1052.0562362859748 ,-962.676681008655, negative,  positive, wrong
+-1052.0562362859748 ,-1028.181482953774, negative,  positive, wrong
 No.14 The Life of Kings: 
--2159.6158467122727 ,-1973.1246414382888, negative,  positive, wrong
+-2159.6158467122727 ,-2096.253463631779, negative,  positive, wrong
 No.15 Levy ain't that stupid!: 
--1089.1095126224343 ,-997.0323887794117, negative,  positive, wrong
+-1089.1095126224343 ,-1044.3919853705054, negative,  positive, wrong
 No.16 5x10: 
--2799.4625824945715 ,-2511.905625438947, negative,  positive, wrong
+-2799.4625824945715 ,-2808.105375980727, positive,  positive, right
 -------------------------------------------------------
-The smoothing value is 1.8The prediction correctness is 0.4117647058823529
+The smoothing value is 1.8The prediction correctness is 0.47058823529411764
 
 No.0 Starting to lose its way....: 
--1525.8382996537944 ,-1376.5996630856046, negative,  negative, right
+-1525.8382996537944 ,-1483.5762068680099, negative,  negative, right
 No.1 5x06: 
--1595.880278288775 ,-1422.4339806509402, negative,  negative, right
+-1595.880278288775 ,-1523.8725357276219, negative,  negative, right
 No.2 5x07: 
--1165.8071286201784 ,-1023.1232812455063, negative,  negative, right
+-1165.8071286201784 ,-1145.0157383247197, negative,  negative, right
 No.3 Missing the point: 
--789.9373109352731 ,-720.2107240926531, negative,  positive, wrong
+-789.9373109352731 ,-774.3209275209805, negative,  positive, wrong
 No.4 I was shocked at first but then it all made sense: 
--1184.891916703913 ,-1070.7097217050118, negative,  positive, wrong
+-1184.891916703913 ,-1128.9626810434152, negative,  positive, wrong
 No.5 5x08: 
--2101.039715654101 ,-1877.4328443378865, negative,  negative, right
+-2101.039715654101 ,-2055.7579158037142, negative,  negative, right
 No.6 Are you fn kidding me?!?: 
--358.752893404996 ,-327.23349296212837, negative,  negative, right
+-358.752893404996 ,-347.1712748702134, negative,  negative, right
 No.7 Oh god: 
--76.58166731637421 ,-71.6241168677325, negative,  positive, wrong
+-76.58166731637421 ,-81.19555009369385, positive,  positive, right
 No.8 Unsatisfied: 
--427.5202546081266 ,-391.6538298825231, negative,  negative, right
+-427.5202546081266 ,-427.7547224850838, positive,  negative, wrong
 No.9 Omar deserves a better death scene: 
--475.0095597001318 ,-430.16934940551903, negative,  positive, wrong
+-475.0095597001318 ,-468.0494634483436, negative,  positive, wrong
 No.10 What?: 
--76.17862279963686 ,-71.40526372687239, negative,  negative, right
+-76.17862279963686 ,-81.19410332761736, positive,  negative, wrong
 No.11 5x09: 
--1809.3348129971955 ,-1628.7139113672763, negative,  positive, wrong
+-1809.3348129971955 ,-1821.9664292034622, positive,  positive, right
 No.12 The best: 
--618.0394727839258 ,-562.0641938628977, negative,  positive, wrong
+-618.0394727839258 ,-605.0616383312995, negative,  positive, wrong
 No.13 Excellent ending: 
--1052.239218956967 ,-961.3895646625375, negative,  positive, wrong
+-1052.239218956967 ,-1024.17578723046, negative,  positive, wrong
 No.14 The Life of Kings: 
--2160.090722233224 ,-1970.332121674757, negative,  positive, wrong
+-2160.090722233224 ,-2088.080715095632, negative,  positive, wrong
 No.15 Levy ain't that stupid!: 
--1088.9216425663199 ,-995.1455314787506, negative,  positive, wrong
+-1088.9216425663199 ,-1040.3204015552203, negative,  positive, wrong
 No.16 5x10: 
--2801.508839274951 ,-2511.9060072546404, negative,  positive, wrong
+-2801.508839274951 ,-2797.1741442032558, negative,  positive, wrong
 -------------------------------------------------------
 The smoothing value is 2.0The prediction correctness is 0.4117647058823529
 

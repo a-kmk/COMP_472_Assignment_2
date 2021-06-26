@@ -1,0 +1,148 @@
+No.0 Starting to lose its way....: 
+-1529.8419097800033 ,-1529.4761055718961, negative,  negative, right
+No.1 5x06: 
+-1606.8031487587918 ,-1571.0178513080757, negative,  negative, right
+No.2 5x07: 
+-1168.212756327772 ,-1180.3832428195142, positive,  negative, wrong
+No.3 Missing the point: 
+-792.1135069505028 ,-798.2620047010209, positive,  positive, right
+No.4 I was shocked at first but then it all made sense: 
+-1194.9342830209766 ,-1163.8971832855532, negative,  positive, wrong
+No.5 5x08: 
+-2108.4246432011564 ,-2119.3166308423274, positive,  negative, wrong
+No.6 Are you fn kidding me?!?: 
+-360.6180922632221 ,-357.9024473548125, negative,  negative, right
+No.7 Oh god: 
+-76.16930862051196 ,-83.68717955448014, positive,  positive, right
+No.8 Unsatisfied: 
+-426.32816403738417 ,-440.96757852878005, positive,  negative, wrong
+No.9 Omar deserves a better death scene: 
+-476.25775248003436 ,-482.50613433878334, positive,  positive, right
+No.10 What?: 
+-75.24894693090607 ,-83.6843101867498, positive,  negative, wrong
+No.11 5x09: 
+-1805.5984691213189 ,-1878.2296195999406, positive,  positive, right
+No.12 The best: 
+-619.5971786966794 ,-623.7574075439964, positive,  positive, right
+No.13 Excellent ending: 
+-1055.5821941720253 ,-1055.8559092692308, positive,  positive, right
+No.14 The Life of Kings: 
+-2165.834880131525 ,-2152.7209622806035, negative,  positive, wrong
+No.15 Levy ain't that stupid!: 
+-1094.7918735125752 ,-1072.5246109379036, negative,  positive, wrong
+No.16 5x10: 
+-2800.630157414213 ,-2883.612280631305, positive,  positive, right
+-------------------------------------------------------
+The smoothing value is 1.0The prediction correctness is 0.5882352941176471
+
+No.0 Starting to lose its way....: 
+-1535.8234206440432 ,-1524.1120460273494, negative,  negative, right
+No.1 5x06: 
+-1607.968000720982 ,-1565.506624988615, negative,  negative, right
+No.2 5x07: 
+-1174.4214234730575 ,-1176.2553706962258, positive,  negative, wrong
+No.3 Missing the point: 
+-793.6563265037533 ,-795.4589374801773, positive,  positive, right
+No.4 I was shocked at first but then it all made sense: 
+-1191.8209183548186 ,-1159.8089343153315, negative,  positive, wrong
+No.5 5x08: 
+-2108.1217661064425 ,-2111.874291803076, positive,  negative, wrong
+No.6 Are you fn kidding me?!?: 
+-359.66184454432954 ,-356.6468582742226, negative,  negative, right
+No.7 Oh god: 
+-75.9469254300719 ,-83.39490968338025, positive,  positive, right
+No.8 Unsatisfied: 
+-425.14953312805164 ,-439.41904348749193, positive,  negative, wrong
+No.9 Omar deserves a better death scene: 
+-478.0560660641821 ,-480.81157931233315, positive,  positive, right
+No.10 What?: 
+-75.02656374046605 ,-83.39194398506898, positive,  negative, wrong
+No.11 5x09: 
+-1818.407218732365 ,-1871.6383781443612, positive,  positive, right
+No.12 The best: 
+-624.2021116646465 ,-621.5669784071432, negative,  positive, wrong
+No.13 Excellent ending: 
+-1059.523761923613 ,-1052.1480796541641, negative,  positive, wrong
+No.14 The Life of Kings: 
+-2167.2056701859674 ,-2145.158981511575, negative,  positive, wrong
+No.15 Levy ain't that stupid!: 
+-1091.9231303558995 ,-1068.7585740475681, negative,  positive, wrong
+No.16 5x10: 
+-2803.7735107880058 ,-2873.4780930569395, positive,  positive, right
+-------------------------------------------------------
+The smoothing value is 1.0The prediction correctness is 0.47058823529411764
+
+No.0 Starting to lose its way....: 
+-1557.0312647119217 ,-1460.0536150982555, negative,  negative, right
+No.1 5x06: 
+-1630.2673805007234 ,-1499.7017555095615, negative,  negative, right
+No.2 5x07: 
+-1205.071755641514 ,-1126.8517875199027, negative,  negative, right
+No.3 Missing the point: 
+-797.0531561485799 ,-762.0492779866781, negative,  positive, wrong
+No.4 I was shocked at first but then it all made sense: 
+-1211.2140098222378 ,-1111.1165707621901, negative,  positive, wrong
+No.5 5x08: 
+-2163.2851162399606 ,-2023.1416502240286, negative,  negative, right
+No.6 Are you fn kidding me?!?: 
+-371.51573880692064 ,-341.6863321115365, negative,  negative, right
+No.7 Oh god: 
+-85.61910295957883 ,-79.92452143189546, negative,  positive, wrong
+No.8 Unsatisfied: 
+-448.32077572475083 ,-421.00054609662993, negative,  negative, right
+No.9 Omar deserves a better death scene: 
+-495.9261131806187 ,-460.6447099544149, negative,  positive, wrong
+No.10 What?: 
+-79.67253929670744 ,-79.90593746719148, positive,  negative, wrong
+No.11 5x09: 
+-1897.6476485383955 ,-1793.0019688623747, negative,  positive, wrong
+No.12 The best: 
+-617.9306036806295 ,-595.4285629920222, negative,  positive, wrong
+No.13 Excellent ending: 
+-1081.718324824456 ,-1007.9616466180663, negative,  positive, wrong
+No.14 The Life of Kings: 
+-2197.103099718656 ,-2054.9755079307056, negative,  positive, wrong
+No.15 Levy ain't that stupid!: 
+-1094.1108240533215 ,-1023.8449668564779, negative,  positive, wrong
+No.16 5x10: 
+-2896.670081985457 ,-2752.750485519427, negative,  positive, wrong
+-------------------------------------------------------
+The smoothing value is 1.0The prediction correctness is 0.35294117647058826
+
+No.0 Starting to lose its way....: 
+-1540.1257891220698 ,-1508.5199609885185, negative,  negative, right
+No.1 5x06: 
+-1592.6415101035172 ,-1549.4728249299471, negative,  negative, right
+No.2 5x07: 
+-1166.148633395668 ,-1164.1924702673953, negative,  negative, right
+No.3 Missing the point: 
+-796.7586269636113 ,-787.321978836738, negative,  positive, wrong
+No.4 I was shocked at first but then it all made sense: 
+-1189.2737956698852 ,-1147.9412519395025, negative,  positive, wrong
+No.5 5x08: 
+-2095.830046689965 ,-2090.2412633793183, negative,  negative, right
+No.6 Are you fn kidding me?!?: 
+-359.48888197450333 ,-353.00473645168466, negative,  negative, right
+No.7 Oh god: 
+-75.0345800587674 ,-82.54615938200519, positive,  positive, right
+No.8 Unsatisfied: 
+-426.9930055427501 ,-434.9241440509574, positive,  negative, wrong
+No.9 Omar deserves a better death scene: 
+-475.33493436757664 ,-475.8938405172491, positive,  positive, right
+No.10 What?: 
+-74.11421836916152 ,-82.54289561591153, positive,  negative, wrong
+No.11 5x09: 
+-1797.4475284709386 ,-1852.44844923245, positive,  positive, right
+No.12 The best: 
+-614.764412665068 ,-615.204945422211, positive,  positive, right
+No.13 Excellent ending: 
+-1047.0040493349675 ,-1041.3801434409581, negative,  positive, wrong
+No.14 The Life of Kings: 
+-2171.5908702234206 ,-2123.2206251158486, negative,  positive, wrong
+No.15 Levy ain't that stupid!: 
+-1095.2621238284692 ,-1057.82562597127, negative,  positive, wrong
+No.16 5x10: 
+-2813.799867861501 ,-2844.0531067430684, positive,  positive, right
+-------------------------------------------------------
+The smoothing value is 1.0The prediction correctness is 0.5882352941176471
+
