@@ -8,12 +8,14 @@ import math
 # load_reviews->load_stop_words->parse_reviews-> compute_reviews_statistics -> compute_words_frequency ->
 # compute_words_frequency -> compute_reviews_probabilities
 class Analyser:
-    def __init__(self, review_objs_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path):
+    def __init__(self, review_objs_path, stop_words_path, txt_output_path, dictionary_output_path, removed_words_path, external_testing = False, external_testing_data_path = ''):
         self.reviews_path = review_objs_path
         self.stop_path = stop_words_path
         self.text_path = txt_output_path
         self.dict_path = dictionary_output_path
         self.remove_path = removed_words_path
+        self.external_test = external_testing
+        self.external_testing_data_path = external_testing_data_path
         # stored review objs from webscraping
         self.reviews = []
         self.testreviews = []
@@ -38,20 +40,26 @@ class Analyser:
 
     # load the reviews array we got from the webscraper
     def load_reviews(self):
-        with open(self.reviews_path, 'rb') as file:
-            self.reviews = pickle.load(file)
+        if not self.external_test:
+            with open(self.reviews_path, 'rb') as file:
+                self.reviews = pickle.load(file)
 
-            # splits 10% into test array, keeps 90% in review array
-            length = len(self.reviews)
-            testnum = length * 10 / 100
-            splitat = length - math.floor(testnum)
-            for x in range(splitat, length):
-                self.testreviews.append(self.reviews[x])
+                # splits 10% into test array, keeps 90% in review array
+                length = len(self.reviews)
+                testnum = length * 10 / 100
+                splitat = length - math.floor(testnum)
+                for x in range(splitat, length):
+                    self.testreviews.append(self.reviews[x])
 
-            tempArray = []
-            for x in range(splitat):
-                tempArray.append(self.reviews[x])
-            self.reviews = tempArray;
+                tempArray = []
+                for x in range(splitat):
+                    tempArray.append(self.reviews[x])
+                self.reviews = tempArray
+        else:
+            with open(self.reviews_path, 'rb') as file:
+                self.reviews = pickle.load(file)
+            with open(self.external_testing_data_path, 'rb') as file:
+                self.testreviews = pickle.load(file)
 
     # read the stop words and store them into a dictionary with the word as the id for quick lookup
     def load_stop_words(self):
@@ -143,7 +151,7 @@ class Analyser:
         right_review_counter = 0
         wrong_review_counter = 0
 
-        text_file = open(output_path, "a")
+        text_file = open(output_path, "a", encoding='utf8')
         for review in self.testreviews:
             # remove all punctuations from the review body
             content_no_punc = review.content.translate(str.maketrans('', '', string.punctuation)).lower()
@@ -206,7 +214,7 @@ class Analyser:
                 f.writelines(f'word:{word} frequency:{frequency}\n')
             f.writelines(f'\nTotal words:{total_removed_words}\n')
 
-    def register_word_stats(self, vocab, output_path='result.txt'):
+    def register_word_stats(self, vocab, output_path='model.txt'):
         with open(output_path, 'a', encoding='utf-8') as f:
             f.writelines('\n')
             i = 0
@@ -222,7 +230,7 @@ class Analyser:
         right_counter = 0
         wrong_counter = 0
 
-        file1 = open("frequency-result.txt", "a")
+        file1 = open("frequency-result.txt", "a", encoding='utf8')
 
         testing_subject = 'percentage based removal' if percentage else 'frequency based removal'
         file1.write(

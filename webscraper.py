@@ -9,13 +9,14 @@ def display_url_error():
 
 
 class IMDBReviewsCollector:
-    def __init__(self, show_url, reviews_filename, header):
+    def __init__(self, show_url, reviews_filename, testing_reviews_filename, header):
         self.seasons = 0  # season number
         self.season_reviews_num = {}  # to keep track the review number of each season
         self.episodes = []  # to keep episodes objs {name, season, review_url, air_time(year)}
         self.reviews = []  # to keep reviews objs {title, rating, positive, content}
         self.url = show_url
         self.filename = reviews_filename
+        self.test_filename = testing_reviews_filename
         self.header = header
         self.site_url = 'https://www.imdb.com/'
         self.episode_endpoint = 'episodes?season='
@@ -102,9 +103,12 @@ class IMDBReviewsCollector:
 
     # serialize gathered reviews so we don't have to scrap the reviews every time we are trying to calculate
     # probabilities
-    def store_reviews(self):
-        if self.reviews:
+    def store_reviews(self, for_testing = False):
+        if self.reviews and not for_testing:
             with open(self.filename, 'wb') as f:
+                pickle.dump(self.reviews, f)
+        elif self.reviews and for_testing:
+            with open(self.test_filename, 'wb') as f:
                 pickle.dump(self.reviews, f)
         else:
             print('No review to serialize')
@@ -124,6 +128,21 @@ class IMDBReviewsCollector:
         else:
             print('Need to get the episodes first')
 
+    def read_episodes(self, input_file):
+        with open(input_file, 'r') as csv_file:
+            csv_reader = csv.DictReader(csv_file)
+            line_count = 0
+            for row in csv_reader:
+                if line_count == 0:
+                    line_count += 1
+                else:
+                    self.episodes.append(Episode(row['Name'], row['Season'], row['Review Link'], row['Year']))
+
+    def test_episodes(self):
+        for episode in self.episodes:
+            print(str(episode))
+
+
     # just to see if all the functions run correctly
     def gather_data(self):
         self.get_season_num()
@@ -137,13 +156,24 @@ class IMDBReviewsCollector:
             if self.season_reviews_num[season] < 50:
                 print(f'Season {season} has less than 50 reviews!')
 
+    def gather_test_data_from_file(self, input_path):
+        self.read_episodes(input_path)
+        self.get_reviews()
+        self.store_reviews(True)
+
 
 class Episode:
-    def __init__(self, name, season, review_url, air_time):
+    def __init__(self, name, season, review_url, air_time, reading_from_file = False):
         self.name = name
         self.season = season
-        self.air_time = air_time.split()[-1]
+        if reading_from_file:
+            self.air_time = air_time
+        else:
+            self.air_time = air_time.split()[-1]
         self.review_url = review_url
+
+    def __str__(self):
+        return f'\nname:{self.name}\nseason:{self.season}\nreview url:{self.review_url}\nair time:{self.air_time}\n '
 
 
 class Review:

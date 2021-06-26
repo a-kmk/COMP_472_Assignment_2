@@ -1,427 +1,459 @@
 
 No. 1 used
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 2 sometimes
-Freq in pos: 14, prob in pos: 0.0024263431542461003, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 3 criminals
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 4 comes
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 5 guys
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 6 giving
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 7 begins
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 8 target
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 9 interested
-Freq in pos: 10, prob in pos: 0.0017331022530329288, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 10 close
-Freq in pos: 14, prob in pos: 0.0024263431542461003, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 11 later
-Freq in pos: 12, prob in pos: 0.0020797227036395147, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 12 top
-Freq in pos: 16, prob in pos: 0.0027729636048526864, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 13 played
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 14 forward
-Freq in pos: 10, prob in pos: 0.0017331022530329288, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 15 hit
-Freq in pos: 14, prob in pos: 0.0024263431542461003, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 16 act
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 17 fine
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 0, prob in neg: 0.0
-No. 18 unit
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 19 beginning
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 20 chris
-Freq in pos: 14, prob in pos: 0.0024263431542461003, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 21 namond
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 22 trial
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 23 city
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 24 dealers
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 25 streets
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 26 matter
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 27 couple
-Freq in pos: 16, prob in pos: 0.0027729636048526864, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 28 mentioned
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 29 funny
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 30 dangelos
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 31 written
-Freq in pos: 12, prob in pos: 0.0020797227036395147, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 32 damn
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 0, prob in neg: 0.0
-No. 33 three
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 34 anyway
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 35 russell
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 0, prob in neg: 0.0
-No. 36 west
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 0, prob in neg: 0.0
-No. 37 happens
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 38 brilliant
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 39 makes
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 40 id
-Freq in pos: 14, prob in pos: 0.0024263431542461003, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 41 could
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 42 someone
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 43 seem
-Freq in pos: 10, prob in pos: 0.0017331022530329288, freq in neg: 16, prob in neg: 0.010296010296010296
-No. 44 saw
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 45 prison
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 46 mother
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 0, prob in neg: 0.0
-No. 47 wanted
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 48 asking
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 0, prob in neg: 0.0
-No. 49 help
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 50 taking
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 51 mention
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 0, prob in neg: 0.0
-No. 52 fbi
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 0, prob in neg: 0.0
-No. 53 bodie
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 54 5
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 55 stan
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 0, prob in neg: 0.0
-No. 56 bell
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 0, prob in neg: 0.0
-No. 57 dialogue
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 58 enough
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 59 follow
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 60 others
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 0, prob in neg: 0.0
-No. 61 law
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 62 different
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 63 rest
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 64 seems
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 65 company
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 0, prob in neg: 0.0
-No. 66 reason
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 67 old
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 68 kima
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 69 wont
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 70 levy
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 0, prob in neg: 0.0
-No. 71 shot
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 72 honestly
-Freq in pos: 6, prob in pos: 0.0010398613518197574, freq in neg: 22, prob in neg: 0.014157014157014158
-No. 73 basically
-Freq in pos: 14, prob in pos: 0.0024263431542461003, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 74 girl
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 0, prob in neg: 0.0
-No. 75 jimmy
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 76 every
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 77 feels
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 78 play
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 79 witness
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 80 feeling
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 81 theyre
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 82 information
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 83 years
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 84 working
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 85 realistic
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 86 watch
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 87 truly
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 0, prob in neg: 0.0
-No. 88 moments
-Freq in pos: 16, prob in pos: 0.0027729636048526864, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 89 place
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 90 least
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 91 take
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 92 cases
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 93 making
-Freq in pos: 16, prob in pos: 0.0027729636048526864, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 94 simply
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 95 homicide
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 96 cop
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 97 judge
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 0, prob in neg: 0.0
-No. 98 important
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 99 hard
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 100 business
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 101 line
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 102 acting
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 103 hand
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 104 television
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 105 kids
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 106 main
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 107 together
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 108 saying
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 109 killed
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 110 always
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 111 need
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 112 murder
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 113 wasnt
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 114 street
-Freq in pos: 20, prob in pos: 0.0034662045060658577, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 115 minutes
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 116 goes
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 0, prob in neg: 0.0
-No. 117 anything
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 118 words
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 119 next
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 120 almost
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 121 mid
-Freq in pos: 8, prob in pos: 0.0013864818024263432, freq in neg: 26, prob in neg: 0.01673101673101673
-No. 122 operation
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 123 overall
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 124 final
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 0, prob in neg: 0.0
-No. 125 sobotka
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 0, prob in neg: 0.0
-No. 126 greek
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 0, prob in neg: 0.0
-No. 127 kid
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 128 guy
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 129 office
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 0, prob in neg: 0.0
-No. 130 us
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 131 moment
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 132 writing
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 133 put
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 134 detectives
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 135 change
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 136 talking
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 137 found
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 138 set
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 139 fact
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 140 cops
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 141 come
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 142 gonna
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 20, prob in neg: 0.01287001287001287
-No. 143 dead
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 144 4
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 145 ending
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 146 tv
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 147 thats
-Freq in pos: 28, prob in pos: 0.004852686308492201, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 148 without
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 149 michael
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 150 crew
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 151 watching
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 152 herc
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 153 3
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 154 soon
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 155 better
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 156 talk
-Freq in pos: 38, prob in pos: 0.00658578856152513, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 157 day
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 158 interesting
-Freq in pos: 24, prob in pos: 0.004159445407279029, freq in neg: 18, prob in neg: 0.011583011583011582
-No. 159 ive
-Freq in pos: 16, prob in pos: 0.0027729636048526864, freq in neg: 26, prob in neg: 0.01673101673101673
-No. 160 deputy
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 161 carver
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 162 greggs
-Freq in pos: 42, prob in pos: 0.007279029462738302, freq in neg: 0, prob in neg: 0.0
-No. 163 especially
-Freq in pos: 22, prob in pos: 0.0038128249566724438, freq in neg: 20, prob in neg: 0.01287001287001287
-No. 164 trying
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 165 game
-Freq in pos: 44, prob in pos: 0.0076256499133448875, freq in neg: 0, prob in neg: 0.0
-No. 166 mcnultys
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 167 start
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 168 big
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 169 slow
-Freq in pos: 12, prob in pos: 0.0020797227036395147, freq in neg: 32, prob in neg: 0.02059202059202059
-No. 170 wants
-Freq in pos: 44, prob in pos: 0.0076256499133448875, freq in neg: 0, prob in neg: 0.0
-No. 171 cant
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 172 prez
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 173 low
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 174 baltimore
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 175 already
-Freq in pos: 42, prob in pos: 0.007279029462738302, freq in neg: 4, prob in neg: 0.002574002574002574
-No. 176 find
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 177 give
-Freq in pos: 44, prob in pos: 0.0076256499133448875, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 178 many
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 179 actually
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 20, prob in neg: 0.01287001287001287
-No. 180 probably
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 28, prob in neg: 0.018018018018018018
-No. 181 knows
-Freq in pos: 44, prob in pos: 0.0076256499133448875, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 182 bad
-Freq in pos: 38, prob in pos: 0.00658578856152513, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 183 previous
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 184 happened
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 185 look
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 186 looks
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 187 isnt
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 20, prob in neg: 0.01287001287001287
-No. 188 8
-Freq in pos: 46, prob in pos: 0.007972270363951473, freq in neg: 0, prob in neg: 0.0
-No. 189 greeks
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 16, prob in neg: 0.010296010296010296
-No. 190 seen
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 8, prob in neg: 0.005148005148005148
-No. 191 whole
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 18, prob in neg: 0.011583011583011582
-No. 192 scenes
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 16, prob in neg: 0.010296010296010296
-No. 193 yet
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 16, prob in neg: 0.010296010296010296
-No. 194 didnt
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 16, prob in neg: 0.010296010296010296
-No. 195 hes
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 30, prob in neg: 0.019305019305019305
-No. 196 looking
-Freq in pos: 26, prob in pos: 0.004506065857885615, freq in neg: 22, prob in neg: 0.014157014157014158
-No. 197 valchek
-Freq in pos: 46, prob in pos: 0.007972270363951473, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 198 far
-Freq in pos: 30, prob in pos: 0.005199306759098787, freq in neg: 20, prob in neg: 0.01287001287001287
-No. 199 part
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 200 may
-Freq in pos: 34, prob in pos: 0.0058925476603119585, freq in neg: 16, prob in neg: 0.010296010296010296
-No. 201 amazing
-Freq in pos: 48, prob in pos: 0.008318890814558059, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 202 finally
-Freq in pos: 36, prob in pos: 0.006239168110918544, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 203 definitely
-Freq in pos: 18, prob in pos: 0.003119584055459272, freq in neg: 32, prob in neg: 0.02059202059202059
-No. 204 marlo
-Freq in pos: 16, prob in pos: 0.0027729636048526864, freq in neg: 34, prob in neg: 0.021879021879021878
-No. 205 money
-Freq in pos: 50, prob in pos: 0.008665511265164644, freq in neg: 2, prob in neg: 0.001287001287001287
-No. 206 burrell
-Freq in pos: 52, prob in pos: 0.00901213171577123, freq in neg: 0, prob in neg: 0.0
-No. 207 new
-Freq in pos: 42, prob in pos: 0.007279029462738302, freq in neg: 10, prob in neg: 0.006435006435006435
-No. 208 bit
-Freq in pos: 38, prob in pos: 0.00658578856152513, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 209 major
-Freq in pos: 38, prob in pos: 0.00658578856152513, freq in neg: 14, prob in neg: 0.009009009009009009
-No. 210 sure
-Freq in pos: 40, prob in pos: 0.006932409012131715, freq in neg: 12, prob in neg: 0.007722007722007722
-No. 211 1
-Freq in pos: 32, prob in pos: 0.005545927209705373, freq in neg: 20, prob in neg: 0.01287001287001287
-No. 212 never
-Freq in pos: 46, prob in pos: 0.007972270363951473, freq in neg: 6, prob in neg: 0.003861003861003861
-No. 213 made
-Freq in pos: 42, prob in pos: 0.007279029462738302, freq in neg: 10, prob in neg: 0.006435006435006435
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 2 satisfying
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 3 given
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 4 sometimes
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 5 number
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 6 criminals
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 7 weve
+Freq in pos: 10, prob in pos: 0.0016355904481517827, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 8 comes
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 9 guys
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 10 order
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 11 giving
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 12 begins
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 13 target
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 14 close
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 15 later
+Freq in pos: 12, prob in pos: 0.001962708537782139, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 16 played
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 17 felt
+Freq in pos: 12, prob in pos: 0.001962708537782139, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 18 hit
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 19 knowing
+Freq in pos: 16, prob in pos: 0.0026169447170428526, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 20 act
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 0, prob in neg: 0.0
+No. 21 omars
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 22 coming
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 23 aint
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 24 unit
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 25 everyone
+Freq in pos: 16, prob in pos: 0.0026169447170428526, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 26 happen
+Freq in pos: 16, prob in pos: 0.0026169447170428526, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 27 beginning
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 28 boring
+Freq in pos: 8, prob in pos: 0.0013084723585214263, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 29 marlos
+Freq in pos: 8, prob in pos: 0.0013084723585214263, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 30 trial
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 31 city
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 32 entire
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 33 completely
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 34 dealers
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 35 matter
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 36 interested
+Freq in pos: 10, prob in pos: 0.0016355904481517827, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 37 mentioned
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 38 funny
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 39 dangelos
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 40 top
+Freq in pos: 16, prob in pos: 0.0026169447170428526, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 41 move
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 42 fine
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 0, prob in neg: 0.0
+No. 43 damn
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 0, prob in neg: 0.0
+No. 44 three
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 45 fairly
+Freq in pos: 8, prob in pos: 0.0013084723585214263, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 46 anyway
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 47 russell
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 0, prob in neg: 0.0
+No. 48 love
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 49 hope
+Freq in pos: 12, prob in pos: 0.001962708537782139, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 50 carcetti
+Freq in pos: 8, prob in pos: 0.0013084723585214263, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 51 namond
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 52 west
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 0, prob in neg: 0.0
+No. 53 brilliant
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 54 id
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 55 seem
+Freq in pos: 10, prob in pos: 0.0016355904481517827, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 56 saw
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 57 prison
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 58 mother
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 0, prob in neg: 0.0
+No. 59 asking
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 0, prob in neg: 0.0
+No. 60 forward
+Freq in pos: 12, prob in pos: 0.001962708537782139, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 61 help
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 62 taking
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 63 written
+Freq in pos: 12, prob in pos: 0.001962708537782139, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 64 job
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 65 finale
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 66 stan
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 0, prob in neg: 0.0
+No. 67 chris
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 68 happens
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 69 bell
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 0, prob in neg: 0.0
+No. 70 enough
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 71 follow
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 72 makes
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 73 others
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 0, prob in neg: 0.0
+No. 74 law
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 75 someone
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 76 seems
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 77 wanted
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 78 company
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 0, prob in neg: 0.0
+No. 79 kima
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 80 wont
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 81 mention
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 0, prob in neg: 0.0
+No. 82 fbi
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 83 bodie
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 84 5
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 85 basically
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 86 girl
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 0, prob in neg: 0.0
+No. 87 jimmy
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 88 witness
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 89 dialogue
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 90 feeling
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 91 information
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 92 years
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 93 away
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 94 watch
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 95 different
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 96 couple
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 97 old
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 98 cases
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 99 shot
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 100 simply
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 101 honestly
+Freq in pos: 6, prob in pos: 0.0009813542688910696, freq in neg: 24, prob in neg: 0.014002333722287048
+No. 102 homicide
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 103 feels
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 104 cop
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 105 judge
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 0, prob in neg: 0.0
+No. 106 theyre
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 107 hard
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 108 streets
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 109 realistic
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 110 business
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 111 acting
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 112 rest
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 113 hand
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 114 truly
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 0, prob in neg: 0.0
+No. 115 main
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 116 together
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 117 moments
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 118 saying
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 119 place
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 120 levy
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 0, prob in neg: 0.0
+No. 121 murder
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 122 play
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 123 street
+Freq in pos: 20, prob in pos: 0.0032711808963035655, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 124 minutes
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 125 anything
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 126 words
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 127 working
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 128 line
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 129 television
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 130 reason
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 131 always
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 132 least
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 133 take
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 134 making
+Freq in pos: 16, prob in pos: 0.0026169447170428526, freq in neg: 18, prob in neg: 0.010501750291715286
+No. 135 need
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 136 sobotka
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 0, prob in neg: 0.0
+No. 137 greek
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 0, prob in neg: 0.0
+No. 138 guy
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 139 every
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 140 wasnt
+Freq in pos: 26, prob in pos: 0.004252535165194635, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 141 important
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 142 office
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 0, prob in neg: 0.0
+No. 143 next
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 144 kids
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 145 almost
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 146 operation
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 147 moment
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 148 detectives
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 149 overall
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 150 final
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 0, prob in neg: 0.0
+No. 151 talking
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 152 kid
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 153 set
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 154 fact
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 155 killed
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 156 dead
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 157 change
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 158 4
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 159 found
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 160 goes
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 161 without
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 162 put
+Freq in pos: 38, prob in pos: 0.0062152437029767745, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 163 3
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 164 ending
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 165 cops
+Freq in pos: 38, prob in pos: 0.0062152437029767745, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 166 could
+Freq in pos: 38, prob in pos: 0.0062152437029767745, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 167 watching
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 168 deputy
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 169 carver
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 170 greggs
+Freq in pos: 42, prob in pos: 0.0068694798822374874, freq in neg: 0, prob in neg: 0.0
+No. 171 trying
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 172 mcnultys
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 173 thats
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 174 better
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 175 talk
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 176 big
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 177 day
+Freq in pos: 42, prob in pos: 0.0068694798822374874, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 178 interesting
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 20, prob in neg: 0.011668611435239206
+No. 179 come
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 180 wants
+Freq in pos: 44, prob in pos: 0.007196597971867844, freq in neg: 0, prob in neg: 0.0
+No. 181 us
+Freq in pos: 42, prob in pos: 0.0068694798822374874, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 182 mid
+Freq in pos: 12, prob in pos: 0.001962708537782139, freq in neg: 32, prob in neg: 0.01866977829638273
+No. 183 herc
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 184 gonna
+Freq in pos: 18, prob in pos: 0.002944062806673209, freq in neg: 26, prob in neg: 0.015169194865810968
+No. 185 prez
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 186 especially
+Freq in pos: 24, prob in pos: 0.003925417075564278, freq in neg: 20, prob in neg: 0.011668611435239206
+No. 187 soon
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 188 death
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 189 give
+Freq in pos: 44, prob in pos: 0.007196597971867844, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 190 many
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 191 start
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 192 tv
+Freq in pos: 42, prob in pos: 0.0068694798822374874, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 193 knows
+Freq in pos: 44, prob in pos: 0.007196597971867844, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 194 michael
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 6, prob in neg: 0.003500583430571762
+No. 195 previous
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 196 slow
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 32, prob in neg: 0.01866977829638273
+No. 197 low
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 198 greeks
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 199 already
+Freq in pos: 44, prob in pos: 0.007196597971867844, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 200 find
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 8, prob in neg: 0.004667444574095682
+No. 201 crew
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 20, prob in neg: 0.011668611435239206
+No. 202 bad
+Freq in pos: 38, prob in pos: 0.0062152437029767745, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 203 happened
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 204 look
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 205 scenes
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 206 ive
+Freq in pos: 22, prob in pos: 0.003598298985933922, freq in neg: 26, prob in neg: 0.015169194865810968
+No. 207 looks
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 208 cant
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 209 isnt
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 20, prob in neg: 0.011668611435239206
+No. 210 writing
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 211 valchek
+Freq in pos: 46, prob in pos: 0.007523716061498201, freq in neg: 2, prob in neg: 0.0011668611435239206
+No. 212 part
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 213 may
+Freq in pos: 34, prob in pos: 0.005561007523716062, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 214 8
+Freq in pos: 50, prob in pos: 0.008177952240758913, freq in neg: 0, prob in neg: 0.0
+No. 215 finally
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 216 far
+Freq in pos: 30, prob in pos: 0.004906771344455349, freq in neg: 22, prob in neg: 0.012835472578763127
+No. 217 burrell
+Freq in pos: 52, prob in pos: 0.00850507033038927, freq in neg: 0, prob in neg: 0.0
+No. 218 actually
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 24, prob in neg: 0.014002333722287048
+No. 219 yet
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 20, prob in neg: 0.011668611435239206
+No. 220 1
+Freq in pos: 32, prob in pos: 0.005233889434085705, freq in neg: 20, prob in neg: 0.011668611435239206
+No. 221 didnt
+Freq in pos: 36, prob in pos: 0.005888125613346418, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 222 2
+Freq in pos: 42, prob in pos: 0.0068694798822374874, freq in neg: 10, prob in neg: 0.005834305717619603
+No. 223 high
+Freq in pos: 14, prob in pos: 0.002289826627412496, freq in neg: 38, prob in neg: 0.022170361726954493
+No. 224 looking
+Freq in pos: 28, prob in pos: 0.004579653254824992, freq in neg: 24, prob in neg: 0.014002333722287048
+No. 225 money
+Freq in pos: 50, prob in pos: 0.008177952240758913, freq in neg: 4, prob in neg: 0.002333722287047841
+No. 226 baltimore
+Freq in pos: 42, prob in pos: 0.0068694798822374874, freq in neg: 12, prob in neg: 0.007001166861143524
+No. 227 crime
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 14, prob in neg: 0.008168028004667444
+No. 228 bit
+Freq in pos: 38, prob in pos: 0.0062152437029767745, freq in neg: 16, prob in neg: 0.009334889148191364
+No. 229 major
+Freq in pos: 40, prob in pos: 0.006542361792607131, freq in neg: 14, prob in neg: 0.008168028004667444

@@ -22,21 +22,38 @@ if __name__ == '__main__':
     # adjust the show_ur, to a imdb url for a show of your liking
     # adjust user-agent, pls change it to your own or grab one from the internet that is for mac/pc
     #
+
     # header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'}
     # show_url = 'https://www.imdb.com/title/tt0306414/'
     # reviews_filename = 'review_objs.pickle'
-    # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, header)
+    # test_review_filename = 'test_review_objs.pickle'
+    # sample_scraper = IMDBReviewsCollector(show_url, reviews_filename, test_review_filename, header)
+
+    # #get data through main page
     # sample_scraper.gather_data()
 
-    # run
+    # # need to ran if you want to get testing data from a csv file
+    # # need to be ran independently from .gather_data() above
+    # episode_data_path = 'testing_data.csv'
+    # sample_scraper.gather_test_data_from_file(episode_data_path)
+
+    # # run
     reviews_path = 'review_objs.pickle'
     stop_words_path = 'stopword.txt'
     txt_output_path = 'model.txt'
     removed_words_path = 'removed.txt'
     dictionary_output_path = 'vocabulary_dictionary.pickle'
+    test_data_input_path = 'test_review_objs.pickle'
+    # set to False if you just want to use 10% of the training set as testing set
+    # set to True if you want to use the testing data from the csv
     sample_analyser = Analyser(reviews_path, stop_words_path, txt_output_path, dictionary_output_path,
-                               removed_words_path)
+                               removed_words_path, True, test_data_input_path)
     sample_analyser.compute_statistics()
+
+    # # ----------------------------------------TASK 1.2 & 1.3------------------------------------------
+    # sample_analyser.register_word_stats(sample_analyser.vocabulary)
+    # sample_analyser.classify()
+
     # ----------------------------------------TASK 2.1------------------------------------------------
     # #[(words_remaining, accuracy)]
     # result_set = sample_analyser.gradual_word_removal_by_frequency()
@@ -82,7 +99,7 @@ if __name__ == '__main__':
     # create_graph('Model accuracy by smoothing value', 'Smoothing Values', 'Accuracy', x_values, y_values)
 
     ## ----------------------------------------TASK 2.3------------------------------------------------
-    # make new file
+    # # make new file
     # length_result_path = "length-result.txt"
     # length_model_path = "length-model.txt"
     #
@@ -135,6 +152,4 @@ if __name__ == '__main__':
     #             y_values[j], y_values[j+1] = y_values[j+1], y_values[j]
     #
     # create_graph('Model Accuracy by Length Based Removal', 'Words Remaining', 'Accuracy', x_values, y_values)
-    # # END TASK 2.3
-
-    # ----------------------------------------TASK 1.2------------------------------------------------
+    # # # END TASK 2.3
